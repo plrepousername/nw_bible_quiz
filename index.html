@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibel Quiz (NWÜ)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="quiz-layout">
+        <div id="info-panel">
+            <h2>Quiz Informationen</h2>
+            <div class="info-item">
+                <strong>Sprache:</strong>
+                <span id="info-selected-language">Deutsch</span>
+            </div>
+            <div class="info-item">
+                <strong>Ausgewählte Bücher:</strong>
+                <span id="info-selected-books">Nicht festgelegt</span>
+            </div>
+            <div class="info-item">
+                <strong>Ausgew. Schwierigkeit:</strong>
+                <span id="info-selected-difficulty">Nicht festgelegt</span>
+            </div>
+            <hr>
+            <h3>Aktuelle Frage:</h3>
+            <div class="info-item">
+                <strong>Buch:</strong>
+                <span id="info-current-book">-</span>
+            </div>
+            <div class="info-item">
+                <strong>Schwierigkeit:</strong>
+                <span id="info-current-difficulty">-</span>
+            </div>
+            <hr>
+            <h3>Fortschritt:</h3>
+            <div class="info-item">
+                <strong>Frage:</strong>
+                <span id="info-question-counter">- / -</span>
+            </div>
+            <div class="info-item">
+                <strong>Richtig:</strong>
+                <span id="info-score-counter">0</span>
+            </div>
+            <div class="info-item">
+                <strong>Quote:</strong>
+                <span id="info-accuracy-quote">0 %</span>
+            </div>
+        </div>
+
+        <div id="app-container">
+            <div id="start-screen">
+                <h1>Bibel Quiz (NWÜ)</h1>
+                <div id="loading-message" class="hidden">Lade Fragen...</div>
+                <div id="error-message" class="hidden"></div>
+
+                <label for="language-select">Sprache wählen:</label>
+                <select id="language-select">
+                    <option value="de">Deutsch</option>
+                    <!-- Später ggf. weitere Sprachen -->
+                </select>
+                <br><br>
+
+                <fieldset id="book-selection-fieldset">
+                    <legend>Wähle Bibelbücher aus:</legend>
+                    <div id="book-checkboxes-container" class="checkbox-grid">
+                        <p>Lade Bücher...</p> <!-- Platzhalter -->
+                    </div>
+                     <button type="button" id="select-all-books-btn" class="utility-btn" disabled>Alle auswählen</button>
+                     <button type="button" id="deselect-all-books-btn" class="utility-btn" disabled>Alle abwählen</button>
+                </fieldset>
+                <br>
+
+                <label for="difficulty-select">Schwierigkeitsgrad:</label>
+                <select id="difficulty-select" disabled>
+                    <option value="">Alle Schwierigkeiten</option>
+                    <option value="einfach">Einfach</option>
+                    <option value="mittel">Mittel</option>
+                    <option value="schwer">Schwer</option>
+                </select>
+                <br><br>
+                <button id="start-quiz-btn" disabled>Quiz starten</button>
+            </div>
+
+            <div id="quiz-screen" class="hidden">
+                <div id="current-question-meta" class="hidden">
+                    <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>
+                </div>
+                <h2 id="question-text">Fragetext hier</h2>
+                <div id="answer-buttons">
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                    <button class="answer-btn"></button>
+                </div>
+                <div id="feedback-section" class="hidden">
+                    <p id="explanation-text"></p>
+                    <div class="verse-display">
+                        <p><strong>Bibelstelle: <span id="verse-reference"></span></strong>
+                        </p>
+                        <blockquote id="verse-content-direct"></blockquote>
+                    </div>
+                </div>
+                <div id="quiz-navigation-buttons">
+                    <button id="next-question-btn" class="hidden">Nächste Frage</button>
+                    <button id="back-to-start-btn" class="button-secondary">Zurück zum Menü</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
