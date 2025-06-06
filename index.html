@@ -6,7 +6,6 @@
     <title>Bibel Quiz (NWÜ)</title>
     <link rel="stylesheet" href="css/style.css">
 	<link rel="manifest" href="manifest.json">
-	
 </head>
 <body>
     <main id="quiz-layout">
@@ -18,7 +17,7 @@
             </div>
             <div class="info-item">
                 <strong>Ausgewählte Bücher:</strong>
-                <span id="info-selected-books">Nicht festgelegt</span>
+                <span id="info-selected-books">Alle verfügbaren Bücher</span> <!-- Standardtext angepasst -->
             </div>
             <div class="info-item">
                 <strong>Ausgew. Schwierigkeit:</strong>
@@ -59,19 +58,13 @@
                 <label for="language-select">Sprache wählen:</label>
                 <select id="language-select">
                     <option value="de">Deutsch</option>
-                    <!-- Später ggf. weitere Sprachen -->
                 </select>
                 <br><br>
 
-                <fieldset id="book-selection-fieldset">
-                    <legend>Wähle Bibelbücher aus:</legend>
-                    <div id="book-checkboxes-container" class="checkbox-grid">
-                        <p>Lade Bücher...</p> <!-- Platzhalter -->
-                    </div>
-                     <button type="button" id="select-all-books-btn" class="utility-btn" disabled>Alle auswählen</button>
-                     <button type="button" id="deselect-all-books-btn" class="utility-btn" disabled>Alle abwählen</button>
-                </fieldset>
-                <br>
+                <!-- NEU: Button zum Öffnen des Modals -->
+                <label>Bibelbücher auswählen:</label>
+                <button type="button" id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
+                <br><br>
 
                 <label for="difficulty-select">Schwierigkeitsgrad:</label>
                 <select id="difficulty-select" disabled>
@@ -85,6 +78,7 @@
             </div>
 
             <div id="quiz-screen" class="hidden">
+                <!-- ... (quiz-screen Inhalt bleibt gleich) ... -->
                 <div id="current-question-meta" class="hidden">
                     <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>
                 </div>
@@ -98,8 +92,7 @@
                 <div id="feedback-section" class="hidden">
                     <p id="explanation-text"></p>
                     <div class="verse-display">
-                        <p><strong>Bibelstelle: <span id="verse-reference"></span></strong>
-                        </p>
+                        <p><strong>Bibelstelle: <span id="verse-reference"></span></strong></p>
                         <blockquote id="verse-content-direct"></blockquote>
                     </div>
                 </div>
@@ -110,6 +103,26 @@
             </div>
         </div>
     </main>
+
+    <!-- NEU: Modal-Struktur für Buchauswahl -->
+    <div id="book-select-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-modal-btn" aria-label="Schließen">×</button>
+            <h2>Bibelbücher auswählen</h2>
+            <div class="modal-controls">
+                <button type="button" id="select-all-ot-btn" class="utility-btn">Altes Testament</button>
+                <button type="button" id="select-all-nt-btn" class="utility-btn">Neues Testament</button>
+                <button type="button" id="select-all-available-btn" class="utility-btn">Alle Bücher</button>
+                <button type="button" id="deselect-all-modal-btn" class="utility-btn">Alle abwählen</button>
+            </div>
+            <div id="modal-book-buttons-container" class="book-buttons-grid">
+                <!-- Bibelbuch-Buttons werden hier per JS eingefügt -->
+                <p>Lade Bücher...</p>
+            </div>
+            <button type="button" id="confirm-book-selection-btn" class="modal-confirm-btn">Auswahl bestätigen</button>
+        </div>
+    </div>
+
     <script defer src="js/script.js"></script>
 	<script>
   if ('serviceWorker' in navigator) {

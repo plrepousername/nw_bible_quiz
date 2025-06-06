@@ -1,7 +1,7 @@
 // js/script.js
 
-// --- BIBELBUCHREIHENFOLGE (gemäß Neuer-Welt-Übersetzung) ---
-const bibleBookOrderNWT = [
+// --- BIBELBUCHREIHENFOLGE (bleibt gleich) ---
+const bibleBookOrderNWT = [ /* ... */
     "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
     "1. Samuel", "2. Samuel", "1. Könige", "2. Könige", "1. Chronika", "2. Chronika",
     "Esra", "Nehemia", "Esther", "Hiob", "Psalm", "Sprüche", "Prediger", "Hoheslied",
@@ -13,20 +13,32 @@ const bibleBookOrderNWT = [
     "Hebräer", "Jakobus", "1. Petrus", "2. Petrus", "1. Johannes", "2. Johannes", "3. Johannes",
     "Judas", "Offenbarung"
 ];
+const OLD_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(0, 39);
+const NEW_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(39);
 
-// --- DOM-Elemente ---
+// --- DOM-Elemente (bleiben gleich) ---
+// ... (alle DOM-Elemente wie in der vorherigen vollständigen JS-Datei) ...
 const appContainer = document.getElementById('app-container');
 const startScreen = document.getElementById('start-screen');
 const quizScreen = document.getElementById('quiz-screen');
 
 const languageSelect = document.getElementById('language-select');
-const bookCheckboxesContainer = document.getElementById('book-checkboxes-container');
-const selectAllBooksBtn = document.getElementById('select-all-books-btn');
-const deselectAllBooksBtn = document.getElementById('deselect-all-books-btn');
+const openBookSelectModalBtn = document.getElementById('open-book-select-modal-btn');
 const difficultySelect = document.getElementById('difficulty-select');
 const startQuizBtn = document.getElementById('start-quiz-btn');
 const loadingMessage = document.getElementById('loading-message');
 const errorMessage = document.getElementById('error-message');
+
+// Modal DOM-Elemente
+const bookSelectModal = document.getElementById('book-select-modal');
+const closeModalBtn = bookSelectModal.querySelector('.close-modal-btn');
+const modalBookButtonsContainer = document.getElementById('modal-book-buttons-container');
+const selectAllOtBtn = document.getElementById('select-all-ot-btn');
+const selectAllNtBtn = document.getElementById('select-all-nt-btn');
+const selectAllAvailableBtn = document.getElementById('select-all-available-btn');
+const deselectAllModalBtn = document.getElementById('deselect-all-modal-btn');
+const confirmBookSelectionBtn = document.getElementById('confirm-book-selection-btn');
+
 
 const questionText = document.getElementById('question-text');
 const answerButtonsContainer = document.getElementById('answer-buttons');
@@ -39,7 +51,7 @@ const verseContentDirect = document.getElementById('verse-content-direct');
 const nextQuestionBtn = document.getElementById('next-question-btn');
 const backToStartBtn = document.getElementById('back-to-start-btn');
 
-// DOM-Elemente für Info-Panel
+// Info-Panel DOM-Elemente
 const infoSelectedLanguage = document.getElementById('info-selected-language');
 const infoSelectedBooks = document.getElementById('info-selected-books');
 const infoSelectedDifficulty = document.getElementById('info-selected-difficulty');
@@ -53,27 +65,28 @@ const currentQBook = document.getElementById('current-q-book');
 const currentQDifficulty = document.getElementById('current-q-difficulty');
 const currentQuestionMeta = document.getElementById('current-question-meta');
 
-// Globale Variablen
+// Globale Variablen (bleiben gleich)
 let allQuestions = [];
 let currentQuestionIndex = 0;
 let filteredQuestions = [];
 let correctAnswers = 0;
+let globallySelectedBooks = [];
+let tempSelectedBooksInModal = [];
 
-// --- Laden und Initialisierung ---
-async function loadQuestions() {
+// --- Laden und Initialisierung (bleibt gleich) ---
+async function loadQuestions() { /* ... (wie vorher) ... */
     showLoading(true);
     showError(null);
     try {
         const response = await fetch('data/questions.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}.`);
-        }
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         allQuestions = await response.json();
-        if (allQuestions && allQuestions.length > 0) {
-            initializeApp();
-        } else {
-            throw new Error("Fragen-Datei ist leer oder nicht im korrekten Format.");
-        }
+        if (!allQuestions || allQuestions.length === 0) throw new Error("Fragen-Datei ist leer oder fehlerhaft.");
+        
+        const availableBooks = [...new Set(allQuestions.map(q => q.book))];
+        globallySelectedBooks = [...availableBooks];
+        
+        initializeApp();
     } catch (error) {
         console.error("Fehler beim Laden der Fragen:", error);
         showError(`Konnte Fragen nicht laden: ${error.message}.`);
@@ -81,93 +94,173 @@ async function loadQuestions() {
         showLoading(false);
     }
 }
-
 function showLoading(isLoading) { loadingMessage.classList.toggle('hidden', !isLoading); }
 function showError(message) { errorMessage.textContent = message || ''; errorMessage.classList.toggle('hidden', !message); }
 
 function initializeApp() {
-    populateBookCheckboxes();
-    selectAllBooksBtn.disabled = false;
-    deselectAllBooksBtn.disabled = false;
+    openBookSelectModalBtn.disabled = false;
     difficultySelect.disabled = false;
     startQuizBtn.disabled = false;
     updateSelectionInfoPanel();
     updateAccuracyQuote(0, 0);
 }
 
-function populateBookCheckboxes() {
-    bookCheckboxesContainer.innerHTML = ''; // Leeren
+
+// --- Modal-Funktionen ---
+function openBookSelectModal() { /* ... (wie vorher) ... */
+    tempSelectedBooksInModal = [...globallySelectedBooks];
+    populateModalBookButtons();
+    updateTestamentButtonStates(); // NEU
+    bookSelectModal.classList.remove('hidden');
+    bookSelectModal.classList.add('modal-open');
+}
+function closeBookSelectModal() { /* ... (wie vorher) ... */
+    bookSelectModal.classList.add('hidden');
+    bookSelectModal.classList.remove('modal-open');
+}
+
+// ANGEPASST: populateModalBookButtons mit Trennlinien und Titeln
+function populateModalBookButtons() {
+    modalBookButtonsContainer.innerHTML = ''; // Leeren
     const uniqueBooksFromQuestions = [...new Set(allQuestions.map(q => q.book))];
-    let sortedBooksToShow = [];
-
-    bibleBookOrderNWT.forEach(bookInOrder => {
-        if (uniqueBooksFromQuestions.includes(bookInOrder)) {
-            sortedBooksToShow.push(bookInOrder);
+    
+    const createButton = (bookName) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.classList.add('book-select-btn');
+        button.textContent = bookName;
+        button.dataset.bookname = bookName;
+        if (tempSelectedBooksInModal.includes(bookName)) {
+            button.classList.add('selected');
         }
-    });
-    uniqueBooksFromQuestions.forEach(bookInQuestions => {
-        if (!sortedBooksToShow.includes(bookInQuestions)) {
-            sortedBooksToShow.push(bookInQuestions);
-        }
-    });
+        button.addEventListener('click', () => {
+            button.classList.toggle('selected');
+            if (button.classList.contains('selected')) {
+                if (!tempSelectedBooksInModal.includes(bookName)) {
+                    tempSelectedBooksInModal.push(bookName);
+                }
+            } else {
+                tempSelectedBooksInModal = tempSelectedBooksInModal.filter(b => b !== bookName);
+            }
+            updateTestamentButtonStates(); // Status der AT/NT Buttons aktualisieren
+        });
+        modalBookButtonsContainer.appendChild(button);
+    };
 
-    if (sortedBooksToShow.length === 0) {
-        bookCheckboxesContainer.innerHTML = '<p>Keine Bücher in den Fragen gefunden.</p>';
-        selectAllBooksBtn.disabled = true;
-        deselectAllBooksBtn.disabled = true;
-        return;
+    const createSeparator = () => {
+        const separator = document.createElement('div');
+        separator.classList.add('book-group-separator');
+        modalBookButtonsContainer.appendChild(separator);
+    };
+
+    const createTitle = (titleText) => {
+        const title = document.createElement('div');
+        title.classList.add('book-group-title');
+        title.textContent = titleText;
+        modalBookButtonsContainer.appendChild(title);
+    };
+
+    // "Allgemein" zuerst, falls vorhanden
+    if (uniqueBooksFromQuestions.includes("Allgemein")) {
+        createTitle("Allgemeine Fragen");
+        createButton("Allgemein");
+        createSeparator();
     }
 
-    sortedBooksToShow.forEach(bookName => {
-        const boxDiv = document.createElement('div');
-        boxDiv.classList.add('checkbox-item-box'); // Klasse für die Box
+    // Altes Testament
+    createTitle("Hebräische Schriften (Altes Testament)");
+    OLD_TESTAMENT_NWT_BOOKS.forEach(bookName => {
+        if (uniqueBooksFromQuestions.includes(bookName)) {
+            createButton(bookName);
+        }
+    });
+    createSeparator();
 
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        const safeIdName = `book-${bookName.replace(/[.\s]+/g, '-').toLowerCase()}`;
-        checkbox.id = safeIdName;
-        checkbox.value = bookName;
-        checkbox.name = 'selectedBook';
-        checkbox.checked = true;
+    // Neues Testament
+    createTitle("Christliche Griechische Schriften (Neues Testament)");
+    NEW_TESTAMENT_NWT_BOOKS.forEach(bookName => {
+        if (uniqueBooksFromQuestions.includes(bookName)) {
+            createButton(bookName);
+        }
+    });
 
-        const label = document.createElement('label');
-        label.htmlFor = checkbox.id;
-        label.textContent = bookName;
-        
-        boxDiv.appendChild(checkbox);
-        boxDiv.appendChild(label);
+    // Übrige Bücher (falls welche in questions.json aber nicht in NWT-Listen sind)
+    let remainingBooks = uniqueBooksFromQuestions.filter(
+        b => b !== "Allgemein" && !OLD_TESTAMENT_NWT_BOOKS.includes(b) && !NEW_TESTAMENT_NWT_BOOKS.includes(b)
+    );
+    if (remainingBooks.length > 0) {
+        createSeparator();
+        createTitle("Weitere Bücher");
+        remainingBooks.forEach(bookName => createButton(bookName));
+    }
 
-        // Event Listener für die Box, um Checkbox zu togglen
-        boxDiv.addEventListener('click', (event) => {
-            if (event.target !== checkbox) { // Verhindere doppeltes Auslösen, wenn direkt auf Checkbox geklickt wird
-                checkbox.checked = !checkbox.checked;
-                // Manuelles Auslösen des 'change'-Events auf der Checkbox, damit der Container-Listener reagiert
-                const changeEvent = new Event('change', { bubbles: true });
-                checkbox.dispatchEvent(changeEvent);
+    if (modalBookButtonsContainer.children.length === 0 || 
+        (modalBookButtonsContainer.children.length === 2 && uniqueBooksFromQuestions.includes("Allgemein")) ) { // Nur Titel+Separator für Allgemein
+        modalBookButtonsContainer.innerHTML = '<p>Keine spezifischen Bibelbücher in den Fragen gefunden.</p>';
+    }
+}
+
+
+function handleConfirmBookSelection() { /* ... (wie vorher) ... */
+    globallySelectedBooks = [...tempSelectedBooksInModal];
+    updateSelectionInfoPanel();
+    closeBookSelectModal();
+}
+
+// ANGEPASST: selectBooksByTestament als Umschalter (Toggle)
+function toggleBooksByTestament(testamentType) {
+    const booksInTestament = testamentType === 'OT' ? OLD_TESTAMENT_NWT_BOOKS : NEW_TESTAMENT_NWT_BOOKS;
+    const availableBooksInQuestions = [...new Set(allQuestions.map(q => q.book))];
+    const relevantBooks = booksInTestament.filter(b => availableBooksInQuestions.includes(b));
+
+    // Prüfen, ob alle relevanten Bücher dieses Testaments bereits ausgewählt sind
+    const allSelected = relevantBooks.every(b => tempSelectedBooksInModal.includes(b));
+
+    if (allSelected) { // Wenn alle ausgewählt sind, alle abwählen
+        tempSelectedBooksInModal = tempSelectedBooksInModal.filter(b => !relevantBooks.includes(b));
+    } else { // Sonst alle (noch nicht ausgewählten) hinzufügen
+        relevantBooks.forEach(b => {
+            if (!tempSelectedBooksInModal.includes(b)) {
+                tempSelectedBooksInModal.push(b);
             }
         });
-        bookCheckboxesContainer.appendChild(boxDiv);
-    });
+    }
+    populateModalBookButtons();
+    updateTestamentButtonStates();
 }
 
-function toggleAllBookCheckboxes(select) {
-    const checkboxes = bookCheckboxesContainer.querySelectorAll('input[type="checkbox"]');
-    checkboxes.forEach(checkbox => {
-        checkbox.checked = select;
-    });
-    updateSelectionInfoPanel();
+// NEU: Status der AT/NT Buttons aktualisieren
+function updateTestamentButtonStates() {
+    const availableBooksInQuestions = [...new Set(allQuestions.map(q => q.book))];
+    
+    const relevantOTBooks = OLD_TESTAMENT_NWT_BOOKS.filter(b => availableBooksInQuestions.includes(b));
+    const allOTSelected = relevantOTBooks.length > 0 && relevantOTBooks.every(b => tempSelectedBooksInModal.includes(b));
+    selectAllOtBtn.classList.toggle('active-selection', allOTSelected);
+
+    const relevantNTBooks = NEW_TESTAMENT_NWT_BOOKS.filter(b => availableBooksInQuestions.includes(b));
+    const allNTSelected = relevantNTBooks.length > 0 && relevantNTBooks.every(b => tempSelectedBooksInModal.includes(b));
+    selectAllNtBtn.classList.toggle('active-selection', allNTSelected);
 }
 
-function getSelectedBooks() {
-    const selectedBooks = [];
-    const checkboxes = bookCheckboxesContainer.querySelectorAll('input[type="checkbox"]:checked');
-    checkboxes.forEach(checkbox => {
-        selectedBooks.push(checkbox.value);
-    });
-    return selectedBooks;
+
+function selectAllAvailableBooksInModal() { /* ... (wie vorher, ruft populate und updateTestamentButtonStates) ... */
+    const availableBooks = [...new Set(allQuestions.map(q => q.book))];
+    tempSelectedBooksInModal = [...availableBooks];
+    populateModalBookButtons();
+    updateTestamentButtonStates();
 }
 
-function updateSelectionInfoPanel() {
+function deselectAllBooksInModal() { /* ... (wie vorher, ruft populate und updateTestamentButtonStates) ... */
+    tempSelectedBooksInModal = [];
+    populateModalBookButtons();
+    updateTestamentButtonStates();
+}
+
+// --- Hilfsfunktion getSelectedBooks (bleibt gleich) ---
+function getSelectedBooks() { return globallySelectedBooks; }
+
+// --- Update Info-Panel Funktionen (bleiben gleich) ---
+function updateSelectionInfoPanel() { /* ... (wie vorher) ... */
     const langValue = languageSelect.value;
     const selectedBooksArray = getSelectedBooks();
     const difficultyValue = difficultySelect.value;
@@ -177,9 +270,9 @@ function updateSelectionInfoPanel() {
         infoSelectedLanguage.textContent = selectedLangOption ? selectedLangOption.text : "Fehler";
     } else { infoSelectedLanguage.textContent = "Keine Sprache"; }
 
+    const totalAvailableBooksInQuestions = new Set(allQuestions.map(q => q.book)).size;
     if (selectedBooksArray && selectedBooksArray.length > 0) {
-        const totalSelectableBooksInQuestions = new Set(allQuestions.map(q => q.book)).size;
-        if (selectedBooksArray.length === totalSelectableBooksInQuestions) {
+        if (selectedBooksArray.length === totalAvailableBooksInQuestions && totalAvailableBooksInQuestions > 0) {
             infoSelectedBooks.textContent = "Alle verfügbaren Bücher";
         } else if (selectedBooksArray.length > 2) {
             infoSelectedBooks.textContent = `${selectedBooksArray.slice(0, 2).join(', ')} und ${selectedBooksArray.length - 2} weitere`;
@@ -195,8 +288,7 @@ function updateSelectionInfoPanel() {
         infoSelectedDifficulty.textContent = selectedDifficultyOption ? selectedDifficultyOption.text : "Fehler";
     } else { infoSelectedDifficulty.textContent = "Alle Schwierigkeiten"; }
 }
-
-function updateQuestionAndScoreInfoPanel(question, currentIndex, totalQuestions, score) {
+function updateQuestionAndScoreInfoPanel(question, currentIndex, totalQuestions, score) { /* ... (wie vorher) ... */
     if (question) {
         infoCurrentBook.textContent = question.book;
         infoCurrentDifficulty.textContent = question.difficulty;
@@ -209,10 +301,8 @@ function updateQuestionAndScoreInfoPanel(question, currentIndex, totalQuestions,
     }
     infoQuestionCounter.textContent = `${currentIndex + 1} / ${totalQuestions}`;
     infoScoreCounter.textContent = score;
-    // Die Quote wird nun in selectAnswer() aktualisiert
 }
-
-function updateAccuracyQuote(correct, answered) {
+function updateAccuracyQuote(correct, answered) { /* ... (wie vorher) ... */
     if (answered > 0) {
         const percentage = Math.round((correct / answered) * 100);
         infoAccuracyQuote.textContent = `${percentage} %`;
@@ -221,7 +311,8 @@ function updateAccuracyQuote(correct, answered) {
     }
 }
 
-function startQuiz() {
+// --- Quiz Logik (bleibt im Kern gleich) ---
+function startQuiz() { /* ... (wie vorher) ... */
     updateSelectionInfoPanel();
 
     const selectedLanguageValue = languageSelect.value;
@@ -229,7 +320,7 @@ function startQuiz() {
     const selectedDifficultyValue = difficultySelect.value;
 
     if (selectedBooksValues.length === 0) {
-        showError("Bitte wähle mindestens ein Bibelbuch aus.");
+        showError("Bitte wähle mindestens ein Bibelbuch aus (über 'Bücher wählen...').");
         infoCurrentBook.textContent = "-"; infoCurrentDifficulty.textContent = "-";
         currentQuestionMeta.classList.add('hidden');
         infoQuestionCounter.textContent = "0 / 0"; infoScoreCounter.textContent = "0";
@@ -272,13 +363,12 @@ function startQuiz() {
     
     displayQuestion();
 }
-
-function displayQuestion() {
+function displayQuestion() { /* ... (wie vorher) ... */
     resetState();
     if (currentQuestionIndex < filteredQuestions.length) {
         const question = filteredQuestions[currentQuestionIndex];
         questionText.textContent = question.question;
-        updateQuestionAndScoreInfoPanel(question, currentQuestionIndex, filteredQuestions.length, correctAnswers); // Quote wird hier noch nicht aktualisiert
+        updateQuestionAndScoreInfoPanel(question, currentQuestionIndex, filteredQuestions.length, correctAnswers);
         const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
         answerButtons.forEach((button, index) => {
             if (shuffledOptions[index]) {
@@ -296,8 +386,7 @@ function displayQuestion() {
         currentQuestionMeta.classList.add('hidden');
     }
 }
-
-function resetState() {
+function resetState() { /* ... (wie vorher) ... */
     answerButtons.forEach(button => {
         button.classList.remove('correct', 'wrong'); button.disabled = false;
     });
@@ -308,8 +397,7 @@ function resetState() {
     verseContentDirect.textContent = "";
     currentQuestionMeta.classList.add('hidden');
 }
-
-function selectAnswer(e) {
+function selectAnswer(e) { /* ... (wie vorher, ruft updateAccuracyQuote) ... */
     const selectedButton = e.target;
     if (!selectedButton.classList.contains('answer-btn') || selectedButton.disabled) return;
 
@@ -338,21 +426,20 @@ function selectAnswer(e) {
         nextQuestionBtn.classList.add('hidden');
     }
 }
-
-function handleNextButton() {
+function handleNextButton() { /* ... (wie vorher) ... */
     currentQuestionIndex++;
     if (currentQuestionIndex < filteredQuestions.length) {
         displayQuestion();
     }
 }
-
-function goBackToStart() {
+function goBackToStart() { /* ... (wie vorher) ... */
     quizScreen.classList.add('hidden');
     startScreen.classList.remove('hidden');
     showError(null);
 
     languageSelect.value = "de";
-    toggleAllBookCheckboxes(true);
+    const availableBooks = [...new Set(allQuestions.map(q => q.book))];
+    globallySelectedBooks = [...availableBooks]; // Alle verfügbaren Bücher wieder auswählen
     difficultySelect.value = "";   
     
     updateSelectionInfoPanel(); 
@@ -375,14 +462,23 @@ answerButtonsContainer.addEventListener('click', (event) => {
     }
 });
 
-selectAllBooksBtn.addEventListener('click', () => toggleAllBookCheckboxes(true));
-deselectAllBooksBtn.addEventListener('click', () => toggleAllBookCheckboxes(false));
-
-bookCheckboxesContainer.addEventListener('change', updateSelectionInfoPanel); // Event Listener auf den Container
-difficultySelect.addEventListener('change', updateSelectionInfoPanel);
-languageSelect.addEventListener('change', () => {
-    updateSelectionInfoPanel();
+// Modal Event Listeners
+openBookSelectModalBtn.addEventListener('click', openBookSelectModal);
+closeModalBtn.addEventListener('click', closeBookSelectModal);
+confirmBookSelectionBtn.addEventListener('click', handleConfirmBookSelection);
+bookSelectModal.addEventListener('click', (event) => {
+    if (event.target === bookSelectModal) {
+        closeBookSelectModal();
+    }
 });
+selectAllOtBtn.addEventListener('click', () => toggleBooksByTestament('OT'));
+selectAllNtBtn.addEventListener('click', () => toggleBooksByTestament('NT'));
+selectAllAvailableBtn.addEventListener('click', selectAllAvailableBooksInModal);
+deselectAllModalBtn.addEventListener('click', deselectAllBooksInModal);
+
+// Live update für Schwierigkeit und Sprache im Info-Panel
+difficultySelect.addEventListener('change', updateSelectionInfoPanel);
+languageSelect.addEventListener('change', updateSelectionInfoPanel);
 
 // --- Start ---
 loadQuestions();

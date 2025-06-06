@@ -333,3 +333,214 @@ button:disabled { background-color: #a0c7e8; cursor: not-allowed; }
     #info-panel, #app-container { flex-basis: auto; width: 100%; max-width: 600px; align-self: auto; }
     #info-panel { margin-bottom: 25px; }
 }
+
+/* Button zum Öffnen des Modals - kann breiter sein */
+.full-width-btn {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 8px; /* Weniger margin als Hauptbuttons */
+    background-color: #546e7a; /* Anderer Blauton */
+}
+.full-width-btn:hover {
+    background-color: #455a64;
+}
+
+
+/* --- NEU: Modal Styling --- */
+.modal {
+    display: none; /* Standardmäßig versteckt */
+    position: fixed; /* Bleibt an Ort und Stelle */
+    z-index: 1000; /* Über anderen Elementen */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Scrollen ermöglichen, falls Inhalt zu lang */
+    background-color: rgba(0, 0, 0, 0.6); /* Dunklerer Backdrop */
+    justify-content: center; /* Zentriert Modal-Inhalt horizontal */
+    align-items: center; /* Zentriert Modal-Inhalt vertikal */
+}
+
+.modal.modal-open { /* Klasse zum Anzeigen des Modals */
+    display: flex;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* Hilft bei der Zentrierung mit Flexbox oben */
+    padding: 25px 30px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 700px; /* Maximale Breite des Modals */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+    max-height: 90vh; /* Verhindert, dass Modal zu hoch wird */
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.close-modal-btn {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 0; /* Reset button padding */
+    margin: 0; /* Reset button margin */
+    line-height: 1; /* Bessere vertikale Ausrichtung des X */
+}
+
+.close-modal-btn:hover,
+.close-modal-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.modal-controls .utility-btn { /* Spezifischer für Buttons im Modal-Controls */
+    margin-top: 0; /* Kein extra oberer Rand */
+    padding: 8px 12px;
+}
+
+
+#modal-book-buttons-container {
+    flex-grow: 1; /* Nimmt verfügbaren Platz ein und ermöglicht Scrollen */
+    overflow-y: auto; /* Scrollbar, falls nötig */
+    padding: 10px 5px; /* Etwas Padding für den Scroll-Bereich */
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.book-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); /* Responsive Spalten für Buttons */
+    gap: 10px;
+}
+
+.book-select-btn {
+    padding: 10px 8px; /* Weniger horizontales Padding für mehr Text */
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f0f0f0; /* Grau für nicht ausgewählt */
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    white-space: nowrap; /* Verhindert Umbruch, ggf. anpassen */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Zeigt "..." wenn Text zu lang */
+}
+
+.book-select-btn:hover {
+    border-color: #999;
+    background-color: #e0e0e0;
+}
+
+.book-select-btn.selected {
+    background-color: #6a1b9a; /* Violett für ausgewählt (dunkleres Violett) */
+    color: white;
+    border-color: #4a148c; /* Dunklerer Rand für Violett */
+}
+.book-select-btn.selected:hover {
+    background-color: #8e24aa; /* Helleres Violett beim Hovern, wenn ausgewählt */
+}
+
+/* Modal Styling - Anpassungen */
+.modal-content h2 {
+    margin-bottom: 15px; /* Weniger Abstand nach unten */
+}
+
+.modal-controls {
+    margin-bottom: 15px; /* Weniger Abstand nach unten */
+}
+
+#modal-book-buttons-container {
+    padding: 15px 5px; /* Mehr vertikales Padding */
+    margin-bottom: 15px; /* Weniger Abstand nach unten */
+}
+
+.book-buttons-grid {
+    /* gap bleibt bei 10px */
+}
+
+.book-select-btn {
+    padding: 12px 8px; /* ANGEPASST: Mehr vertikales Padding für Höhe */
+    font-size: 0.95em; /* Etwas größer, wenn gewünscht */
+    /* Restliche Eigenschaften bleiben weitgehend gleich */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 40px; /* NEU: Mindesthöhe für die Buttons */
+    display: flex; /* Für vertikale Zentrierung des Textes */
+    align-items: center; /* Vertikal zentrieren */
+    justify-content: center; /* Horizontal zentrieren */
+}
+
+.book-select-btn:hover {
+    border-color: #999;
+    background-color: #e0e0e0;
+}
+
+.book-select-btn.selected {
+    background-color: #6a1b9a; /* Violett */
+    color: white;
+    border-color: #4a148c;
+}
+.book-select-btn.selected:hover {
+    background-color: #8e24aa;
+}
+
+/* NEU: Styling für Trennlinien im Modal */
+.book-group-separator {
+    grid-column: 1 / -1; /* Erstreckt sich über alle Spalten im Grid */
+    height: 1px;
+    background-color: #ccc;
+    margin: 15px 0; /* Abstand über und unter der Linie */
+}
+.book-group-title { /* Optional: Für Titel wie "Altes Testament" */
+    grid-column: 1 / -1;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+
+/* NEU: Styling für "aktive" AT/NT Auswahlbuttons */
+.modal-controls .utility-btn.active-selection {
+    background-color: #007bff; /* Blauer Akzent, wenn dieser Bereich aktiv ausgewählt ist */
+    border-color: #0056b3;
+}
+.modal-controls .utility-btn.active-selection:hover {
+    background-color: #0056b3;
+}
+

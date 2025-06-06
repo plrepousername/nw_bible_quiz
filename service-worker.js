@@ -1,6 +1,4 @@
-// service-worker.js
-
-const CACHE_NAME = 'my-cache-v1';
+const CACHE_NAME = 'my-cache-v2';
 const URLS_TO_CACHE = [
   './',
   './index.html',
@@ -11,39 +9,34 @@ const URLS_TO_CACHE = [
   './icons/icon-512x512.png'
 ];
 
-// Beim Installieren des Service Workers Ressourcen zwischenspeichern
+// Sofort aktivieren
 self.addEventListener('install', (event) => {
+  self.skipWaiting(); // << Neu: sofort aktivieren
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(URLS_TO_CACHE);
-    })
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(URLS_TO_CACHE))
   );
 });
 
-// Beim Abrufen von Ressourcen aus dem Cache
-self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse; // Aus dem Cache antworten
-      }
-      return fetch(event.request); // Wenn nicht im Cache, dann aus dem Netzwerk
-    })
-  );
-});
-
-// Beim Aktualisieren des Service Workers den alten Cache löschen
+// Alte Caches löschen
 self.addEventListener('activate', (event) => {
-  const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (!cacheWhitelist.includes(cacheName)) {
-            return caches.delete(cacheName);
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
           }
         })
-      );
-    })
+      )
+    ).then(() => self.clients.claim()) // << Neu: übernimmt sofort Kontrolle
+  );
+});
+
+// Ressourcen aus dem Cache oder Netz holen
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) =>
+      cachedResponse || fetch(event.request)
+    )
   );
 });
