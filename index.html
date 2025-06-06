@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibel Quiz (NWÜ)</title>
     <link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="manifest.json">
+	
 </head>
 <body>
     <main id="quiz-layout">
@@ -109,5 +111,18 @@
         </div>
     </main>
     <script defer src="js/script.js"></script>
+	<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then((registration) => {
+          console.log('Service Worker registriert:', registration);
+        })
+        .catch((error) => {
+          console.log('Service Worker Registrierung fehlgeschlagen:', error);
+        });
+    });
+  }
+</script>
 </body>
 </html>
