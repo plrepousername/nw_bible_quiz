@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibel Quiz (NWÜ)</title>
     <link rel="stylesheet" href="css/style.css">
-	<link rel="manifest" href="manifest.json">
+    <!-- Optional: Für PWA - <link rel="manifest" href="manifest.json"> -->
 </head>
 <body>
     <main id="quiz-layout">
-        <div id="info-panel">
+        <div id="info-panel" class="hidden"> <!-- Initial versteckt, wird von JS gesteuert -->
             <h2>Quiz Informationen</h2>
             <div class="info-item">
                 <strong>Sprache:</strong>
@@ -17,7 +17,7 @@
             </div>
             <div class="info-item">
                 <strong>Ausgewählte Bücher:</strong>
-                <span id="info-selected-books">Alle verfügbaren Bücher</span> <!-- Standardtext angepasst -->
+                <span id="info-selected-books">Alle verfügbaren Bücher</span>
             </div>
             <div class="info-item">
                 <strong>Ausgew. Schwierigkeit:</strong>
@@ -34,7 +34,7 @@
                 <span id="info-current-difficulty">-</span>
             </div>
             <hr>
-            <h3>Fortschritt:</h3>
+            <h3>Fortschritt (Runde):</h3>
             <div class="info-item">
                 <strong>Frage:</strong>
                 <span id="info-question-counter">- / -</span>
@@ -44,7 +44,7 @@
                 <span id="info-score-counter">0</span>
             </div>
             <div class="info-item">
-                <strong>Quote:</strong>
+                <strong>Quote (Runde):</strong>
                 <span id="info-accuracy-quote">0 %</span>
             </div>
         </div>
@@ -61,7 +61,6 @@
                 </select>
                 <br><br>
 
-                <!-- NEU: Button zum Öffnen des Modals -->
                 <label>Bibelbücher auswählen:</label>
                 <button type="button" id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
                 <br><br>
@@ -75,14 +74,27 @@
                 </select>
                 <br><br>
                 <button id="start-quiz-btn" disabled>Quiz starten</button>
+
+                <button type="button" id="show-stats-page-btn" class="utility-btn full-width-btn" style="margin-top: 10px; background-color: #4caf50;" disabled>Statistiken anzeigen</button>
+
+                <div id="installation-info" class="info-box">
+                    <h4>App installieren?</h4>
+                    <p>
+                        Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!
+                    </p>
+                    <p>
+                        <strong>Android (Chrome/Edge):</strong> Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".<br>
+                        <strong>iOS (Safari):</strong> Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann "Zum Home-Bildschirm".
+                    </p>
+                    <p><small>Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
+                </div>
             </div>
 
-            <div id="quiz-screen" class="hidden">
-                <!-- ... (quiz-screen Inhalt bleibt gleich) ... -->
+            <div id="quiz-screen" class="hidden" tabindex="-1">
                 <div id="current-question-meta" class="hidden">
                     <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>
                 </div>
-                <h2 id="question-text">Fragetext hier</h2>
+                <h2 id="question-text" tabindex="-1">Fragetext hier</h2>
                 <div id="answer-buttons">
                     <button class="answer-btn"></button>
                     <button class="answer-btn"></button>
@@ -101,10 +113,41 @@
                     <button id="back-to-start-btn" class="button-secondary">Zurück zum Menü</button>
                 </div>
             </div>
-        </div>
+
+            <div id="stats-page" class="hidden">
+                <button id="back-to-start-from-stats-btn" class="button-secondary">← Zurück zum Start</button>
+                <h2>Deine Quiz-Statistiken</h2>
+                
+                <div class="stats-section">
+                    <h3>Gesamtübersicht</h3>
+                    <div class="stat-item">
+                        <strong>Insgesamt beantwortet:</strong>
+                        <span id="stats-page-total-answered">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>Insgesamt richtig:</strong>
+                        <span id="stats-page-total-correct">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>Gesamt-Trefferquote:</strong>
+                        <span id="stats-page-total-accuracy" class="stat-accuracy-bar">
+                            <span class="bar"><span class="fill"></span></span><span class="value">0 %</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="stats-section">
+                    <h3>Statistik pro Bibelbuch</h3>
+                    <div id="stats-by-book-container">
+                        <p>Noch keine Statistiken für einzelne Bücher vorhanden.</p>
+                    </div>
+                </div>
+                <button type="button" id="reset-all-stats-btn" class="utility-btn small-btn">Alle Statistiken zurücksetzen</button>
+            </div>
+
+        </div> <!-- Ende app-container -->
     </main>
 
-    <!-- NEU: Modal-Struktur für Buchauswahl -->
     <div id="book-select-modal" class="modal hidden">
         <div class="modal-content">
             <button class="close-modal-btn" aria-label="Schließen">×</button>
@@ -116,7 +159,6 @@
                 <button type="button" id="deselect-all-modal-btn" class="utility-btn">Alle abwählen</button>
             </div>
             <div id="modal-book-buttons-container" class="book-buttons-grid">
-                <!-- Bibelbuch-Buttons werden hier per JS eingefügt -->
                 <p>Lade Bücher...</p>
             </div>
             <button type="button" id="confirm-book-selection-btn" class="modal-confirm-btn">Auswahl bestätigen</button>
@@ -124,18 +166,5 @@
     </div>
 
     <script defer src="js/script.js"></script>
-	<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./service-worker.js')
-        .then((registration) => {
-          console.log('Service Worker registriert:', registration);
-        })
-        .catch((error) => {
-          console.log('Service Worker Registrierung fehlgeschlagen:', error);
-        });
-    });
-  }
-</script>
 </body>
 </html>
