@@ -1,6 +1,6 @@
 // js/script.js
 
-const STATS_STORAGE_KEY = 'bibleQuizDetailedStats_v2'; // Version erhöht für Strukturänderungen
+const STATS_STORAGE_KEY = 'bibleQuizDetailedStats_v3'; // Version erhöht für Strukturänderungen
 
 // --- BIBELBUCHREIHENFOLGE (gemäß Neuer-Welt-Übersetzung) ---
 const bibleBookOrderNWT = [
