@@ -6453,6 +6453,1639 @@
     "explanation": "Im Mustergebet zeigte Jesus, was im Leben seiner Nachfolger Priorität haben sollte: die Heiligung von Jehovas Namen und das Kommen seines Königreiches. Diese Bitten stehen an erster Stelle und zeigen die Wichtigkeit von Gottes Souveränität und Vorsatz.",
     "verse": "Lukas 11:2 (NWÜ)",
     "verseTextContent": "Darauf sprach er zu ihnen: 'Wenn immer ihr betet, so sprecht: „Vater, dein Name werde geheiligt. Dein Königreich komme.“'"
+  },
+  [
+  {
+    "book": "Matthäus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche zwei Tiere sandte Noah gemäß Matthäus 24:37-39 nicht aus der Arche, um zu sehen, ob die Wasser abgeflossen waren, als Jesus die Tage Noahs mit seiner künftigen Gegenwart verglich?",
+    "options": [
+      { "text": "Einen Raben und eine Taube", "isCorrect": false },
+      { "text": "Zwei Spatzen", "isCorrect": false },
+      { "text": "Jesus erwähnte in diesem Gleichnis keine Tiere, die Noah aussandte, sondern betonte die Alltäglichkeit des Lebens vor der Flut.", "isCorrect": true },
+      { "text": "Einen Adler und eine Lerche", "isCorrect": false }
+    ],
+    "explanation": "In Matthäus 24:37-39 vergleicht Jesus seine künftige Gegenwart mit den Tagen Noahs, um die Unbekümmertheit der Menschen vor der Sintflut zu betonen. Die Aussendung von Tieren aus der Arche wird in diesem spezifischen Gleichnis Jesu nicht erwähnt, obwohl der Bericht in 1. Mose dies beschreibt.",
+    "verse": "Matthäus 24:37-39 (NWÜ)",
+    "verseTextContent": "Denn genauso wie die Tage Noahs waren, so wird die Gegenwart des Menschensohnes sein. Denn so, wie sie in jenen Tagen vor der Sintflut waren: sie aßen und tranken, Männer heirateten und Frauen wurden verheiratet bis zu dem Tag, an dem Noah in die Arche hineinging, und sie nahmen keine Kenntnis davon, bis die Sintflut kam und sie alle wegraffte — so wird die Gegenwart des Menschensohnes sein."
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was antwortete Jesus, als ihn der Teufel versuchte und ihm alle Königreiche der Welt anbot, wenn er ihn anbeten würde (Matthäus 4:8-10)?",
+    "options": [
+      { "text": "Er sagte, er würde darüber nachdenken.", "isCorrect": false },
+      { "text": "Er schwieg und ging weg.", "isCorrect": false },
+      { "text": "Da sprach Jesus zu ihm: 'Geh weg, Satan! Denn es steht geschrieben: „Jehova, deinen Gott, sollst du anbeten, und ihm allein sollst du heiligen Dienst darbringen.“'", "isCorrect": true },
+      { "text": "Er bat um Bedenkzeit.", "isCorrect": false }
+    ],
+    "explanation": "Jesus widerstand der Versuchung des Teufels, indem er sich entschieden auf Gottes Wort berief und die ausschließliche Anbetung Jehovas betonte.",
+    "verse": "Matthäus 4:9-10 (NWÜ)",
+    "verseTextContent": "und er sprach zu ihm: 'Alle diese Dinge will ich dir geben, wenn du niederfällst und mir einen Akt der Anbetung erweist.' Da sprach Jesus zu ihm: 'Geh weg, Satan! Denn es steht geschrieben: „Jehova, deinen Gott, sollst du anbeten, und ihm allein sollst du heiligen Dienst darbringen.“'"
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Im Gleichnis von den anvertrauten Talenten (Matthäus 25): Was sagte der Herr zu den beiden Knechten, die ihre Talente vermehrt hatten?",
+    "options": [
+      { "text": "'Ihr hättet noch mehr tun können.'", "isCorrect": false },
+      { "text": "'Gut gemacht, du guter und treuer Sklave! Über weniges warst du treu. Ich will dich über vieles setzen. Geh ein in die Freude deines Herrn.'", "isCorrect": true },
+      { "text": "'Euer Lohn wird im Himmel groß sein.'", "isCorrect": false },
+      { "text": "'Ihr habt nur eure Pflicht getan.'", "isCorrect": false }
+    ],
+    "explanation": "Der Herr lobte die beiden treuen Knechte für ihre Tüchtigkeit und ihren verantwortungsvollen Umgang mit dem Anvertrauten und stellte ihnen eine größere Verantwortung und Teilhabe an seiner Freude in Aussicht.",
+    "verse": "Matthäus 25:21, 23 (NWÜ)",
+    "verseTextContent": "Sein Herr sprach zu ihm: 'Wohlgetan, du guter und treuer Sklave! Über weniges warst du treu. Ich will dich über vieles setzen. Geh ein in die Freude deines Herrn.' ... Sein Herr sprach zu ihm: 'Wohlgetan, du guter und treuer Sklave! Über weniges warst du treu. Ich will dich über vieles setzen. Geh ein in die Freude deines Herrn.'"
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gab Jesus seinen Jüngern in Matthäus 10, als er sie aussandte zu predigen und ihnen sagte, sie würden 'wie Schafe inmitten von Wölfen' sein?",
+    "options": [
+      { "text": "Sie sollten immer in großen Gruppen reisen.", "isCorrect": false },
+      { "text": "Sie sollten sich bewaffnen, um sich zu verteidigen.", "isCorrect": false },
+      { "text": "Erwies euch als vorsichtig wie Schlangen und doch unschuldig wie Tauben.", "isCorrect": true },
+      { "text": "Sie sollten Konfrontationen um jeden Preis vermeiden.", "isCorrect": false }
+    ],
+    "explanation": "Jesus bereitete seine Jünger auf Widerstand und Verfolgung vor. Er riet ihnen, klug und umsichtig ('vorsichtig wie Schlangen') zu handeln, aber gleichzeitig ihre Lauterkeit und Friedfertigkeit ('unschuldig wie Tauben') zu bewahren.",
+    "verse": "Matthäus 10:16 (NWÜ)",
+    "verseTextContent": "Siehe! Ich sende euch aus wie Schafe inmitten von Wölfen; erweist euch daher als vorsichtig wie Schlangen und doch unschuldig wie Tauben."
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was meinte Jesus, als er in Matthäus 5:17 sagte: 'Denkt nicht, ich sei gekommen, um das GESETZ oder die PROPHETEN zu vernichten. Nicht um zu vernichten, bin ich gekommen, sondern um zu erfüllen'?",
+    "options": [
+      { "text": "Dass er das Gesetz Mose durch ein neues, einfacheres Gesetz ersetzen würde.", "isCorrect": false },
+      { "text": "Dass er gekommen sei, um die im Gesetz und in den Propheten enthaltenen Voraussagen über ihn zu erfüllen, das Gesetz vollkommen zu halten und dessen tiefere Bedeutung zu offenbaren, wodurch es seinem Ziel zugeführt und später durch den neuen Bund abgelöst wurde.", "isCorrect": true },
+      { "text": "Dass er alle Gesetzesvorschriften noch strenger machen würde.", "isCorrect": false },
+      { "text": "Dass das Gesetz nur für die Juden galt und für seine Nachfolger keine Bedeutung mehr hatte.", "isCorrect": false }
+    ],
+    "explanation": "Jesus kam nicht, um das von Gott gegebene Gesetz Mose aufzuheben oder zu missachten. Vielmehr erfüllte er es, indem er es vollkommen hielt, seine tiefere geistige Bedeutung lehrte, die darin enthaltenen Prophezeiungen über den Messias verwirklichte und durch seinen Opfertod die Grundlage für den neuen Bund schuf, der das mosaische Gesetz ablöste.",
+    "verse": "Matthäus 5:17-18 (NWÜ)",
+    "verseTextContent": "Denkt nicht, ich sei gekommen, um das GESETZ oder die PROPHETEN zu vernichten. Nicht um zu vernichten, bin ich gekommen, sondern um zu erfüllen; denn wahrlich, ich sage euch: Eher würden Himmel und Erde vergehen, als dass auch nur ein kleinster Buchstabe oder ein einziges Teilchen eines Buchstabens vom GESETZ verginge und nicht alles geschähe."
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Im Gleichnis vom Unkraut unter dem Weizen (Matthäus 13): Wer oder was wird durch den 'Feind, der es säte' und das 'Unkraut' dargestellt?",
+    "options": [
+      { "text": "Der Feind ist die römische Regierung und das Unkraut sind die Steuereinnehmer.", "isCorrect": false },
+      { "text": "Der Feind ist der Teufel, und das Unkraut sind die Söhne des Bösen (Scheinchristen oder gottlose Menschen innerhalb des nominellen Christentums).", "isCorrect": true },
+      { "text": "Der Feind sind die Pharisäer und das Unkraut sind ihre falschen Lehren.", "isCorrect": false },
+      { "text": "Der Feind ist die menschliche Schwäche und das Unkraut sind die Sünden.", "isCorrect": false }
+    ],
+    "explanation": "Jesus erklärte dieses Gleichnis selbst: Der Sämann des guten Samens ist der Menschensohn, der Acker ist die Welt, der vortreffliche Same sind die Söhne des Königreiches. Das Unkraut aber sind die Söhne des Bösen, und der Feind, der es säte, ist der Teufel. Die Ernte ist ein Abschluss eines Systems der Dinge, und die Schnitter sind Engel.",
+    "verse": "Matthäus 13:38-39 (NWÜ)",
+    "verseTextContent": "Das Feld ist die Welt; was den vortrefflichen Samen betrifft, dies sind die Söhne des Königreiches; das Unkraut aber sind die Söhne dessen, der böse ist, und der Feind, der es säte, ist der Teufel. Die Ernte ist ein Abschluss eines Systems der Dinge, und die Schnitter sind Engel."
+  },
+  {
+    "book": "Markus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welchen Namen gab Jesus dem Simon, dem Sohn des Johannes, wie in Markus 3:16 berichtet?",
+    "options": [
+      { "text": "Barnabas", "isCorrect": false },
+      { "text": "Kephas (was Petrus bedeutet)", "isCorrect": true },
+      { "text": "Boanerges", "isCorrect": false },
+      { "text": "Levi", "isCorrect": false }
+    ],
+    "explanation": "Als Jesus seine zwölf Apostel auswählte, gab er Simon, dem Sohn des Johannes, den Beinamen Petrus (aramäisch Kephas), was 'Fels' oder 'Stein' bedeutet.",
+    "verse": "Markus 3:16 (NWÜ)",
+    "verseTextContent": "und die Gruppe der Zwölf, die er bildete: Simon, dem er auch den Beinamen Petrus gab,"
+  },
+  {
+    "book": "Markus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was tat Jesus gemäß Markus 6:39-44 mit fünf Broten und zwei Fischen, um eine große Volksmenge zu speisen?",
+    "options": [
+      { "text": "Er schickte die Volksmenge weg, weil es nicht genug Essen gab.", "isCorrect": false },
+      { "text": "Er nahm die fünf Brote und die zwei Fische, blickte zum Himmel auf, sprach einen Segen, brach die Brote und gab sie den Jüngern, damit diese sie der Volksmenge vorlegten; und die zwei Fische teilte er unter alle. Und alle aßen und wurden satt.", "isCorrect": true },
+      { "text": "Er bat die Jünger, mehr Essen in der nächsten Stadt zu kaufen.", "isCorrect": false },
+      { "text": "Er fastete zusammen mit der Volksmenge.", "isCorrect": false }
+    ],
+    "explanation": "Durch ein Wunder vermehrte Jesus die geringe Menge an Brot und Fisch, sodass etwa fünftausend Männer (plus Frauen und Kinder) gesättigt wurden und noch zwölf Körbe mit Resten übrigblieben. Dieses Wunder zeigte seine Macht und Fürsorge.",
+    "verse": "Markus 6:41-44 (NWÜ)",
+    "verseTextContent": "Und er nahm die fünf Brote und die zwei Fische, blickte zum Himmel auf und sprach einen Segen, und er brach die Brote und begann sie seinen Jüngern zu geben, damit diese sie ihnen vorlegten; und die zwei Fische teilte er unter alle. So aßen alle und wurden satt. Und sie hoben zwölf Körbe voll Brocken auf, außer von den Fischen. Die aber, die von den Broten aßen, waren fünftausend Männer."
+  },
+  {
+    "book": "Markus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Dienst verrichteten die Frauen, die Jesus von Galiläa nach Jerusalem nachgefolgt waren, wie in Markus 15:40-41 erwähnt?",
+    "options": [
+      { "text": "Sie predigten öffentlich auf den Marktplätzen.", "isCorrect": false },
+      { "text": "Sie pflegten ihm mit ihrer Habe zu dienen.", "isCorrect": true },
+      { "text": "Sie schrieben seine Reden auf.", "isCorrect": false },
+      { "text": "Sie organisierten seine Reiserouten.", "isCorrect": false }
+    ],
+    "explanation": "Markus erwähnt mehrere Frauen, darunter Maria Magdalena, Maria, die Mutter des Jakobus des Kleineren und des Joses, sowie Salome, die Jesus treu nachgefolgt waren und ihn und seine Jünger mit ihren Mitteln materiell unterstützt und für sie gesorgt hatten.",
+    "verse": "Markus 15:40-41 (NWÜ)",
+    "verseTextContent": "Es waren auch Frauen da, die aus der Ferne zuschauten, unter ihnen Maria Magdalena und Maria, die Mutter Jakobus’ des Kleineren und des Joses, und Salome, die, als er in Galiläa war, ihn zu begleiten und ihm zu dienen pflegten, und viele andere Frauen, die mit ihm nach Jerusalem hinaufgekommen waren."
+  },
+  {
+    "book": "Markus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was antwortete der reiche junge Mann, als Jesus ihm sagte, er solle seine Besitztümer verkaufen, sie den Armen geben und ihm nachfolgen (Markus 10:21-22)?",
+    "options": [
+      { "text": "Er tat es sofort mit Freuden.", "isCorrect": false },
+      { "text": "Er wurde bedrückt und ging betrübt weg, denn er hatte viele Besitztümer.", "isCorrect": true },
+      { "text": "Er bat um mehr Zeit, um darüber nachzudenken.", "isCorrect": false },
+      { "text": "Er argumentierte mit Jesus über die Notwendigkeit dieses Schrittes.", "isCorrect": false }
+    ],
+    "explanation": "Obwohl der junge Mann viele Gebote gehalten hatte, war seine Liebe zu seinem Reichtum ein Hindernis. Als Jesus ihn aufforderte, alles zu verkaufen und ihm nachzufolgen, um einen Schatz im Himmel zu haben, konnte er diesen Schritt nicht tun und ging traurig weg.",
+    "verse": "Markus 10:21-22 (NWÜ)",
+    "verseTextContent": "Jesus blickte ihn an, empfand Liebe zu ihm und sprach: 'Eines fehlt dir: Geh, verkaufe, was du hast, und gib den Armen, und du wirst einen Schatz im Himmel haben, und komm, sei mein Nachfolger.' Er aber wurde bei diesem Wort bedrückt und ging betrübt weg, denn er hatte viele Besitztümer."
+  },
+  {
+    "book": "Markus",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Markus 7 kritisiert Jesus die Pharisäer und Schriftgelehrten, weil sie 'das Gebot Gottes preisgeben und an der Überlieferung der Menschen festhalten'. Welches Beispiel für eine solche menschliche Überlieferung nennt er, die Gottes Gebot ungültig machte?",
+    "options": [
+      { "text": "Das Gebot des Händewaschens vor dem Essen.", "isCorrect": false }, 
+      { "text": "Die Überlieferung des 'Korban' (eine Gott gewidmete Gabe), wodurch jemand seine Verpflichtung, für seine bedürftigen Eltern zu sorgen (ein Gebot Gottes), umgehen konnte.", "isCorrect": true },
+      { "text": "Das Verbot, am Sabbat Kranke zu heilen.", "isCorrect": false },
+      { "text": "Die Vorschrift, nur mit Juden Gemeinschaft zu haben.", "isCorrect": false }
+    ],
+    "explanation": "Jesus zeigte auf, dass die religiösen Führer durch ihre menschlichen Traditionen Gottes Gebote außer Kraft setzten. Ein Beispiel war die Praxis des 'Korban': Wenn jemand sein Vermögen oder einen Teil davon als 'Gabe für Gott' erklärte, konnte er sich damit der biblischen Verpflichtung entziehen, seine bedürftigen Eltern finanziell zu unterstützen. So wurde das Gebot, Vater und Mutter zu ehren, durch eine menschliche Satzung ungültig gemacht.",
+    "verse": "Markus 7:9-13 (NWÜ)",
+    "verseTextContent": "Ferner sprach er zu ihnen: 'Geschickt setzt ihr das Gebot Gottes beiseite, um eure Überlieferung zu bewahren. Moses zum Beispiel hat gesagt: „Ehre deinen Vater und deine Mutter“ und: „Wer Vater oder Mutter beschimpft, soll schließlich zu Tode gebracht werden.“ Ihr aber sagt: „Wenn ein Mensch zu seinem Vater oder zu seiner Mutter spricht: ‚Alles, was ich habe, wodurch du von mir Nutzen haben könntest, ist Korban (das ist eine Gott gewidmete Gabe)‘“, so lasst ihr ihn für seinen Vater oder seine Mutter nichts mehr tun, und so macht ihr das Wort Gottes durch eure Überlieferung ungültig, die ihr weitergegeben habt. Und viele ähnliche Dinge wie diese tut ihr.'"
+  },
+  {
+    "book": "Markus",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Das Markusevangelium wird oft als das Evangelium der Tat oder des Dienens Jesu charakterisiert. Welches Wort kommt darin auffallend häufig vor und unterstreicht diesen dynamischen Aspekt?",
+    "options": [
+      { "text": "'Liebe'", "isCorrect": false },
+      { "text": "'Sogleich' oder 'sofort' (griech. euthýs).", "isCorrect": true },
+      { "text": "'Glaube'", "isCorrect": false },
+      { "text": "'Königreich'", "isCorrect": false }
+    ],
+    "explanation": "Ein charakteristisches Merkmal des Markusevangeliums ist die häufige Verwendung des griechischen Wortes 'euthýs', das mit 'sogleich', 'sofort' oder 'alsbald' übersetzt wird. Dies verleiht dem Bericht einen schnellen, dynamischen und aktionsreichen Charakter und betont Jesu unermüdlichen Dienst und seine kraftvollen Taten.",
+    "verse": "(Stilistisches Merkmal des Buches Markus, z.B. Markus 1:10, 12, 18, 20, 21, 23, 28, 29, 30, 42 etc.)",
+    "verseTextContent": "Und sogleich, als er aus dem Wasser heraufkam, sah er die Himmel sich teilen und den Geist wie eine Taube auf ihn herabkommen. (Markus 1:10 NWÜ - als ein Beispiel von vielen)"
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche besondere Betonung findet sich oft im Lukasevangelium, die seine Fürsorge für bestimmte Menschengruppen zeigt?",
+    "options": [
+      { "text": "Er betont vor allem die Reichen und Mächtigen.", "isCorrect": false },
+      { "text": "Lukas hebt oft Jesu Mitgefühl und Zuwendung zu den Armen, Ausgestoßenen, Sündern, Frauen und Nichtjuden (Samaritern) hervor.", "isCorrect": true },
+      { "text": "Er konzentriert sich ausschließlich auf die jüdischen religiösen Führer.", "isCorrect": false },
+      { "text": "Er beschreibt hauptsächlich Jesu Wunder an gesunden Menschen.", "isCorrect": false }
+    ],
+    "explanation": "Das Lukasevangelium zeichnet sich durch eine besondere Hervorhebung von Jesu Barmherzigkeit und seiner liebevollen Zuwendung zu den Benachteiligten und an den Rand Gedrängten der Gesellschaft aus. Viele Gleichnisse und Begebenheiten, die dies illustrieren, sind nur bei Lukas zu finden.",
+    "verse": "Lukas 4:18; 7:37-50; 10:30-37; 15:1-2 (NWÜ) (als Beispiele)",
+    "verseTextContent": "Jehovas Geist ist auf mir, weil er mich gesalbt hat, um Armen gute Botschaft zu verkünden, er hat mich ausgesandt, um Gefangenen Freilassung zu predigen und Blinden Wiederherstellung des Augenlichts, um Zerschlagene als Freigelassene wegzusenden (Lukas 4:18) ... Alle Steuereinnehmer nun und die Sünder nahten sich ihm ständig, um ihn zu hören. Darum murrten sowohl die Pharisäer als auch die Schriftgelehrten fortwährend und sprachen: 'Dieser Mann nimmt Sünder freundlich auf und isst mit ihnen.' (Lukas 15:1-2)"
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wer war Theophilus, an den Lukas sein Evangelium und die Apostelgeschichte richtete?",
+    "options": [
+      { "text": "Ein römischer Kaiser.", "isCorrect": false },
+      { "text": "Eine Person (möglicherweise von hohem Rang, da er als 'hochedler' angesprochen wird), für die Lukas einen geordneten Bericht über das Leben Jesu und die Anfänge des Christentums verfasste.", "isCorrect": true },
+      { "text": "Ein anderer Apostel.", "isCorrect": false },
+      { "text": "Der Hohepriester in Jerusalem.", "isCorrect": false }
+    ],
+    "explanation": "Lukas widmet seine beiden Schriften einem Mann namens Theophilus. Der Titel 'hochedler' deutet darauf hin, dass Theophilus eine gesellschaftlich angesehene oder offiziell anerkannte Person war. Lukas wollte ihm eine genaue und zuverlässige Darstellung der christlichen Botschaft geben.",
+    "verse": "Lukas 1:3-4 (NWÜ)",
+    "verseTextContent": "entschloss auch ich mich, weil ich allen Dingen von Anbeginn genau nachgegangen bin, sie dir, hochedler Theophilus, in logischer Reihenfolge aufzuschreiben, damit du die Gewissheit der Dinge völlig erkennen mögest, über die du mündlich belehrt worden bist."
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Im Gleichnis von den zehn Minen (Lukas 19): Was sollten die Sklaven mit den Minen tun, die ihnen ihr Herr vor seiner Abreise gab?",
+    "options": [
+      { "text": "Sie sicher aufbewahren, bis er zurückkehrt.", "isCorrect": false },
+      { "text": "Damit Handel treiben (Geschäfte machen), bis er käme.", "isCorrect": true },
+      { "text": "Sie unter den Armen verteilen.", "isCorrect": false },
+      { "text": "Sie für den Bau eines Denkmals für ihren Herrn verwenden.", "isCorrect": false }
+    ],
+    "explanation": "Der adlige Mann im Gleichnis gab jedem seiner zehn Sklaven eine Mine und wies sie an, damit Geschäfte zu machen, bis er als König zurückkehren würde. Dies illustriert, dass Jesu Nachfolger die ihnen anvertrauten Gaben und Möglichkeiten aktiv nutzen sollen, um im Dienst für das Königreich Frucht zu bringen.",
+    "verse": "Lukas 19:12-13 (NWÜ)",
+    "verseTextContent": "Er sprach daher: 'Ein gewisser Mensch von vornehmer Geburt reiste in ein fernes Land, um für sich Königsmacht zu erlangen und zurückzukehren. Er rief zehn seiner Sklaven und gab ihnen zehn Minen und sprach zu ihnen: „Macht Geschäfte damit, bis ich komme.“'"
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gab Jesus bezüglich des Richtens anderer in Lukas 6:37?",
+    "options": [
+      { "text": "Man solle immer offen und ehrlich die Fehler anderer kritisieren.", "isCorrect": false },
+      { "text": "Hört auf zu richten, und ihr werdet keinesfalls gerichtet werden; und hört auf zu verurteilen, und ihr werdet keinesfalls verurteilt werden. Fahrt fort freizugeben, und ihr werdet freigegeben werden.", "isCorrect": true },
+      { "text": "Man solle nur die richten, die offensichtlich sündigen.", "isCorrect": false },
+      { "text": "Man solle nur im Geheimen richten, aber nicht öffentlich.", "isCorrect": false }
+    ],
+    "explanation": "Jesus warnt davor, andere vorschnell oder streng zu richten oder zu verurteilen. Stattdessen ermutigt er zu einer Haltung der Vergebung und Barmherzigkeit, da man selbst entsprechend behandelt werden wird.",
+    "verse": "Lukas 6:37 (NWÜ)",
+    "verseTextContent": "Hört außerdem auf zu richten, und ihr werdet keinesfalls gerichtet werden; und hört auf zu verurteilen, und ihr werdet keinesfalls verurteilt werden. Fahrt fort freizugeben, und ihr werdet freigegeben werden."
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Lukas berichtet in Kapitel 22 von Jesu Gebetskampf im Garten Gethsemane. Was zeigt die Intensität seines Gebets und seiner Angst?",
+    "options": [
+      { "text": "Er bat seine Jünger, für ihn zu kämpfen.", "isCorrect": false },
+      { "text": "Er geriet in Todesangst, und sein Schweiß wurde wie Blutstropfen, die zur Erde fielen; und ein Engel erschien ihm und stärkte ihn.", "isCorrect": true },
+      { "text": "Er versuchte, aus dem Garten zu fliehen.", "isCorrect": false },
+      { "text": "Er war so erschöpft von seinem Gebetskampf, dass er seine AUgen nicht mehr aufhalten konnten und letztendlich eingeschlafen ist.", "isCorrect": false }
+    ],
+    "explanation": "Lukas schildert eindrücklich die extreme seelische Anspannung Jesu vor seiner Verhaftung. Er betete so intensiv, dass sein Schweiß wie Blutstropfen wurde. In dieser schweren Stunde wurde er von einem Engel gestärkt, was seine völlige Unterordnung unter den Willen seines Vaters trotz des bevorstehenden Leidens zeigt.",
+    "verse": "Lukas 22:42-44 (NWÜ)",
+    "verseTextContent": "und sprach: 'Vater, wenn du willst, entferne diesen Becher von mir. Doch nicht mein Wille, sondern der deine geschehe.' Da erschien ihm ein Engel vom Himmel und stärkte ihn. Er geriet aber in Todesangst und fuhr fort, noch inbrünstiger zu beten; und sein Schweiß wurde wie Blutstropfen, die zur Erde fielen."
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Jesu Gleichnis vom reichen Kornbauern (Lukas 12:16-21), was war der grundlegende Fehler des reichen Mannes, und welche Lehre zog Jesus daraus?",
+    "options": [
+      { "text": "Er hatte seinen Reichtum auf unehrliche Weise erworben.", "isCorrect": false },
+      { "text": "Er plante, seinen Reichtum nur für sich selbst zu genießen und dachte nicht an seine Seele oder daran, reich zu sein Gott gegenüber; er starb, bevor er seine Pläne umsetzen konnte.", "isCorrect": true },
+      { "text": "Er gab den Armen nicht genug von seinem Überfluss.", "isCorrect": false },
+      { "text": "Er arbeitete zu hart und vernachlässigte seine Familie.", "isCorrect": false }
+    ],
+    "explanation": "Der reiche Kornbauer machte den Fehler, seine Sicherheit und sein Glück ausschließlich auf seinen materiellen Reichtum zu gründen und Pläne für ein langes, sorgenfreies Leben zu schmieden, ohne Gott oder seine eigene Seele (sein Leben im wahren Sinne) zu berücksichtigen. Jesus warnte damit davor, Schätze für sich selbst aufzuhäufen und nicht reich Gott gegenüber zu sein, da das Leben vergänglich ist und materielle Güter keinen ewigen Wert haben.",
+    "verse": "Lukas 12:19-21 (NWÜ)",
+    "verseTextContent": "und ich will zu meiner Seele sagen: „Seele, du hast viele gute Dinge für viele Jahre aufgehäuft; lass dir’s wohl sein, iss, trink, sei fröhlich.“‘ Gott aber sprach zu ihm: ‚Du Unvernünftiger, in dieser Nacht wird man deine Seele von dir fordern. Wer soll dann die Dinge haben, die du aufgehäuft hast?‘ So ergeht es dem Menschen, der Schätze für sich aufhäuft, aber nicht reich ist Gott gegenüber."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wie bezeichnete Jesus sich selbst in Johannes 15:1 und 15:5 im Zusammenhang mit seinen Nachfolgern?",
+    "options": [
+      { "text": "Als den guten Hirten und seine Nachfolger als die Schafe.", "isCorrect": false },
+      { "text": "Als den wahren Weinstock, und sein Vater ist der Weingärtner; seine Nachfolger sind die Reben.", "isCorrect": true },
+      { "text": "Als das Licht der Welt und seine Nachfolger als die Sterne.", "isCorrect": false },
+      { "text": "Als den Weg, die Wahrheit und das Leben.", "isCorrect": false }
+    ],
+    "explanation": "Jesus gebrauchte das Bild vom Weinstock und den Reben, um die lebenswichtige Verbindung zwischen ihm und seinen Jüngern zu veranschaulichen. So wie die Reben mit dem Weinstock verbunden bleiben müssen, um Frucht zu tragen, so müssen seine Nachfolger in Gemeinschaft mit ihm bleiben.",
+    "verse": "Johannes 15:1, 5 (NWÜ)",
+    "verseTextContent": "Ich bin der wahre Weinstock, und mein Vater ist der Weingärtner. ... Ich bin der Weinstock, ihr seid die Reben. Wer in Gemeinschaft mit mir bleibt und ich in Gemeinschaft mit ihm, dieser trägt viel Frucht; denn getrennt von mir könnt ihr gar nichts tun."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche Frage stellte Jesus dem Petrus dreimal nach seiner Auferstehung, wie in Johannes Kapitel 21 berichtet?",
+    "options": [
+      { "text": "'Wirst du mich wieder verleugnen?'", "isCorrect": false },
+      { "text": "'Simon, Sohn des Johannes, liebst du mich (mehr als diese)?'", "isCorrect": true },
+      { "text": "'Wirst du das Königreich auf Erden aufrichten?'", "isCorrect": false },
+      { "text": "'Verstehst du nun alle meine Lehren?'", "isCorrect": false }
+    ],
+    "explanation": "Nachdem Petrus Jesus dreimal verleugnet hatte, gab Jesus ihm nach seiner Auferstehung die Gelegenheit, seine Liebe dreimal zu bekräftigen. Auf jede Liebeserklärung des Petrus hin beauftragte Jesus ihn, seine 'Lämmer' oder 'Schafe' zu hüten und zu weiden.",
+    "verse": "Johannes 21:15, 17 (NWÜ)",
+    "verseTextContent": "Als sie nun gefrühstückt hatten, sprach Jesus zu Simon Petrus: 'Simon, Sohn des Johannes, liebst du mich mehr als diese?' Er sprach zu ihm: 'Ja, Herr, du weißt, dass ich Zuneigung zu dir habe.' Er sprach zu ihm: 'Weide meine Lämmer.' ... Er sprach zum dritten Mal zu ihm: 'Simon, Sohn des Johannes, hast du Zuneigung zu mir?' Petrus wurde betrübt, dass er zum dritten Mal zu ihm sprach: 'Hast du Zuneigung zu mir?' Daher sprach er zu ihm: 'Herr, du weißt alle Dinge; du weißt, dass ich Zuneigung zu dir habe.' Jesus sprach zu ihm: 'Hüte meine kleinen Schafe.'"
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war gemäß Johannes 1:14 das Ergebnis davon, dass 'das Wort Fleisch wurde und unter uns wohnte'?",
+    "options": [
+      { "text": "Dass alle Menschen sofort an ihn glaubten.", "isCorrect": false },
+      { "text": "Wir haben seine Herrlichkeit geschaut, eine Herrlichkeit wie die eines einziggezeugten Sohnes vom Vater her, und er war voller unverdienter Güte und Wahrheit.", "isCorrect": true },
+      { "text": "Dass er ein mächtiges politisches Reich errichtete.", "isCorrect": false },
+      { "text": "Dass er das Gesetz Mose abschaffte.", "isCorrect": false }
+    ],
+    "explanation": "Johannes beschreibt die Menschwerdung des Wortes (Jesus Christus) als ein Ereignis, bei dem Gottes Herrlichkeit auf einzigartige Weise sichtbar wurde – nicht in Furcht einflößender Macht, sondern in unverdienter Güte (Gnade) und Wahrheit. Diejenigen, die ihn annahmen, sahen in ihm die Herrlichkeit des einziggezeugten Sohnes Gottes.",
+    "verse": "Johannes 1:14 (NWÜ)",
+    "verseTextContent": "So wurde das WORT Fleisch und wohnte unter uns, und wir schauten seine Herrlichkeit, eine Herrlichkeit, wie sie einem einziggezeugten Sohn vom Vater her gehört; und er war voller unverdienter Güte und Wahrheit."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche Anweisung gab Jesus der samaritischen Frau am Brunnen bezüglich der wahren Anbetung (Johannes 4:23-24)?",
+    "options": [
+      { "text": "Dass man Gott nur im Tempel in Jerusalem anbeten könne.", "isCorrect": false },
+      { "text": "Die Stunde kommt, und sie ist jetzt, da die wahren Anbeter den Vater mit Geist und Wahrheit anbeten werden; denn der Vater sucht solche als seine Anbeter. Gott ist ein GEIST, und die ihn anbeten, müssen ihn mit Geist und Wahrheit anbeten.", "isCorrect": true },
+      { "text": "Dass die Samariter die einzig wahren Anbeter seien.", "isCorrect": false },
+      { "text": "Dass äußere Rituale wichtiger seien als die Herzenseinstellung.", "isCorrect": false }
+    ],
+    "explanation": "Jesus erklärte, dass die wahre Anbetung Gottes nicht an einen bestimmten Ort (wie Jerusalem oder den Berg Garizim) gebunden ist, sondern im Geist (aufrichtig, von Herzen, geleitet vom heiligen Geist) und in der Wahrheit (in Übereinstimmung mit Gottes geoffenbartem Willen und seiner Natur) erfolgen muss.",
+    "verse": "Johannes 4:23-24 (NWÜ)",
+    "verseTextContent": "Dennoch kommt die Stunde, und sie ist jetzt, da die wahren Anbeter den Vater mit Geist und Wahrheit anbeten werden; denn der Vater sucht tatsächlich solche als seine Anbeter. Gott ist ein GEIST, und die ihn anbeten, müssen ihn mit Geist und Wahrheit anbeten."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Jesus sagte in Johannes 8:58: 'Ehe Abraham ins Dasein kam, bin ich gewesen.' Was deutete er mit dieser Aussage über seine Existenz an, was die Juden sehr verärgerte?",
+    "options": [
+      { "text": "Dass er eine Reinkarnation Abrahams sei.", "isCorrect": false },
+      { "text": "Seine Präexistenz, d.h. seine Existenz als geistiges Wesen im Himmel bei Gott, bevor er als Mensch geboren wurde und bevor Abraham lebte. Der Ausdruck 'Ich bin' erinnert auch an Gottes Selbstoffenbarung gegenüber Mose.", "isCorrect": true },
+      { "text": "Dass er älter an Jahren sei als Abraham.", "isCorrect": false },
+      { "text": "Dass seine Lehren wichtiger seien als die Abrahams.", "isCorrect": false }
+    ],
+    "explanation": "Mit dieser Aussage beanspruchte Jesus eine Existenz, die der Abrahams vorausging. Der Ausdruck 'Ich bin' (griech. ego eimi) hat zudem eine besondere Tragweite und erinnert an Gottes Selbstbezeichnung in 2. Mose 3:14 ('Ich werde mich erweisen, als was ich mich erweisen werde' oder 'Ich bin, der ich bin'). Die Juden verstanden dies als einen Anspruch auf Göttlichkeit oder zumindest eine übermenschliche Präexistenz und wollten ihn dafür steinigen.",
+    "verse": "Johannes 8:58 (NWÜ)",
+    "verseTextContent": "Jesus sprach zu ihnen: 'Wahrlich, wahrlich, ich sage euch: Ehe Abraham ins Dasein kam, bin ich gewesen.'"
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Johannes Kapitel 6, nach der Speisung der Fünftausend, sprachen viele Jünger: 'Diese Rede ist anstößig; wer kann sie anhören?' und verließen Jesus. Auf welche spezifische Lehre Jesu bezog sich ihre Reaktion hauptsächlich?",
+    "options": [
+      { "text": "Auf seine Lehre über die Notwendigkeit, das Gesetz Mose zu halten.", "isCorrect": false },
+      { "text": "Auf seine Rede darüber, dass er das 'Brot des Lebens' sei, das vom Himmel herabgekommen ist, und dass man sein Fleisch essen und sein Blut trinken müsse, um ewiges Leben zu haben (symbolisch für den Glauben an sein Opfer).", "isCorrect": true },
+      { "text": "Auf seine Prophezeiungen über die Zerstörung des Tempels.", "isCorrect": false },
+      { "text": "Auf seine Forderung, ihm uneingeschränkt nachzufolgen und alles zu verlassen.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem Jesus sich als das 'Brot des Lebens' bezeichnet hatte und betonte, dass man sein Fleisch essen und sein Blut trinken müsse (im übertragenen Sinn, d.h. Glauben an sein Loskaufsopfer ausüben), empfanden dies viele seiner damaligen Zuhörer als anstößig und unverständlich. Sie konnten die tiefe geistige Bedeutung dieser Worte nicht erfassen und wandten sich von ihm ab.",
+    "verse": "Johannes 6:53-54, 60, 66 (NWÜ)",
+    "verseTextContent": "Darum sprach Jesus zu ihnen: 'Wahrlich, wahrlich, ich sage euch: Wenn ihr nicht das Fleisch des Menschensohnes esst und sein Blut trinkt, so habt ihr kein Leben in euch. Wer sich von meinem Fleisch nährt und mein Blut trinkt, hat ewiges Leben, und ich werde ihn am letzten Tag zur Auferstehung bringen.' ... Viele daher von seinen Jüngern, die dies hörten, sprachen: 'Diese Rede ist anstößig; wer kann sie anhören?' ... Zufolge dessen wandten sich viele seiner Jünger den Dingen zu, die dahinten waren, und wollten nicht mehr mit ihm wandeln."
+  },
+  [
+  {
+    "book": "1. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was sagte Gott gemäß 1. Mose 1:26, bevor er den Menschen erschuf?",
+    "options": [
+      { "text": "„Es werde Licht!“", "isCorrect": false },
+      { "text": "„Lasst uns Menschen machen in unserem Bild, gemäß unserem Gleichnis“", "isCorrect": true },
+      { "text": "„Die Erde bringe lebende Seelen hervor“", "isCorrect": false },
+      { "text": "„Dies ist mein geliebter Sohn“", "isCorrect": false }
+    ],
+    "explanation": "Vor der Erschaffung des Menschen beriet sich Gott offenbar mit einer anderen Person, höchstwahrscheinlich seinem erstgeschaffenen Sohn, Jesus Christus in seiner vormenschlichen Existenz. Der Mensch sollte in Gottes Bild und Gleichnis erschaffen werden.",
+    "verse": "1. Mose 1:26 (NWÜ)",
+    "verseTextContent": "Dann sagte Gott: „Lasst uns Menschen machen in unserem Bild, gemäß unserem Gleichnis, und sie sollen sich untertan halten die Fische des Meeres und die fliegenden Geschöpfe der Himmel und die Haustiere und die ganze Erde und jedes sich regende Tier, das sich auf der Erde regt.“"
+  },
+  {
+    "book": "1. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welches Gebot gab Jehova Gott dem Adam bezüglich des Baumes der Erkenntnis von Gut und Böse im Garten Eden?",
+    "options": [
+      { "text": "Er dürfe nur eine Frucht davon essen.", "isCorrect": false },
+      { "text": "Von jedem Baum des Gartens dürfe er essen bis zur Sättigung, aber vom Baum der Erkenntnis von Gut und Böse dürfe er nicht essen, denn an dem Tag, an dem er davon äße, würde er ganz bestimmt sterben.", "isCorrect": true },
+      { "text": "Er solle die Früchte dieses Baumes bewachen.", "isCorrect": false },
+      { "text": "Er solle täglich von diesem Baum essen.", "isCorrect": false }
+    ],
+    "explanation": "Jehova gab Adam ein klares und einfaches Gebot, das seine Souveränität und das Recht, für die Menschen festzulegen, was gut und was böse ist, unterstrich. Der Gehorsam gegenüber diesem Gebot war ein Test der Loyalität.",
+    "verse": "1. Mose 2:16-17 (NWÜ)",
+    "verseTextContent": "Und Jehova Gott erlegte dem Menschen auch dieses Gebot auf: „Von jedem Baum des Gartens darfst du bis zur Sättigung essen. Was aber den Baum der Erkenntnis von Gut und Böse betrifft, davon sollst du nicht essen, denn an dem Tag, an dem du davon isst, wirst du ganz bestimmt sterben.“"
+  },
+  {
+    "book": "1. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche Verheißung gab Jehova dem Abraham (damals Abram) in 1. Mose 12:2-3, als er ihn aufforderte, sein Land zu verlassen?",
+    "options": [
+      { "text": "Dass er sofort König über viele Nationen werden würde.", "isCorrect": false },
+      { "text": "„Ich werde aus dir eine große Nation machen, und ich werde dich segnen, und ich will deinen Namen groß machen; und erweise dich als ein Segen. Und ich will die segnen, die dich segnen, und den, der Übles auf dich herabruft, werde ich verfluchen, und alle Familien des Erdbodens werden sich bestimmt durch dich segnen.“", "isCorrect": true },
+      { "text": "Dass er ewig leben und den Tod nicht sehen würde.", "isCorrect": false },
+      { "text": "Dass er den genauen Zeitpunkt des Kommens des Messias erfahren würde.", "isCorrect": false }
+    ],
+    "explanation": "Jehova schloss einen Bund mit Abraham und gab ihm weitreichende Verheißungen: Er würde zu einer großen Nation werden, seinen Namen groß machen und durch ihn würden sich alle Familien der Erde segnen. Dies ist ein Schlüsselelement des Vorsatzes Gottes.",
+    "verse": "1. Mose 12:2-3 (NWÜ)",
+    "verseTextContent": "und ich werde aus dir eine große Nation machen, und ich werde dich segnen, und ich will deinen Namen groß machen; und erweise dich als ein Segen. Und ich will die segnen, die dich segnen, und den, der Übles auf dich herabruft, werde ich verfluchen, und alle Familien des Erdbodens werden sich bestimmt durch dich segnen.“"
+  },
+  {
+    "book": "1. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Wie reagierte Joseph, als seine Brüder, die ihn Jahre zuvor nach Ägypten verkauft hatten, wegen einer Hungersnot zu ihm kamen, um Getreide zu kaufen?",
+    "options": [
+      { "text": "Er ließ sie sofort hinrichten.", "isCorrect": false },
+      { "text": "Er erkannte sie, prüfte aber zunächst ihre Herzenseinstellung durch eine Reihe von Ereignissen, bevor er sich ihnen offenbarte und ihnen vergab, indem er Gottes souveränes Handeln in allem anerkannte.", "isCorrect": true },
+      { "text": "Er tat so, als würde er sie nicht kennen, und schickte sie weg.", "isCorrect": false },
+      { "text": "Er gab ihnen Getreide, verlangte aber den doppelten Preis.", "isCorrect": false }
+    ],
+    "explanation": "Obwohl Joseph von seinen Brüdern schwer misshandelt worden war, zeigte er bei ihrer Wiederbegegnung keine Rachsucht. Er prüfte sie, um zu sehen, ob sie sich geändert hatten, und offenbarte sich ihnen dann unter Tränen. Er betonte, dass Gott ihre böse Tat zum Guten gewendet hatte, um viele Menschen am Leben zu erhalten.",
+    "verse": "1. Mose 42:7-8; 45:4-5 (NWÜ)",
+    "verseTextContent": "Als Joseph seine Brüder sah, erkannte er sie sogleich, aber er machte sich ihnen gegenüber unkenntlich. So redete er streng mit ihnen und sprach zu ihnen: „Woher seid ihr gekommen?“ Darauf sprachen sie: „Aus dem Land Kanaan, um Nahrungsmittel zu kaufen.“ So erkannte Joseph seine Brüder, sie aber erkannten ihn nicht. (1. Mose 42:7-8) Schließlich sprach Joseph zu seinen Brüdern: „Kommt bitte näher zu mir.“ Da kamen sie näher zu ihm. Dann sprach er: „Ich bin Joseph, euer Bruder, den ihr nach Ägypten verkauft habt. Aber nun seid nicht betrübt, und werdet nicht zornig auf euch selbst, weil ihr mich hierher verkauft habt; denn zur Lebenserhaltung hat Gott mich vor euch hergesandt.“ (1. Mose 45:4-5)"
+  },
+  {
+    "book": "1. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In 1. Mose 3:15 wird nach dem Sündenfall eine wichtige Prophezeiung ausgesprochen, die oft als 'Protoevangelium' (erste gute Botschaft) bezeichnet wird. Was beinhaltet diese Prophezeiung?",
+    "options": [
+      { "text": "Die sofortige Vernichtung Adams und Evas.", "isCorrect": false },
+      { "text": "Jehova Gott sprach zur Schlange (Satan): „Und ich werde Feindschaft setzen zwischen dir und der Frau und zwischen deinem Samen und ihrem Samen. Er wird dir den Kopf zermalmen, und du wirst ihm die Ferse zermalmen.“", "isCorrect": true },
+      { "text": "Den Bau einer Arche zur Rettung vor einer Flut.", "isCorrect": false },
+      { "text": "Die Verheißung, dass alle Menschen unsterblich werden.", "isCorrect": false }
+    ],
+    "explanation": "Diese grundlegende Prophezeiung kündigt einen lang anhaltenden Konflikt zwischen dem 'Samen' (Nachkommen) der Frau (Gottes himmlische Organisation) und dem 'Samen' der Schlange (Satan und seine Anhänger) an. Sie gipfelt darin, dass der Same der Frau (primär Jesus Christus) Satan endgültig vernichten wird ('den Kopf zermalmen'), obwohl er selbst dabei leiden wird ('die Ferse zermalmen').",
+    "verse": "1. Mose 3:15 (NWÜ)",
+    "verseTextContent": "Und ich werde Feindschaft setzen zwischen dir und der Frau und zwischen deinem Samen und ihrem Samen. Er wird dir den Kopf zermalmen, und du wirst ihm die Ferse zermalmen.“"
+  },
+  {
+    "book": "1. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was war die Bedeutung des Bundes, den Jehova mit Noah und allen lebenden Geschöpfen nach der Sintflut schloss, und welches Zeichen gab er dafür?",
+    "options": [
+      { "text": "Dass es nie wieder regnen würde.", "isCorrect": false },
+      { "text": "Jehova versprach, dass er nie wieder alles Fleisch durch die Wasser einer Sintflut vertilgen und die Erde nicht mehr durch eine Sintflut verderben würde. Als Zeichen dieses Bundes setzte er seinen Regenbogen in die Wolken.", "isCorrect": true },
+      { "text": "Dass alle Menschen von nun an Vegetarier sein sollten.", "isCorrect": false },
+      { "text": "Dass Noah und seine Nachkommen die Erde für immer beherrschen würden.", "isCorrect": false }
+    ],
+    "explanation": "Nach der Sintflut schloss Jehova einen Bund mit Noah, seinen Söhnen und allen lebenden Geschöpfen. Er versicherte, dass er die Erde nie wieder durch eine globale Flut vernichten würde. Der Regenbogen dient als sichtbares Zeichen und als Erinnerung an dieses ewige Versprechen.",
+    "verse": "1. Mose 9:11-13 (NWÜ)",
+    "verseTextContent": "Und ich errichte meinen Bund mit euch: Nie wieder wird alles Fleisch durch die Wasser einer Sintflut weggetilgt werden, und nie wieder wird es eine Sintflut geben, die Erde zu verderben.“ Und Gott fügte hinzu: „Dies ist das Zeichen des Bundes, den ich zwischen mir und euch und jeder lebenden Seele, die bei euch ist, für die Generationen auf unabsehbare Zeit gebe. Meinen Regenbogen, den will ich in die Wolke setzen, und er soll als Zeichen des Bundes dienen zwischen mir und der Erde."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welches Fest sollten die Israeliten gemäß Jehovas Anweisung in 2. Mose Kapitel 12 jedes Jahr zur Erinnerung an ihren Auszug aus Ägypten feiern?",
+    "options": [
+      { "text": "Das Laubhüttenfest", "isCorrect": false },
+      { "text": "Das Passah", "isCorrect": true },
+      { "text": "Das Wochenfest (Pfingsten)", "isCorrect": false },
+      { "text": "Der Sühnetag", "isCorrect": false }
+    ],
+    "explanation": "Das Passahfest wurde in der Nacht des Auszugs aus Ägypten eingesetzt. Es erinnerte an Jehovas Eingreifen, als er die Erstgeburt Ägyptens schlug, aber an den Häusern der Israeliten, deren Türpfosten mit dem Blut des Passahlammes bestrichen waren, 'vorüberging' (hebr. pasách).",
+    "verse": "2. Mose 12:26-27 (NWÜ)",
+    "verseTextContent": "Und es soll geschehen, wenn eure Söhne zu euch sagen: ‚Was bedeutet euch dieser Dienst?‘, dann sollt ihr sagen: ‚Es ist das Schlachtopfer des Passahs für Jehova, der an den Häusern der Söhne Israels in Ägypten vorüberging, als er die Ägypter mit der Plage schlug, unsere Häuser aber befreite.‘“ Darauf verneigte sich das Volk und beugte sich tief nieder."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was befand sich in der Bundeslade, die nach Jehovas Anweisungen angefertigt wurde?",
+    "options": [
+      { "text": "Gold und Silber für den Tempel.", "isCorrect": false },
+      { "text": "Die zwei Steintafeln mit den Zehn Geboten (das Zeugnis).", "isCorrect": true },
+      { "text": "Eine Abschrift aller Gesetze Mose.", "isCorrect": false },
+      { "text": "Die Kleider des Hohenpriesters.", "isCorrect": false }
+    ],
+    "explanation": "Die Bundeslade war eine heilige Truhe, in der primär 'das Zeugnis', also die zwei Steintafeln, auf denen die Zehn Gebote geschrieben waren, aufbewahrt wurden. Sie symbolisierte Jehovas Gegenwart unter seinem Volk.",
+    "verse": "2. Mose 25:16, 21 (NWÜ)",
+    "verseTextContent": "Und du sollst in die Lade das Zeugnis legen, das ich dir geben werde. ... Und du sollst den Deckel oben auf die Lade legen, und in die Lade wirst du das Zeugnis legen, das ich dir geben werde."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gab Jethro, Moses Schwiegervater, dem Mose, als er sah, wie sehr Mose mit dem Richten des Volkes überlastet war (2. Mose Kapitel 18)?",
+    "options": [
+      { "text": "Er solle das Richten ganz einstellen.", "isCorrect": false },
+      { "text": "Er solle tüchtige, gottesfürchtige Männer auswählen und sie als Oberste über Tausendschaften, Hunderte, Fünfzigschaften und Zehnerschaften einsetzen, damit sie kleinere Rechtsfälle entscheiden und nur die schwierigen Fälle zu Mose bringen.", "isCorrect": true },
+      { "text": "Er solle das Volk bitten, weniger Streitigkeiten zu haben.", "isCorrect": false },
+      { "text": "Er solle Aaron bitten, die gesamte Richteraufgabe zu übernehmen.", "isCorrect": false }
+    ],
+    "explanation": "Jethro beobachtete, wie Mose von früh bis spät damit beschäftigt war, die Rechtsstreitigkeiten des Volkes zu schlichten. Er riet ihm weise, diese Aufgabe zu delegieren, indem er fähige und vertrauenswürdige Männer einsetzte, die über kleinere Gruppen richten konnten, um Mose zu entlasten und das System effizienter zu machen.",
+    "verse": "2. Mose 18:21-22 (NWÜ)",
+    "verseTextContent": "Du aber, du sollst aus dem ganzen Volk tüchtige, gottesfürchtige Männer auswählen, zuverlässige Männer, die ungerechten Gewinn hassen; und du sollst sie über sie als Oberste über Tausend, Oberste über Hundert, Oberste über Fünfzig und Oberste über Zehn setzen. Und sie sollen das Volk zu jeder geeigneten Zeit richten; und es soll geschehen: Jede große Sache werden sie vor dich bringen, aber jede kleine Sache werden sie selbst als Richter entscheiden. So mach es dir leichter, und sie sollen die Last mit dir tragen."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was geschah, als die Israeliten am Berg Sinai lagerten und Jehova auf den Berg herabkam, um mit Mose zu reden und dem Volk das Gesetz zu geben?",
+    "options": [
+      { "text": "Es herrschte vollkommene Stille.", "isCorrect": false },
+      { "text": "Es gab Donner und Blitze und ein schweres Gewölk auf dem Berg und einen sehr lauten Hörnerschall, sodass das ganze Volk im Lager zu zittern begann; der Berg Sinai rauchte ganz und bebte sehr.", "isCorrect": true },
+      { "text": "Ein heller Stern erschien über dem Berg.", "isCorrect": false },
+      { "text": "Das Volk sah Engel vom Himmel herabsteigen.", "isCorrect": false }
+    ],
+    "explanation": "Die Erscheinung Jehovas am Berg Sinai war von ehrfurchtgebietenden und Furcht einflößenden Phänomenen begleitet – Donner, Blitze, eine dichte Wolke, starker Hörnerschall und ein rauchender, bebender Berg. Dies unterstrich die Heiligkeit und Macht Gottes, als er seinem Volk den Bund und das Gesetz gab.",
+    "verse": "2. Mose 19:16, 18 (NWÜ)",
+    "verseTextContent": "Und es geschah am dritten Tag, als es Morgen wurde, da entstanden Donner und Blitze und eine schwere Wolke auf dem Berg und ein sehr lauter Schall eines Horns, sodass alles Volk, das im Lager war, zu zittern begann. ... Und der Berg Sinai rauchte ringsum, weil Jehova im Feuer auf ihn herabgekommen war; und sein Rauch stieg ständig auf wie der Rauch eines Brennofens, und der ganze Berg bebte sehr."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welches besondere priesterliche Kleidungsstück trug der Hohepriester Aaron, auf dem zwölf kostbare Steine befestigt waren, die die zwölf Stämme Israels darstellten (2. Mose Kapitel 28)?",
+    "options": [
+      { "text": "Das Efod", "isCorrect": false }, 
+      { "text": "Das Brustschild (oder Bruststück des Gerichts) mit den Urim und Thummim.", "isCorrect": true },
+      { "text": "Der Turban mit dem goldenen Stirnblatt.", "isCorrect": false },
+      { "text": "Das lange, ärmellose Obergewand.", "isCorrect": false }
+    ],
+    "explanation": "Das Brustschild des Hohenpriesters war ein kunstvoll gefertigtes Quadrat, besetzt mit zwölf verschiedenen Edelsteinen in vier Reihen. Jeder Stein trug den Namen eines der zwölf Stämme Israels und symbolisierte, dass der Hohepriester das ganze Volk vor Jehova vertrat. Im Brustschild befanden sich auch die Urim und Thummim, durch die Gottes Wille erfragt wurde.",
+    "verse": "2. Mose 28:15, 17-21 (NWÜ)",
+    "verseTextContent": "Und du sollst das Brustschild des Gerichts in Stickerarbeit machen. So wie die Arbeit des Ephods sollst du es machen. Aus Gold, blauem Faden und purpurrötlich gefärbter Wolle und karmesinfarbenem Stoff und gezwirntem feinem Leinen sollst du es machen. ... Und du sollst es mit einem Besatz von Steinen füllen, vier Reihen Steine. Eine Reihe Rubine, Topase und Smaragde soll die erste Reihe sein. Und die zweite Reihe soll Türkis, Saphir und Jaspis sein. Und die dritte Reihe soll Leschem-Stein, Achat und Amethyst sein. Und die vierte Reihe soll Chrysolith und Onyx und Jade sein. In Fassungen von Gold sollen sie in ihren Füllungen sein. Und die Steine sollen nach den Namen der Söhne Israels sein, zwölf, nach ihren Namen. Die Gravur eines Siegels, ein jeder nach seinem Namen, sollen sie sich für die zwölf Stämme erweisen."
+  },
+  {
+    "book": "2. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was war der Zweck der Stiftshütte (des Zeltes der Zusammenkunft), die die Israeliten in der Wüste nach genauen Anweisungen Jehovas bauten?",
+    "options": [
+      { "text": "Sie diente nur als Wohnort für Mose und Aaron.", "isCorrect": false },
+      { "text": "Sie war das Zentrum der Anbetung Jehovas, ein Ort, an dem er symbolisch unter seinem Volk wohnte, wo Opfer dargebracht wurden und wo Mose mit Gott kommunizieren konnte.", "isCorrect": true },
+      { "text": "Sie war ein militärisches Hauptquartier.", "isCorrect": false },
+      { "text": "Sie diente als Schatzkammer für die Reichtümer Israels.", "isCorrect": false }
+    ],
+    "explanation": "Die Stiftshütte war ein transportables Heiligtum, das nach Gottes detailliertem Plan errichtet wurde. Sie war der zentrale Ort für die Anbetung Jehovas, wo die Priester ihren Dienst verrichteten, Opfer dargebracht wurden und die Bundeslade als Symbol von Gottes Gegenwart aufbewahrt wurde. Sie ermöglichte es Gott, inmitten seines Volkes zu 'wohnen'.",
+    "verse": "2. Mose 25:8-9; 29:43 (NWÜ)",
+    "verseTextContent": "Und sie sollen mir ein Heiligtum machen, und ich will in ihrer Mitte wohnen. Gemäß allem, was ich dir als den Bauplan der Stiftshütte und den Bauplan all ihrer Geräte zeige, so sollt ihr es machen. (2. Mose 25:8-9) Und ich will dort den Söhnen Israels erscheinen, und es wird gewiss durch meine Herrlichkeit geheiligt werden. (2. Mose 29:43)"
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welches Tier wurde gemäß 3. Mose Kapitel 16 am Sühnetag mit den Sünden des Volkes Israel beladen und in die Wildnis geschickt (der 'Bock für Asasel')?",
+    "options": [
+      { "text": "Ein Lamm", "isCorrect": false },
+      { "text": "Ein Ziegenbock", "isCorrect": true },
+      { "text": "Ein Stier", "isCorrect": false },
+      { "text": "Eine Taube", "isCorrect": false }
+    ],
+    "explanation": "Am jährlichen Sühnetag wurden zwei Ziegenböcke verwendet. Über einen wurde das Los für Jehova geworfen und er als Sündopfer geschlachtet. Auf den Kopf des anderen Bocks (für Asasel) legte der Hohepriester symbolisch die Sünden des Volkes, und dieser wurde dann in die Wildnis geführt, um die Sünden wegzutragen.",
+    "verse": "3. Mose 16:8, 21-22 (NWÜ)",
+    "verseTextContent": "Und Aaron soll über die beiden Ziegenböcke Lose werfen, ein Los für Jehova und ein Los für Asasel. ... Und Aaron soll seine beiden Hände auf den Kopf des lebenden Ziegenbocks legen und über ihm alle Vergehungen der Söhne Israels und alle ihre Auflehnungen in all ihren Sünden bekennen; und er soll sie auf den Kopf des Ziegenbocks legen und ihn durch die Hand eines bereitstehenden Mannes in die Wildnis fortschicken. Und der Ziegenbock soll auf sich alle ihre Vergehungen in ein ödes Land tragen; und er soll den Ziegenbock in der Wildnis freilassen."
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welches Gebot wiederholt Jehova mehrmals im Buch 3. Mose (z.B. 3. Mose 19:2), um sein Volk zur Heiligkeit aufzufordern?",
+    "options": [
+      { "text": "„Du sollst deinen Nächsten lieben wie dich selbst.“", "isCorrect": false }, 
+      { "text": "„Ihr sollt heilig sein, denn ich, Jehova, euer Gott, bin heilig.“", "isCorrect": true },
+      { "text": "„Du sollst keine anderen Götter neben mir haben.“", "isCorrect": false },
+      { "text": "„Gedenke des Sabbattages, um ihn heilig zu halten.“", "isCorrect": false }
+    ],
+    "explanation": "Ein zentrales Thema im 3. Buch Mose ist die Heiligkeit Gottes und die Anforderung an sein Volk, ebenfalls heilig zu sein, d.h. abgesondert für Gott und moralisch rein. Diese Aufforderung basiert auf Gottes eigenem Wesen.",
+    "verse": "3. Mose 19:2 (NWÜ)",
+    "verseTextContent": "„Rede zu der ganzen Gemeinde der Söhne Israels, und du sollst zu ihnen sagen: ‚Ihr sollt euch als heilig erweisen, denn ich, Jehova, euer Gott, bin heilig.‘“"
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche zwei Söhne Aarons starben, weil sie vor Jehova 'ungesetzliches Feuer' darbrachten, wie in 3. Mose Kapitel 10 berichtet?",
+    "options": [
+      { "text": "Eleasar und Ithamar", "isCorrect": false },
+      { "text": "Nadab und Abihu", "isCorrect": true },
+      { "text": "Hophni und Pinehas", "isCorrect": false }, 
+      { "text": "Gersom und Elieser", "isCorrect": false } 
+    ],
+    "explanation": "Nadab und Abihu, die ältesten Söhne Aarons, missachteten Jehovas Anweisungen für den Priesterdienst, indem sie Räucherwerk mit 'ungesetzlichem Feuer' darbrachten, d.h. Feuer, das nicht vom Altar stammte oder auf eine nicht vorgeschriebene Weise. Dafür wurden sie von Feuer von Jehova verzehrt.",
+    "verse": "3. Mose 10:1-2 (NWÜ)",
+    "verseTextContent": "Später brachten Aarons Söhne Nadab und Abihu ein jeder sein Feuerbecken und taten Feuer hinein und legten Räucherwerk darauf und begannen vor Jehova ungesetzliches Feuer darzubringen, das er ihnen nicht vorgeschrieben hatte. Darauf ging ein Feuer von Jehova aus und verzehrte sie, sodass sie vor Jehova starben."
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war der Zweck des Sabbatjahres, das alle sieben Jahre gehalten werden sollte, und des Jubeljahres, das alle fünfzig Jahre gefeiert wurde (3. Mose Kapitel 25)?",
+    "options": [
+      { "text": "Nur um dem Land eine Ruhepause zu gönnen.", "isCorrect": false },
+      { "text": "Im Sabbatjahr sollte das Land brachliegen und Schulden erlassen werden. Im Jubeljahr wurde zusätzlich Landbesitz an die ursprünglichen Eigentümerfamilien zurückgegeben und hebräische Sklaven freigelassen, um soziale Gerechtigkeit und die ursprüngliche Landverteilung wiederherzustellen.", "isCorrect": true },
+      { "text": "Um große religiöse Feste mit vielen Opfern zu feiern.", "isCorrect": false },
+      { "text": "Um Volkszählungen durchzuführen und die Armee neu zu organisieren.", "isCorrect": false }
+    ],
+    "explanation": "Das Sabbatjahr und besonders das Jubeljahr dienten dazu, die soziale und wirtschaftliche Ordnung in Israel aufrechtzuerhalten. Sie verhinderten dauerhafte Verarmung und Landverlust, förderten die Freilassung von Sklaven und erinnerten daran, dass das Land letztendlich Jehova gehörte.",
+    "verse": "3. Mose 25:4, 10, 13 (NWÜ)",
+    "verseTextContent": "Aber im siebten Jahr sollte ein Sabbat vollständiger Ruhe für das Land eintreten, ein Sabbat für Jehova. Dein Feld sollst du nicht besäen, und deinen Weingarten sollst du nicht beschneiden. (3. Mose 25:4) Und ihr sollt das fünfzigste Jahr heiligen und Freiheit im Land allen seinen Bewohnern ausrufen. Es soll ein Jubeljahr für euch werden, und ihr sollt ein jeder zu seinem Besitz zurückkehren, und ihr sollt ein jeder zu seiner Familie zurückkehren. (3. Mose 25:10) In diesem Jubeljahr sollt ihr ein jeder zu seinem Besitz zurückkehren. (3. Mose 25:13)"
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Das Konzept der 'Heiligkeit' (hebr. qodesh) ist zentral im Buch 3. Mose. Was bedeutet es im Kern, dass etwas oder jemand 'heilig' für Jehova ist?",
+    "options": [
+      { "text": "Dass es magische Kräfte besitzt.", "isCorrect": false },
+      { "text": "Dass es für den ausschließlichen Dienst und Gebrauch Jehovas abgesondert, rein und ihm geweiht ist, im Gegensatz zum Profanen oder Unreinen. Es drückt Gottes moralische Vollkommenheit und seine einzigartige Stellung aus.", "isCorrect": true },
+      { "text": "Dass es besonders alt und ehrwürdig ist.", "isCorrect": false },
+      { "text": "Dass es von allen Menschen gefürchtet werden muss.", "isCorrect": false }
+    ],
+    "explanation": "Heiligkeit im biblischen Sinne bedeutet Absonderung für einen heiligen Zweck, Reinheit und Zugehörigkeit zu Gott. Jehova ist in sich selbst heilig, und alles, was ihm geweiht ist – Personen (Priester), Orte (Stiftshütte), Zeiten (Sabbat) oder Gegenstände – muss ebenfalls heilig sein, d.h. rein und ausschließlich für seinen Dienst bestimmt.",
+    "verse": "3. Mose 11:44; 20:26 (NWÜ)",
+    "verseTextContent": "Denn ich bin Jehova, euer Gott; und ihr sollt euch heiligen, und ihr sollt euch als heilig erweisen, weil ich heilig bin. (3. Mose 11:44) Und ihr sollt euch mir als heilig erweisen, denn ich, Jehova, bin heilig; und ich sondere euch von den Völkern ab, damit ihr mein werdet. (3. Mose 20:26)"
+  },
+  {
+    "book": "3. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welche Art von Opfern, die in 3. Mose beschrieben werden, diente hauptsächlich dazu, Gemeinschaft mit Gott und Dankbarkeit auszudrücken, wobei ein Teil des Opfers vom Opfernden und den Priestern gegessen wurde?",
+    "options": [
+      { "text": "Brandopfer", "isCorrect": false },
+      { "text": "Gemeinschaftsschlachtopfer (oder Friedensopfer).", "isCorrect": true },
+      { "text": "Sündopfer", "isCorrect": false },
+      { "text": "Schuldopfer", "isCorrect": false }
+    ],
+    "explanation": "Gemeinschaftsschlachtopfer (hebr. schelamim) waren eine besondere Art von Opfern, bei denen das Fett und bestimmte Teile Jehova auf dem Altar dargebracht wurden, während andere Teile von den Priestern und dem Opfernden (und seiner Familie) in einer heiligen Mahlzeit gegessen wurden. Sie drückten Frieden, Dankbarkeit und Gemeinschaft mit Gott aus.",
+    "verse": "3. Mose 3:1; 7:15 (NWÜ)",
+    "verseTextContent": "Und wenn sein Opfer ein Gemeinschaftsschlachtopfer ist, wenn er es von der Rinderherde darbringt, sei es ein männliches oder ein weibliches Tier, ein fehlerloses soll er es vor Jehova darstellen. (3. Mose 3:1) Und das Fleisch des Schlachtopfers seiner Danksagungs-Gemeinschaftsschlachtopfer soll am Tag seiner Darbringung gegessen werden. Er soll nichts davon bis zum Morgen übrig lassen. (3. Mose 7:15)"
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welcher Prophet wurde vom moabitischen König Balak gerufen, um Israel zu verfluchen, aber stattdessen sprach er auf Jehovas Eingebung hin Segen über Israel aus?",
+    "options": [
+      { "text": "Mose", "isCorrect": false },
+      { "text": "Bileam, der Sohn Beors", "isCorrect": true },
+      { "text": "Aaron", "isCorrect": false },
+      { "text": "Josua", "isCorrect": false }
+    ],
+    "explanation": "König Balak von Moab fürchtete die Israeliten und versuchte, den nichtisraelitischen Propheten Bileam anzuheuern, um sie zu verfluchen. Obwohl Bileam zunächst geneigt war, dem Ruf zu folgen, zwang Jehova ihn, stattdessen mehrmals Segen über Israel auszusprechen.",
+    "verse": "4. Mose 22:5-6; 23:11-12 (NWÜ)",
+    "verseTextContent": "Und er sandte Boten zu Bileam, dem Sohn Beors, nach Pethor, das am STROM liegt, dem Land der Söhne seines Volkes, um ihn zu rufen, indem er sprach: „Siehe! Ein Volk ist aus Ägypten herausgekommen. Siehe! Sie haben die sichtbare Oberfläche des Landes bedeckt, und sie wohnen direkt vor mir. Und nun komm bitte, verfluche mir dieses Volk, denn es ist mächtiger als ich.“ (4. Mose 22:5-6) Darauf sprach Balak zu Bileam: „Was hast du mir angetan? Um meine Feinde zu verwünschen, habe ich dich geholt, und siehe, du hast sie ohne Vorbehalt gesegnet.“ Da antwortete er und sprach: „Sollte ich nicht darauf bedacht sein, das zu reden, was Jehova mir in den Mund legt?“ (4. Mose 23:11-12)"
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Aus welchem Grund durften Mose und Aaron gemäß 4. Mose 20:12 nicht in das verheißene Land Kanaan einziehen?",
+    "options": [
+      { "text": "Weil sie zu alt waren.", "isCorrect": false },
+      { "text": "Weil sie bei der Begebenheit mit dem Wasser aus dem Felsen in Kadesch nicht Glauben an Jehova bekundet und ihn nicht vor den Augen der Söhne Israels geheiligt hatten.", "isCorrect": true },
+      { "text": "Weil das Volk Israel gegen sie rebellierte.", "isCorrect": false },
+      { "text": "Weil sie ein Bündnis mit den Moabitern schließen wollten.", "isCorrect": false }
+    ],
+    "explanation": "Als das Volk in Kadesch über Wassermangel murrte, wies Jehova Mose an, zu einem Felsen zu sprechen, damit er Wasser gebe. Mose schlug jedoch zweimal zornig auf den Felsen. Wegen dieses Ungehorsams und Mangels an Glauben, Jehova vor dem Volk zu heiligen, wurde Mose und Aaron der Eintritt in das verheißene Land verwehrt.",
+    "verse": "4. Mose 20:11-12 (NWÜ)",
+    "verseTextContent": "Dann hob Mose seine Hand und schlug mit seinem Stab zweimal auf den Felsen; und es begann viel Wasser herauszukommen, und die Gemeinde und ihre Herdentiere begannen zu trinken. Später sprach Jehova zu Mose und Aaron: „Weil ihr nicht Glauben an mich bekundet habt, mich vor den Augen der Söhne Israels zu heiligen, darum werdet ihr diese Versammlung nicht in das Land bringen, das ich ihnen gewiss geben werde.“"
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche Aufgabe hatten die Leviten aus der Familie Kehaths im Gegensatz zu den Gerschonitern und Meraritern beim Transport der Stiftshütte?",
+    "options": [
+      { "text": "Sie waren für den Transport der Zeltdecken und Vorhänge zuständig.", "isCorrect": false },
+      { "text": "Sie waren verantwortlich für das Tragen der heiligsten Gegenstände der Stiftshütte.", "isCorrect": true },
+      { "text": "Sie transportierten die Rahmenbretter, Säulen und Sockel der Stiftshütte.", "isCorrect": false },
+      { "text": "Sie dienten als Sänger und Musiker.", "isCorrect": false }
+    ],
+    "explanation": "Den Kehathitern war die ehrenvolle, aber auch gefährliche Aufgabe anvertraut, die heiligsten Geräte der Stiftshütte zu tragen, nachdem Aaron und seine Söhne (die Priester) diese sorgfältig bedeckt hatten, um zu verhindern, dass die Kehathiter sie direkt sahen und starben.",
+    "verse": "4. Mose 4:4, 15 (NWÜ)",
+    "verseTextContent": "Dies ist der Dienst der Söhne Kehaths im Zelt der Zusammenkunft: die hochheiligen Dinge. ... Und wenn Aaron und seine Söhne das Bedecken des Heiligtums und aller Geräte des Heiligtums vollendet haben werden, beim Aufbruch des Lagers, danach sollen die Söhne Kehaths hereinkommen, um es zu tragen, aber sie sollen die heilige Sache nicht anrühren, dass sie sterben müssten. Dies ist die Last der Söhne Kehaths im Zelt der Zusammenkunft."
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war die Folge der Rebellion Korahs, Dathans und Abirams gegen Mose und Aaron, wie in 4. Mose Kapitel 16 berichtet?",
+    "options": [
+      { "text": "Sie wurden aus dem Lager verbannt.", "isCorrect": false },
+      { "text": "Die Erde öffnete ihren Mund und verschlang Korah, Dathan, Abiram und ihre Hausgemeinschaften; und Feuer von Jehova verzehrte die 250 Männer, die Räucherwerk darbrachten.", "isCorrect": true },
+      { "text": "Sie mussten eine hohe Geldstrafe zahlen.", "isCorrect": false },
+      { "text": "Sie wurden von Giftschlangen gebissen. Moses hat anschließend diejenigen gerettet, die zum Glauben richtig eingestellt waren und daher der Anweisung von Moses gefolgt sind.", "isCorrect": false }
+    ],
+    "explanation": "Jehova griff auf dramatische Weise ein, um die Autorität von Mose und Aaron zu bestätigen. Die Anführer der Rebellion und ihre Familien wurden von der Erde verschlungen, und die 250 Männer, die sich anmaßten, Räucherwerk darzubringen, wurden durch Feuer vernichtet. Dies diente als ernste Warnung vor Rebellion gegen Gottes eingesetzte Autorität.",
+    "verse": "4. Mose 16:31-33, 35 (NWÜ)",
+    "verseTextContent": "Und es geschah, sobald er geendet hatte, all diese Worte zu reden, da spaltete sich der Erdboden, der unter ihnen war. Und die Erde tat ihren Mund auf und verschlang sie und ihre Hausgemeinschaften und alle Menschen, die zu Korah gehörten, und die ganze Habe. So fuhren sie und alle, die zu ihnen gehörten, lebendig in den Scheọl hinab, und die Erde bedeckte sie dann, sodass sie inmitten der Versammlung umkamen. ... Und ein Feuer ging von Jehova aus und verzehrte dann die zweihundertfünfzig Männer, die das Räucherwerk darbrachten."
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Das vierte Buch Mose (Numeri) berichtet von zwei Volkszählungen der Israeliten. Was war ein Hauptzweck dieser Zählungen, besonders der ersten in Kapitel 1?",
+    "options": [
+      { "text": "Die genaue Anzahl der Priester und Leviten für den Tempeldienst zu ermitteln.", "isCorrect": false },
+      { "text": "Die wehrfähigen Männer von zwanzig Jahren an aufwärts für den Kriegsdienst und die Organisation des Heeres zu mustern, sowie die Grundlage für die spätere Landverteilung zu schaffen.", "isCorrect": true },
+      { "text": "Die Höhe der Steuern festzulegen, die jeder Stamm zahlen musste.", "isCorrect": false },
+      { "text": "Die Anzahl der Erstgeborenen zu bestimmen, die Jehova geweiht waren.", "isCorrect": false }
+    ],
+    "explanation": "Die erste Volkszählung diente primär dazu, die Anzahl der Männer zu ermitteln, die für den Militärdienst tauglich waren, da die Israeliten sich auf die Eroberung Kanaans vorbereiteten. Sie half auch bei der Organisation des Lagers und legte eine Basis für die spätere Aufteilung des Landes Kanaan unter die Stämme.",
+    "verse": "4. Mose 1:2-3, 45-46 (NWÜ)",
+    "verseTextContent": "„Nehmt die Zählung der ganzen Gemeinde der Söhne Israels nach ihren Familien, nach dem Haus ihrer Väter, nach der Zahl der Namen, alle Männlichen, Kopf für Kopf, von zwanzig Jahren an und darüber, jeden, der in Israel zum Heer auszieht. Ihr sollt sie mustern nach ihren Heeren, du und Aaron.“ ... So wurden alle Gemusterten der Söhne Israels nach dem Haus ihrer Väter, von zwanzig Jahren an und darüber, jeder, der in Israel zum Heer auszog, ja alle Gemusterten beliefen sich auf sechshundertdreitausendfünfhundertfünfzig."
+  },
+  {
+    "book": "4. Mose",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welches Gesetz erließ Jehova bezüglich der Töchter Zelophehads, die keinen Bruder hatten, der das Land ihres Vaters erben konnte (4. Mose Kapitel 27 und 36)?",
+    "options": [
+      { "text": "Dass ihr Land an den Stamm Levi fallen sollte.", "isCorrect": false },
+      { "text": "Dass die Töchter das Land ihres Vaters erben durften, aber unter der Bedingung, dass sie Männer aus der Sippe des Stammes ihres Vaters heirateten, damit das Erbe nicht von einem Stamm zum anderen überging.", "isCorrect": true },
+      { "text": "Dass ihr Land unter den männlichen Verwandten aufgeteilt werden sollte. Es wurde danach sogar nochmal unterteilt, ob jemand der Erstgeborene war. Die Erstgeborenen haben einen höheren ANteil erhalten.", "isCorrect": false },
+      { "text": "Dass sie das Land verkaufen und den Erlös unter sich aufteilen mussten.", "isCorrect": false }
+    ],
+    "explanation": "Dieser Fall führte zu einer wichtigen rechtlichen Entscheidung. Jehova bestimmte, dass Töchter erben können, wenn keine Söhne vorhanden sind. Um jedoch die Stammesgrenzen des Landbesitzes zu wahren, sollten sie innerhalb ihres eigenen Stammes heiraten. Dies zeigte Gottes Gerechtigkeit und seine Fürsorge für die Aufrechterhaltung der Erbordnung.",
+    "verse": "4. Mose 27:7-8; 36:6-7 (NWÜ)",
+    "verseTextContent": "„Die Töchter Zelophehads reden recht. Du solltest ihnen unbedingt einen Erbbesitz inmitten der Brüder ihres Vaters geben, und du sollst das Erbe ihres Vaters auf sie übergehen lassen. Und zu den Söhnen Israels sollst du reden und sprechen: ‚Falls ein Mann stirbt und keinen Sohn hat, dann sollt ihr sein Erbe auf seine Tochter übergehen lassen.‘“ (4. Mose 27:7-8) Dies ist es, was Jehova über die Töchter Zelophehads geboten hat, indem er spricht: ‚Sie mögen eines jeden Frau werden, der in ihren Augen gut ist. Nur der Familie des Stammes ihrer Väter sollen sie zu Frauen werden. Und kein Erbe der Söhne Israels soll von Stamm zu Stamm umhergehen, denn die Söhne Israels sollen ein jeder am Erbe des Stammes seiner Väter festhalten.‘ (4. Mose 36:6-7)"
+  },
+  {
+    "book": "5. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wo hielt Mose die Reden, die den Großteil des 5. Buches Mose ausmachen, kurz bevor die Israeliten den Jordan überquerten, um Kanaan einzunehmen?",
+    "options": [
+      { "text": "Auf dem Berg Sinai.", "isCorrect": false },
+      { "text": "In den Ebenen von Moab, östlich des Jordan, gegenüber von Jericho.", "isCorrect": true },
+      { "text": "In Kadesch-Barnea.", "isCorrect": false },
+      { "text": "In Ägypten, vor dem Auszug.", "isCorrect": false }
+    ],
+    "explanation": "Das 5. Buch Mose (Deuteronomium, was 'zweites Gesetz' oder 'Wiederholung des Gesetzes' bedeutet) besteht hauptsächlich aus einer Reihe von Abschiedsreden, die Mose an die neue Generation von Israeliten richtete, als sie in den Ebenen von Moab lagerten und kurz davorstanden, das verheißene Land zu betreten.",
+    "verse": "5. Mose 1:1, 5 (NWÜ)",
+    "verseTextContent": "Dies sind die Worte, die Moses zu ganz Israel redete in der Gegend des Jordan, in der Wildnis, auf den Wüstenebenen vor Suph, zwischen Paran und Tophel und Laban und Hazeroth und Di-Sahab. ... In der Gegend des Jordan, im Land Moab, nahm Moses sich vor, dieses Gesetz zu erklären, indem er sprach:"
+  },
+  {
+    "book": "5. Mose",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche wichtige Wahl legte Mose dem Volk Israel in 5. Mose 30:19 vor, bevor er starb?",
+    "options": [
+      { "text": "Die Wahl zwischen Reichtum und Armut.", "isCorrect": false },
+      { "text": "Ich nehme heute tatsächlich die Himmel und die Erde als Zeugen gegen euch, dass ich dir Leben und Tod vorgelegt habe, den Segen und den Fluch; und du sollst das Leben wählen.", "isCorrect": true },
+      { "text": "Die Wahl, ob sie in Kanaan bleiben und eine neue Heimat dort aufbauen sollen oder nach Ägypten, wo sie vorher als Sklaven untersrückt wurden, zurückkehren wollen.", "isCorrect": false },
+      { "text": "Die Wahl ihres nächsten Anführers nach Mose.", "isCorrect": false }
+    ],
+    "explanation": "Am Ende seiner Reden stellte Mose das Volk vor eine entscheidende Wahl: Gehorsam gegenüber Jehova würde zu Leben und Segen führen, während Ungehorsam Tod und Fluch nach sich ziehen würde. Er drängte sie eindringlich, das Leben zu wählen, indem sie Jehova lieben und seinen Geboten gehorchen.",
+    "verse": "5. Mose 30:19-20 (NWÜ)",
+    "verseTextContent": "Ich nehme heute tatsächlich die Himmel und die Erde als Zeugen gegen euch, dass ich dir Leben und Tod vorgelegt habe, den Segen und den Fluch; und du sollst das Leben wählen, damit du am Leben bleibst, du und deine Nachkommen, indem du Jehova, deinen Gott, liebst, indem du auf seine Stimme hörst und indem du fest zu ihm hältst; denn er ist dein Leben und die Länge deiner Tage, damit du auf dem Boden wohnst, den Jehova deinen Vorvätern Abraham, Isaak und Jakob geschworen hat, ihnen zu geben.“"
+  },
+ [
+  {
+    "book": "Matthäus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was ist laut Jesus in Matthäus 7:12 die Zusammenfassung des Gesetzes und der Propheten?",
+    "options": [
+      { "text": "Den Sabbat zu heiligen.", "isCorrect": false },
+      { "text": "Alles, was ihr wollt, dass euch die Menschen tun, sollt auch ihr ihnen ebenso tun.", "isCorrect": true },
+      { "text": "Regelmäßig zu fasten.", "isCorrect": false },
+      { "text": "Nur die zu lieben, die euch lieben.", "isCorrect": false }
+    ],
+    "explanation": "Jesus fasste die ethische Quintessenz des Gesetzes Mose und der prophetischen Schriften in der sogenannten Goldenen Regel zusammen, die zur Nächstenliebe und fairen Behandlung anderer aufruft.",
+    "verse": "Matthäus 7:12 (NWÜ)",
+    "verseTextContent": "Alles nun, was ihr wollt, dass euch die Menschen tun, sollt auch ihr ihnen ebenso tun; denn das ist es, was das GESETZ und die PROPHETEN bedeuten."
+  },
+  {
+    "book": "Matthäus",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wo wurde Jesus getauft, und von wem?",
+    "options": [
+      { "text": "Im See Genezareth von Petrus.", "isCorrect": false },
+      { "text": "Im Jordan von Johannes dem Täufer.", "isCorrect": true },
+      { "text": "Im Mittelmeer von einem seiner Jünger.", "isCorrect": false },
+      { "text": "In einem Brunnen in Nazareth von Joseph.", "isCorrect": false }
+    ],
+    "explanation": "Matthäus berichtet, dass Jesus von Galiläa zum Jordan kam, um sich von Johannes dem Täufer taufen zu lassen, was den Beginn seines öffentlichen Dienstes markierte.",
+    "verse": "Matthäus 3:13 (NWÜ)",
+    "verseTextContent": "Dann kam Jesus von Galiläa zum Jordan zu Johannes, um sich von ihm taufen zu lassen."
+  },
+  {
+    "book": "Markus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was sagte Jesus zu dem Gelähmten in Kapernaum, bevor er ihn körperlich heilte, was die Schriftgelehrten als Gotteslästerung ansahen?",
+    "options": [
+      { "text": "„Steh auf und geh!“", "isCorrect": false },
+      { "text": "„Kind, deine Sünden sind vergeben.“", "isCorrect": true },
+      { "text": "„Dein Glaube hat dich gesund gemacht.“", "isCorrect": false },
+      { "text": "„Willst du gesund werden?“", "isCorrect": false }
+    ],
+    "explanation": "Bevor Jesus den Gelähmten heilte, sprach er ihm die Vergebung seiner Sünden zu. Dies provozierte die Schriftgelehrten, da sie glaubten, nur Gott könne Sünden vergeben. Jesus bewies dann seine Autorität, Sünden zu vergeben, indem er den Mann heilte.",
+    "verse": "Markus 2:5 (NWÜ)",
+    "verseTextContent": "Und als Jesus ihren Glauben sah, sprach er zu dem Gelähmten: „Kind, deine Sünden sind vergeben.“"
+  },
+  {
+    "book": "Markus",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welches der folgenden Wunder Jesu wird im Markusevangelium als erstes direkt nach seiner Taufe und der Versuchung in der Wildnis berichtet?",
+    "options": [
+      { "text": "Die Speisung der Fünftausend.", "isCorrect": false },
+      { "text": "Die Heilung von Simons Schwiegermutter.", "isCorrect": false },
+      { "text": "Die Austreibung eines unreinen Geistes in der Synagoge von Kapernaum.", "isCorrect": true },
+      { "text": "Die Stillung des Sturmes auf dem See.", "isCorrect": false }
+    ],
+    "explanation": "Markus berichtet, dass Jesus nach Beginn seines Dienstes in Galiläa in der Synagoge von Kapernaum lehrte und dort einen Mann von einem unreinen Geist befreite, was die Anwesenden in Erstaunen versetzte.",
+    "verse": "Markus 1:23-26 (NWÜ)",
+    "verseTextContent": "Gerade zu jener Zeit war in ihrer Synagoge ein Mensch, der von einem unreinen Geist besessen war, und er schrie und sprach: „Was haben wir mit dir zu schaffen, Jesus, du Nazarener? Bist du gekommen, uns zu verderben? Ich weiß genau, wer du bist: der Heilige Gottes.“ Jesus aber schalt ihn und sprach: „Verstumme und fahr aus ihm aus!“ Und der unreine Geist, nachdem er ihn hin und her gerissen und mit lauter Stimme geschrien hatte, fuhr aus ihm aus."
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Im Gleichnis vom ungerechten Richter und der Witwe (Lukas 18): Welche Haupteigenschaft wird durch das Verhalten der Witwe veranschaulicht, die Christen im Gebet nachahmen sollen?",
+    "options": [
+      { "text": "Geduld im Leiden", "isCorrect": false },
+      { "text": "Ausdauer und Unnachgiebigkeit im Gebet, ohne aufzugeben.", "isCorrect": true },
+      { "text": "Die Fähigkeit, andere zu überzeugen.", "isCorrect": false },
+      { "text": "Das Darbringen von Opfern", "isCorrect": false }
+    ],
+    "explanation": "Jesus erzählte dieses Gleichnis, um zu zeigen, dass man allezeit beten und nicht nachlassen soll. Die Hartnäckigkeit der Witwe, die den ungerechten Richter immer wieder bedrängte, bis er ihr Recht verschaffte, dient als Beispiel für die Ausdauer, die Gläubige im Gebet zeigen sollen, im Vertrauen darauf, dass Gott seine Auserwählten erhören wird.",
+    "verse": "Lukas 18:1, 4-5 (NWÜ)",
+    "verseTextContent": "Dann sagte er ihnen durch ein Gleichnis weiter, dass sie allezeit beten und nicht nachlassen sollten... Eine Zeit lang wollte er nicht, danach aber sprach er bei sich: ‚Wenn ich auch Gott nicht fürchte noch einen Menschen scheue, will ich doch, weil diese Witwe mir beständig Mühe macht, sehen, dass ihr Recht zuteilwird, damit sie nicht schließlich komme und mich tätlich anfalle.‘"
+  },
+  {
+    "book": "Lukas",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welchen Rat gab Jesus in Lukas 14:12-14 bezüglich der Einladung von Gästen zu einem Essen?",
+    "options": [
+      { "text": "Man solle nur seine reichen Nachbarn einladen, um Ansehen zu gewinnen.", "isCorrect": false },
+      { "text": "Wenn du ein Mittag- oder Abendessen veranstaltest, so lade nicht deine Freunde, noch deine Brüder, noch deine Verwandten, noch reiche Nachbarn ein. Lade stattdessen Arme, Krüppel, Lahme, Blinde ein.", "isCorrect": true },
+      { "text": "Man solle immer ein großes Fest für die ganze Stadt veranstalten.", "isCorrect": false },
+      { "text": "Man solle nur diejenigen einladen, die einen ebenfalls eingeladen haben.", "isCorrect": false }
+    ],
+    "explanation": "Jesus lehrte, dass wahre Großzügigkeit und Gastfreundschaft sich darin zeigen, diejenigen einzuladen, die es einem nicht vergelten können. Eine solche selbstlose Gabe wird bei der Auferstehung der Gerechten belohnt werden.",
+    "verse": "Lukas 14:12-14 (NWÜ)",
+    "verseTextContent": "Als Nächstes sagte er auch zu dem Mann, der ihn eingeladen hatte: „Wenn du ein Mittagessen oder ein Abendessen veranstaltest, so rufe nicht deine Freunde, noch deine Brüder, noch deine Verwandten, noch reiche Nachbarn. Vielleicht könnten sie dich gelegentlich auch wieder einladen, und es würde dir vergolten werden. Sondern wenn du ein Festmahl veranstaltest, so lade Arme, Krüppel, Lahme, Blinde ein; und du wirst glücklich sein, weil sie nichts haben, dir zu vergelten. Denn es wird dir in der Auferstehung der Gerechten vergolten werden.“"
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was geschah gemäß Johannes 11, als Jesus zum Grab seines Freundes Lazarus kam, der schon vier Tage tot war?",
+    "options": [
+      { "text": "Er betete und Lazarus' Geist kehrte zurück.", "isCorrect": false },
+      { "text": "Er weinte, ließ den Stein wegnehmen und rief mit lauter Stimme: 'Lazarus, komm heraus!', worauf der Verstorbene lebendig herauskam.", "isCorrect": true },
+      { "text": "Er salbte den Leichnam und bereitete ihn für ein ehrenvolles Begräbnis vor.", "isCorrect": false },
+      { "text": "Er hielt eine lange Predigt über die Auferstehung.", "isCorrect": false }
+    ],
+    "explanation": "Dieses mächtige Wunder zeigte Jesu Gewalt über den Tod. Obwohl Lazarus bereits vier Tage im Grab lag, rief Jesus ihn ins Leben zurück, was viele Zeugen zum Glauben an ihn führte, aber auch die Feindseligkeit der religiösen Führer verstärkte.",
+    "verse": "Johannes 11:43-44 (NWÜ)",
+    "verseTextContent": "Und als er dies gesagt hatte, rief er mit lauter Stimme: „Lazarus, komm heraus!“ Der Mann, der tot gewesen war, kam heraus, seine Füße und Hände mit Binden umwickelt, und sein Gesicht war mit einem Tuch umbunden. Jesus sprach zu ihnen: „Bindet ihn los, und lasst ihn gehen.“"
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welchen Auftrag gab der auferstandene Jesus dem Apostel Petrus dreimal am See von Tiberias, nachdem Petrus dreimal seine Zuneigung zu Jesus bekräftigt hatte?",
+    "options": [
+      { "text": "„Geh und predige allen Nationen.“", "isCorrect": false },
+      { "text": "„Weide meine Lämmer.“ / „Hüte meine kleinen Schafe.“ / „Weide meine kleinen Schafe.“", "isCorrect": true },
+      { "text": "„Baue meine Versammlung auf diesem Felsen.“", "isCorrect": false },
+      { "text": "„Fürchte dich nicht, glaube nur.“", "isCorrect": false }
+    ],
+    "explanation": "Nachdem Petrus Jesus verleugnet hatte, gab Jesus ihm die Gelegenheit, seine Liebe zu bekräftigen. Auf jede Bestätigung hin übertrug Jesus ihm die Verantwortung, sich um seine Nachfolger ('Lämmer', 'Schafe') zu kümmern, sie geistig zu nähren und zu leiten.",
+    "verse": "Johannes 21:15-17 (NWÜ)",
+    "verseTextContent": "Als sie nun gefrühstückt hatten, sprach Jesus zu Simon Petrus: „Simon, Sohn des Johannes, liebst du mich mehr als diese?“ Er sprach zu ihm: „Ja, Herr, du weißt, dass ich Zuneigung zu dir habe.“ Er sprach zu ihm: „Weide meine Lämmer.“ Wieder sprach er zu ihm, ein zweites Mal: „Simon, Sohn des Johannes, liebst du mich?“ Er sprach zu ihm: „Ja, Herr, du weißt, dass ich Zuneigung zu dir habe.“ Er sprach zu ihm: „Hüte meine kleinen Schafe.“ Er sprach zum dritten Mal zu ihm: „Simon, Sohn des Johannes, hast du Zuneigung zu mir?“ Petrus wurde betrübt, dass er zum dritten Mal zu ihm sprach: „Hast du Zuneigung zu mir?“ Daher sprach er zu ihm: „Herr, du weißt alle Dinge; du weißt, dass ich Zuneigung zu dir habe.“ Jesus sprach zu ihm: „Weide meine kleinen Schafe.“"
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was sagte Jesus in Johannes 10:16 über 'andere Schafe', die nicht aus dieser Hürde (Israel) sind?",
+    "options": [
+      { "text": "Dass sie ignoriert werden sollen.", "isCorrect": false },
+      { "text": "„Und ich habe andere Schafe, die nicht aus dieser Hürde sind; auch diese muss ich herbeibringen, und sie werden auf meine Stimme hören, und sie werden e i n e Herde werden, e i n Hirte.“", "isCorrect": true },
+      { "text": "Dass sie erst nach dem Gericht zu ihm kommen werden.", "isCorrect": false },
+      { "text": "Dass sie einen anderen Hirten haben werden.", "isCorrect": false }
+    ],
+    "explanation": "Jesus wies darauf hin, dass sein Erlösungswerk und seine Fürsorge nicht auf die Juden beschränkt sein würden. Er hat auch 'andere Schafe' (Nichtjuden), die er sammeln und zu einer geeinten Herde unter seiner Führung als dem einen Hirten zusammenführen würde.",
+    "verse": "Johannes 10:16 (NWÜ)",
+    "verseTextContent": "Und ich habe andere Schafe, die nicht aus dieser Hürde sind; auch diese muss ich herbeibringen, und sie werden auf meine Stimme hören, und sie werden e i n e Herde werden, e i n Hirte."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Vor seiner Verhaftung betete Jesus für seine Jünger (Johannes 17). Was war eine seiner Hauptbitten an den Vater bezüglich ihrer Einheit?",
+    "options": [
+      { "text": "Dass sie alle die gleiche Meinung haben sollten.", "isCorrect": false },
+      { "text": "Dass sie alle eins seien, so wie er und der Vater eins sind, damit die Welt glaube, dass der Vater ihn gesandt hat.", "isCorrect": true },
+      { "text": "Dass sie eine weltweite Organisation gründen sollten.", "isCorrect": false },
+      { "text": "Dass sie sich nie streiten würden.", "isCorrect": false }
+    ],
+    "explanation": "Ein zentrales Anliegen Jesu in seinem hohepriesterlichen Gebet war die Einheit seiner Nachfolger. Diese Einheit sollte die vollkommene Einheit zwischen ihm und seinem Vater widerspiegeln und als ein mächtiges Zeugnis für die Welt dienen, das die göttliche Sendung Jesu bestätigt.",
+    "verse": "Johannes 17:20-21 (NWÜ)",
+    "verseTextContent": "Ich bitte nicht nur für diese, sondern auch für die, die durch ihr Wort an mich glauben, damit sie alle eins seien, so wie du, Vater, in Gemeinschaft bist mit mir und ich in Gemeinschaft bin mit dir, dass auch sie in Gemeinschaft mit uns seien, damit die Welt glaube, dass du mich ausgesandt hast."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Johannes 1:1 wird 'das WORT' (griech. Logos) beschrieben. Welche Beziehung hat 'das WORT' gemäß diesem Vers zu Gott, und was war es selbst?",
+    "options": [
+      { "text": "Das WORT war ein anderer Name für den Heiligen Geist.", "isCorrect": false },
+      { "text": "Im Anfang war das WORT, und das WORT war bei GOTT, und das WORT war ein Gott (oder: göttlich).", "isCorrect": true },
+      { "text": "Das WORT war ein Engel, der später zu Gott wurde.", "isCorrect": false },
+      { "text": "Das WORT war Gott der Vater selbst in einer anderen Erscheinungsform.", "isCorrect": false }
+    ],
+    "explanation": "Johannes beginnt sein Evangelium mit einer tiefgründigen Aussage über 'das WORT' (Jesus Christus in seiner vormenschlichen Existenz). Es existierte von Anbeginn, hatte eine enge Gemeinschaft mit Gott (dem Vater) und besaß selbst göttliche Natur ('war ein Gott' oder 'war göttlich'). Jehovas Zeugen verstehen dies so, dass Jesus ein mächtiges göttliches Wesen ist, der erstgeschaffene Sohn Gottes, aber nicht der allmächtige Gott selbst.",
+    "verse": "Johannes 1:1 (NWÜ)",
+    "verseTextContent": "Im Anfang war das WORT, und das WORT war bei GOTT, und das WORT war ein Gott."
+  },
+  {
+    "book": "Johannes",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was ist das 'heilige Geheimnis' (oder 'Mysterium'), von dem Paulus spricht und das im Johannesevangelium besonders entfaltet wird, nämlich die Rolle Christi im Vorsatz Gottes?",
+    "options": [
+      { "text": "Die genaue Methode, wie Wunder gewirkt werden.", "isCorrect": false },
+      { "text": "Die Tatsache, dass Christus, das Wort, Mensch wurde, um Gottes Herrlichkeit und Liebe zu offenbaren, Erlösung zu bringen und als Mittler des neuen Bundes zu dienen, wodurch Gottes lang verborgener Vorsatz zur Rettung der Menschheit und zur Vereinigung aller Dinge in ihm erfüllt wird.", "isCorrect": true },
+      { "text": "Die geheimen Lehren, die Jesus nur seinen engsten Jüngern gab.", "isCorrect": false },
+      { "text": "Der genaue Zeitpunkt von Harmagedon.", "isCorrect": false }
+    ],
+    "explanation": "Das 'heilige Geheimnis' bezieht sich auf Aspekte von Gottes Vorsatz, die im Alten Testament verborgen waren und erst durch Jesus Christus und die Apostel vollständig offenbart wurden. Ein zentraler Aspekt dieses Geheimnisses, den Johannes hervorhebt, ist die Menschwerdung Christi, seine Rolle als Offenbarer Gottes, als Erlöser und als das Mittel, durch das Gottes universeller Vorsatz verwirklicht wird.",
+    "verse": "Epheser 3:4-6; Kolosser 1:26-27 (NWÜ) (als Erläuterung des Begriffs 'heiliges Geheimnis', das Johannes entfaltet)",
+    "verseTextContent": "Woran ihr beim Lesen erkennen könnt, welches Verständnis ich von dem heiligen Geheimnis des Christus habe. In anderen Generationen wurde dieses Geheimnis den Menschensöhnen nicht so bekannt gemacht, wie es jetzt seinen heiligen Aposteln und Propheten durch den Geist geoffenbart worden ist, nämlich dass Leute aus den Nationen Miterben sein sollten und Miteinverleibte und Mitgenossen der Verheißung in Gemeinschaft mit Christus Jesus durch die gute Botschaft. (Epheser 3:4-6) ... das heilige Geheimnis, das vor den vergangenen Systemen der Dinge und vor den vergangenen Generationen verborgen war. Jetzt aber ist es seinen Heiligen geoffenbart worden, denen Gott unter den Nationen bekannt machen wollte, was der Reichtum der Herrlichkeit dieses heiligen Geheimnisses sei. Es ist Christus in Gemeinschaft mit euch, die Hoffnung seiner Herrlichkeit. (Kolosser 1:26-27)"
+  },
+  [
+ 
+  {
+    "book": "Römer",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wozu fordert Paulus die Christen in Römer 12:2 auf, was ihren Sinn betrifft?",
+    "options": [
+      { "text": "Sich den Maßstäben der Welt anzupassen, um dadurch besser auf die Menschen eingehen zu können.", "isCorrect": false },
+      { "text": "Sich nicht mehr von diesem System der Dinge prägen zu lassen, sondern durch die Neugestaltung ihres Sinnes umgewandelt zu werden.", "isCorrect": true },
+      { "text": "Ihren Sinn auf Reichtum und Erfolg zu richten.", "isCorrect": false },
+      { "text": "Ihren Sinn durch philosophische Studien zu erweitern. Versuchen den inneren Geist so zu erheben, dass man GOtt gleicht.", "isCorrect": false }
+    ],
+    "explanation": "Paulus ermahnt Christen, sich nicht den weltlichen Denk- und Verhaltensmustern anzupassen, sondern eine innere Umwandlung durch die Erneuerung ihres Denkens anzustreben, um Gottes Willen erkennen und tun zu können.",
+    "verse": "Römer 12:2 (NWÜ)",
+    "verseTextContent": "Und hört auf, euch von diesem System der Dinge prägen zu lassen, sondern werdet durch die Neugestaltung eures Sinnes umgewandelt, damit ihr durch Prüfung feststellen könnt, was der gute und annehmbare und vollkommene Wille Gottes ist."
+  },
+  {
+    "book": "Römer",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was ist laut Römer 1:20 an Gottes Schöpfung deutlich zu sehen, obwohl Gott selbst unsichtbar ist?",
+    "options": [
+      { "text": "Der genaue Zeitpunkt des Weltendes.", "isCorrect": false },
+      { "text": "Seine unsichtbaren Eigenschaften, ja seine ewige Macht und Göttlichkeit, sind seit Erschaffung der Welt deutlich zu sehen, da sie durch die gemachten Dinge wahrgenommen werden.", "isCorrect": true },
+      { "text": "Der Name aller Engel.", "isCorrect": false },
+      { "text": "Geheime Botschaften für die Auserwählten.", "isCorrect": false }
+    ],
+    "explanation": "Paulus argumentiert, dass die Schöpfung selbst ein klares Zeugnis für die Existenz und die Eigenschaften Gottes ablegt. Seine ewige Macht und seine göttliche Natur sind in den Werken seiner Schöpfung erkennbar, sodass Menschen keine Entschuldigung haben, ihn nicht anzuerkennen.",
+    "verse": "Römer 1:20 (NWÜ)",
+    "verseTextContent": "Denn seine unsichtbaren Eigenschaften werden seit Erschaffung der Welt deutlich gesehen, da sie durch die gemachten Dinge wahrgenommen werden, ja seine ewige Macht und Göttlichkeit, sodass sie unentschuldbar sind;"
+  },
+  {
+    "book": "Römer",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gibt Paulus in Römer 14 bezüglich des Umgangs mit Glaubensbrüdern, die in Gewissensfragen (z.B. bezüglich bestimmter Speisen oder Tage) unterschiedliche Ansichten haben?",
+    "options": [
+      { "text": "Man solle die 'Schwachen im Glauben' zurechtweisen und zwingen, die eigene Ansicht anzunehmen.", "isCorrect": false },
+      { "text": "Den Schwachen im Glauben gastfreundlich aufzunehmen, aber nicht um über verschiedene Meinungen zu streiten. Man solle weder den richten, der isst (oder einen Tag hält), noch den verachten, der nicht isst (oder einen Tag nicht hält), denn Gott hat ihn aufgenommen.", "isCorrect": true },
+      { "text": "Man solle den Kontakt zu denen meiden, die andere Ansichten haben.", "isCorrect": false },
+      { "text": "Man solle eine einheitliche Regel für alle festlegen.", "isCorrect": false }
+    ],
+    "explanation": "Paulus ermahnt zu gegenseitiger Toleranz und Liebe in Angelegenheiten, die nicht grundlegende Glaubenslehren betreffen. Christen sollen einander nicht richten oder verachten wegen unterschiedlicher Gewissensentscheidungen, sondern den Frieden und die Erbauung der Versammlung fördern.",
+    "verse": "Römer 14:1, 3, 13 (NWÜ)",
+    "verseTextContent": "Nehmt den Menschen an, der in seinem Glauben Schwachheiten hat, doch nicht, um Entscheidungen in inneren Zweifelsfragen zu treffen. ... Wer isst, blicke nicht auf den herab, der nicht isst, und wer nicht isst, richte nicht den, der isst, denn Gott hat diesen willkommen geheißen. ... Lasst uns daher einander nicht mehr richten, sondern vielmehr die Entscheidung treffen, einem Bruder keinen Anstoß oder keinen Grund zum Straucheln zu geben."
+  },
+  {
+    "book": "Römer",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Römer Kapitel 7 beschreibt Paulus einen inneren Konflikt. Was ist die Natur dieses Konflikts?",
+    "options": [
+      { "text": "Ein Konflikt zwischen seinem Wunsch, reich zu werden, und seinem Wunsch, Gott zu dienen.", "isCorrect": false },
+      { "text": "Der Kampf zwischen seinem erneuerten Sinn, der Freude am Gesetz Gottes hat, und dem 'Gesetz der Sünde' in seinen Gliedern, das ihn dazu treibt, das zu tun, was er nicht will (das Schlechte), und das Gute, das er tun will, nicht zu tun.", "isCorrect": true },
+      { "text": "Ein Zweifel an der Auferstehung Christi.", "isCorrect": false },
+      { "text": "Ein Streit mit anderen Aposteln über Lehrauffassungen.", "isCorrect": false }
+    ],
+    "explanation": "Paulus beschreibt hier den anhaltenden Kampf eines wiedergeborenen Christen gegen die innewohnende sündige Natur. Obwohl er sich an Gottes Gesetz erfreut und das Gute tun möchte, spürt er ein anderes Gesetz in sich, das ihn zur Sünde hinzieht. Dieser Konflikt führt zu dem Ausruf: 'Ich elender Mensch! Wer wird mich befreien von dem Leib, der diesem Tod verfallen ist?'",
+    "verse": "Römer 7:22-25a (NWÜ)",
+    "verseTextContent": "Ich habe wirklich Lust an dem Gesetz Gottes gemäß dem Menschen, der ich innerlich bin, aber ich sehe in meinen Gliedern ein anderes Gesetz, das dem Gesetz meines Sinnes Krieg führt und mich gefangen nimmt unter das Gesetz der Sünde, das in meinen Gliedern ist. Ich elender Mensch! Wer wird mich befreien von dem Leib, der diesem Tod verfallen ist? Dank sei Gott durch Jesus Christus, unseren Herrn!"
+  },
+  {
+    "book": "Römer",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was ist gemäß Römer Kapitel 9-11 Gottes souveräner Plan bezüglich Israel und der Aufnahme von Menschen aus den Nationen (Nichtjuden) in sein Volk?",
+    "options": [
+      { "text": "Dass Gott Israel endgültig verworfen hat und sich nur noch den Nichtjuden zuwendet.", "isCorrect": false },
+      { "text": "Obwohl ein Großteil des natürlichen Israels den Messias verworfen hat, hat Gott sein Volk nicht endgültig verstoßen. Seine Verheißungen gelten weiterhin einem treuen Überrest. Durch Israels zeitweiligen Ungehorsam wurde den Nationen die Tür zum Heil geöffnet (symbolisiert durch das Einpfropfen wilder Zweige in den edlen Ölbaum), was letztendlich auch zur Eifersucht und Rettung vieler Israeliten führen soll, damit sich Gottes Barmherzigkeit an allen erweist.", "isCorrect": true },
+      { "text": "Dass nur geborene Juden gerettet werden können.", "isCorrect": false },
+      { "text": "Dass Gott keinen spezifischen Plan für Israel mehr hat.", "isCorrect": false }
+    ],
+    "explanation": "Paulus ringt mit der Frage des Unglaubens vieler seiner jüdischen Volksgenossen. Er zeigt, dass Gottes Verheißungen nicht versagt haben, sondern dass seine Souveränität und Barmherzigkeit sich darin zeigen, dass er sowohl einen Überrest aus Israel bewahrt als auch Menschen aus den Nationen in sein Heil einbezieht. Dies dient auch dazu, Israel zur Eifersucht zu reizen, mit dem Ziel, dass 'ganz Israel' (der treue Überrest und die Hinzugekommenen) gerettet wird.",
+    "verse": "Römer 11:1, 11, 25-26 (NWÜ)",
+    "verseTextContent": "Ich frage daher: Hat Gott sein Volk etwa verstoßen? Das geschehe nie! Denn auch ich bin ein Israelit, von der Nachkommenschaft Abrahams, vom Stamm Benjamin. (Römer 11:1) Ich frage daher: Sind sie etwa gestrauchelt, sodass sie völlig fielen? Das geschehe nie! Sondern durch ihren Fehltritt ist Rettung zu den Nationen gekommen, um sie zur Eifersucht zu reizen. (Römer 11:11) Denn ich will nicht, Brüder, dass ihr über dieses heilige Geheimnis unwissend seid, damit ihr nicht in euren eigenen Augen verständig seid: dass Israel zum Teil eine Verhärtung des Herzens widerfahren ist, bis die Vollzahl der Leute aus den Nationen hineingekommen ist, und auf diese Weise wird ganz Israel gerettet werden. (Römer 11:25-26)"
+  },
+  {
+    "book": "1. Korinther",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche Eigenschaft beschreibt Paulus in 1. Korinther Kapitel 13 als die größte und unvergänglichste, die alle anderen Gaben übertrifft?",
+    "options": [
+      { "text": "Prophezeiung", "isCorrect": false },
+      { "text": "Glaube", "isCorrect": false },
+      { "text": "Die Liebe (agápē).", "isCorrect": true },
+      { "text": "Wissen", "isCorrect": false }
+    ],
+    "explanation": "In dem berühmten 'Hohelied der Liebe' stellt Paulus die Liebe als die herausragendste und bleibende christliche Tugend dar. Selbst wenn prophetische Gaben, Zungenreden oder Erkenntnis aufhören, bleibt die Liebe bestehen. Ohne Liebe sind alle anderen Gaben und Taten wertlos.",
+    "verse": "1. Korinther 13:13 (NWÜ)",
+    "verseTextContent": "Nun aber bleiben Glaube, Hoffnung, Liebe, diese drei; die größte aber von diesen ist die Liebe."
+  },
+  {
+    "book": "1. Korinther",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wozu ermahnt Paulus die Korinther in Bezug auf das Abendmahl des Herrn in 1. Korinther 11:28, bevor sie davon nehmen?",
+    "options": [
+      { "text": "Schnell zu essen, um Zeit zu sparen.", "isCorrect": false },
+      { "text": "Jeder soll sich selbst prüfen, ob er würdig ist, und so von dem Brot essen und aus dem Becher trinken.", "isCorrect": true },
+      { "text": "Nur eine kleine Menge zu sich zu nehmen.", "isCorrect": false },
+      { "text": "Darauf zu warten, dass ein Apostel anwesend ist.", "isCorrect": false }
+    ],
+    "explanation": "Angesichts der Missstände beim Abendmahl in Korinth betont Paulus die Notwendigkeit der Selbstprüfung. Jeder Einzelne soll sein Herz und sein Verhalten prüfen, um sicherzustellen, dass er in einer Weise teilnimmt, die Christus ehrt und die Bedeutung des Mahles versteht, um nicht unwürdig davon zu essen und zu trinken.",
+    "verse": "1. Korinther 11:27-28 (NWÜ)",
+    "verseTextContent": "Wer daher auf unwürdige Weise das Brot isst oder den Becher des Herrn trinkt, wird hinsichtlich des Leibes und des Blutes des Herrn schuldig sein. Zuerst aber erprobe sich ein Mensch, ob er würdig ist, und so esse er von dem Brot und trinke aus dem Becher."
+  },
+  {
+    "book": "1. Korinther",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gibt Paulus in 1. Korinther 6:19-20 bezüglich des Körpers eines Christen?",
+    "options": [
+      { "text": "Dass der Körper unwichtig ist und man sich nicht darum kümmern muss.", "isCorrect": false },
+      { "text": "Dass der Leib eines Christen ein Tempel des heiligen Geistes ist, der in ihm wohnt, und er nicht sich selbst gehört, sondern teuer erkauft wurde; deshalb soll er Gott mit seinem Leib verherrlichen.", "isCorrect": true },
+      { "text": "Dass man seinen Körper durch strenge Askese kasteien soll.", "isCorrect": false },
+      { "text": "Dass der Körper nach dem Tod vernichtet wird und keine Rolle spielt.", "isCorrect": false }
+    ],
+    "explanation": "Paulus ermahnt die Korinther, sexuelle Unmoral zu meiden, indem er sie daran erinnert, dass ihr Körper ein Tempel des in ihnen wohnenden heiligen Geistes ist. Da sie Christus gehören, der sie mit seinem Blut erkauft hat, sollen sie Gott mit ihrem Körper ehren und ihn nicht für sündige Zwecke missbrauchen.",
+    "verse": "1. Korinther 6:19-20 (NWÜ)",
+    "verseTextContent": "Oder wisst ihr nicht, dass euer Leib der Tempel des in euch befindlichen heiligen Geistes ist, den ihr von Gott habt? Auch gehört ihr nicht euch selbst, denn ihr seid um einen Preis erkauft worden. Verherrlicht nun Gott in eurem Leib."
+  },
+  {
+    "book": "1. Korinther",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was sagt Paulus in 1. Korinther 10:13 über Versuchungen, denen Christen ausgesetzt sind?",
+    "options": [
+      { "text": "Dass Gott manchmal Versuchungen schickt, die zu schwer sind.", "isCorrect": false },
+      { "text": "Keine Versuchung hat euch ergriffen, ausgenommen eine menschliche. Gott aber ist treu, und er wird nicht zulassen, dass ihr über euer Vermögen versucht werdet, sondern er wird mit der Versuchung auch den Ausweg schaffen, damit ihr sie ertragen könnt.", "isCorrect": true },
+      { "text": "Dass man Versuchungen am besten durch Flucht entgeht.", "isCorrect": false },
+      { "text": "Dass nur schwache Christen versucht werden.", "isCorrect": false }
+    ],
+    "explanation": "Paulus gibt eine wichtige Zusicherung: Die Versuchungen, denen Christen begegnen, sind typisch menschlich. Gott ist treu und wird nicht zulassen, dass sie über ihre Kraft hinaus versucht werden. Er wird immer einen Ausweg schaffen, sodass sie die Versuchung bestehen können.",
+    "verse": "1. Korinther 10:13 (NWÜ)",
+    "verseTextContent": "Keine Versuchung hat euch ergriffen, ausgenommen eine menschliche. Gott aber ist treu, und er wird nicht zulassen, dass ihr über euer Vermögen versucht werdet, sondern er wird mit der Versuchung auch den Ausweg schaffen, damit ihr sie ertragen könnt."
+  },
+  {
+    "book": "1. Korinther",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In 1. Korinther Kapitel 1 und 2 kontrastiert Paulus 'die Weisheit dieser Welt' (oder der Menschen) mit 'Gottes Weisheit in einem heiligen Geheimnis'. Worin besteht Gottes Weisheit hauptsächlich, die für die Welt Torheit ist?",
+    "options": [
+      { "text": "In komplexen philosophischen Systemen.", "isCorrect": false },
+      { "text": "In Christus, dem Gekreuzigten (oder: am Pfahl Hingerichteten). Die Botschaft vom Kreuz/Marterpfahl – dass Gott durch den scheinbar schwachen und schändlichen Tod seines Sohnes Erlösung bewirkt – ist für die weltlich Weisen eine Torheit, aber für die Berufenen Gottes Kraft und Weisheit.", "isCorrect": true },
+      { "text": "In geheimen Ritualen und Mysterien.", "isCorrect": false },
+      { "text": "In politischer Macht und militärischer Stärke.", "isCorrect": false }
+    ],
+    "explanation": "Paulus stellt fest, dass Gottes Weg zur Erlösung – durch den Opfertod Jesu Christi am Kreuz/Marterpfahl – den Maßstäben menschlicher Weisheit widerspricht. Für die Juden war es ein Ärgernis, für die Griechen Torheit. Doch für diejenigen, die berufen sind, ist gerade diese Botschaft der Ausdruck von Gottes höchster Kraft und Weisheit, die in Christus offenbart wird.",
+    "verse": "1. Korinther 1:18, 23-24 (NWÜ)",
+    "verseTextContent": "Denn das Wort über den Marterpfahl ist denen Torheit, die zugrunde gehen, uns aber, die wir gerettet werden, ist es Gottes Kraft. ... wir aber predigen Christus am Pfahl, den Juden eine Ursache des Anstoßes, aber den Nationen eine Torheit; doch denen, die die Berufenen sind, sowohl Juden als auch Griechen, Christus, Gottes Kraft und Gottes Weisheit."
+  },
+  
+  {
+    "book": "2. Korinther",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Was sagt Paulus in 2. Korinther 4:18 über die Dinge, auf die Christen ihren Blick richten sollen?",
+    "options": [
+      { "text": "Auf die sichtbaren, materiellen Dinge.", "isCorrect": false },
+      { "text": "Wir richten unseren Blick nicht auf die Dinge, die man sieht, sondern auf die Dinge, die man nicht sieht. Denn die Dinge, die man sieht, sind zeitlich, die Dinge aber, die man nicht sieht, sind ewig.", "isCorrect": true },
+      { "text": "Auf ihre eigenen Leistungen und Erfolge.", "isCorrect": false },
+      { "text": "Auf die Fehler und Schwächen anderer.", "isCorrect": false }
+    ],
+    "explanation": "Paulus lenkt den Fokus der Gläubigen von den vergänglichen, sichtbaren Dingen dieser Welt auf die ewigen, unsichtbaren Realitäten des Geistes und des Königreiches Gottes. Diese Perspektive hilft, Bedrängnisse zu ertragen.",
+    "verse": "2. Korinther 4:18 (NWÜ)",
+    "verseTextContent": "während wir unseren Blick nicht auf die Dinge gerichtet halten, die man sieht, sondern auf die Dinge, die man nicht sieht. Denn die Dinge, die man sieht, sind zeitlich, die Dinge aber, die man nicht sieht, sind ewig."
+  },
+  {
+    "book": "2. Korinther",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welchen Dienst oder welche Aufgabe bezeichnet Paulus in 2. Korinther 5:18-20 als den 'Dienst der Versöhnung'?",
+    "options": [
+      { "text": "Den Dienst der Krankenheilung.", "isCorrect": false },
+      { "text": "Den Dienst, als Gesandte an Christi Statt die Menschen zu bitten: 'Lasst euch mit Gott versöhnen', indem sie die Botschaft der Versöhnung durch Christus verkünden.", "isCorrect": true },
+      { "text": "Den Dienst, Spenden für die Armen zu sammeln.", "isCorrect": false },
+      { "text": "Den Dienst, die Versammlungsältesten zu ernennen.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem Gott die Menschen durch Christus mit sich selbst versöhnt hat, hat er Christen den 'Dienst der Versöhnung' anvertraut. Als Gesandte Christi bitten sie andere Menschen im Namen Gottes, diese Versöhnung anzunehmen und ihre Beziehung zu Gott in Ordnung zu bringen.",
+    "verse": "2. Korinther 5:18-20 (NWÜ)",
+    "verseTextContent": "Alle Dinge aber sind von Gott, der uns durch Christus mit sich versöhnt und uns den Dienst der Versöhnung gegeben hat, nämlich dass Gott durch Christus eine Welt mit sich versöhnte, indem er ihnen ihre Verfehlungen nicht anrechnete, und er hat uns das Wort der Versöhnung anvertraut. Wir sind daher Gesandte an Christi Statt, als ob Gott durch uns bitte. Wir bitten an Christi Statt: 'Lasst euch mit Gott versöhnen.'"
+  },
+  {
+    "book": "2. Korinther",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was meint Paulus, wenn er in 2. Korinther 12:9 sagt, dass Gottes Kraft 'in Schwachheit vollkommen gemacht wird'?",
+    "options": [
+      { "text": "Dass man zuerst sündigen muss, um Gottes Kraft zu erfahren.", "isCorrect": false },
+      { "text": "Dass gerade dann, wenn Christen sich ihrer eigenen menschlichen Schwachheit und Unzulänglichkeit bewusst sind und sich auf Gott verlassen, seine Kraft in und durch sie am mächtigsten wirken und offenbar werden kann.", "isCorrect": true },
+      { "text": "Dass körperliche Schwäche ein Zeichen geistiger Stärke ist.", "isCorrect": false },
+      { "text": "Dass Gott nur schwache Menschen für seinen Dienst auswählt.", "isCorrect": false }
+    ],
+    "explanation": "Paulus lernte durch seinen 'Dorn im Fleisch', dass Gottes Kraft sich gerade in menschlicher Schwachheit als vollkommen erweist. Wenn wir unsere eigenen Grenzen anerkennen und uns nicht auf unsere Stärke verlassen, kann Gottes Kraft ungehindert in uns wirken und seine Ziele erreichen, sodass er die Ehre bekommt.",
+    "verse": "2. Korinther 12:9 (NWÜ)",
+    "verseTextContent": "Er aber hat zu mir gesagt: „Meine unverdiente Güte genügt dir, denn meine Kraft wird in Schwachheit vollkommen gemacht.“ Sehr gern will ich mich daher eher meiner Schwachheiten rühmen, damit die Kraft des Christus wie ein Zelt über mir bleibe."
+  },
+  {
+    "book": "2. Korinther",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche Art von Traurigkeit ist 'Traurigkeit gemäß Gottes Willen', und was bewirkt sie im Gegensatz zur 'Traurigkeit der Welt' (2. Korinther 7:10)?",
+    "options": [
+      { "text": "Eine Traurigkeit, die zu Verzweiflung führt.", "isCorrect": false },
+      { "text": "Traurigkeit gemäß Gottes Willen bewirkt eine Reue zur Rettung, die nicht zu bereuen ist; die Traurigkeit der Welt aber bewirkt den Tod.", "isCorrect": true },
+      { "text": "Eine Traurigkeit über verlorene materielle Güter.", "isCorrect": false },
+      { "text": "Eine Traurigkeit, die nur äußerlich gezeigt wird.", "isCorrect": false }
+    ],
+    "explanation": "Paulus unterscheidet zwischen zwei Arten von Traurigkeit über begangene Fehler. Die gottgewollte Traurigkeit führt zu echter Reue, Umkehr und letztendlich zur Rettung. Die weltliche Traurigkeit hingegen ist oft von Selbstmitleid oder Furcht vor Konsequenzen geprägt und führt nicht zu einer positiven Veränderung, sondern zu Verzweiflung und Tod.",
+    "verse": "2. Korinther 7:10 (NWÜ)",
+    "verseTextContent": "Denn die Traurigkeit gemäß Gottes Willen bewirkt eine Reue zur Rettung, die nicht zu bereuen ist; die Traurigkeit der Welt aber bewirkt den Tod."
+  },
+  {
+    "book": "2. Korinther",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Paulus spricht in 2. Korinther 4:7 davon, dass Christen den 'Schatz' des Dienstes 'in irdenen Gefäßen' haben. Was ist mit diesem Bild gemeint?",
+    "options": [
+      { "text": "Dass der Dienst wertlos und zerbrechlich ist.", "isCorrect": false },
+      { "text": "Der 'Schatz' ist die herrliche gute Botschaft und der Dienst, den Gott ihnen anvertraut hat. Die 'irdenen Gefäße' sind die unvollkommenen, schwachen menschlichen Körper der Diener Gottes. Dies dient dazu, dass die alles übertreffende Kraft von Gott ist und nicht aus ihnen selbst.", "isCorrect": true },
+      { "text": "Dass Christen ihre geistigen Schätze verstecken sollen.", "isCorrect": false },
+      { "text": "Dass der Dienst nur für eine kurze Zeit bestimmt ist.", "isCorrect": false }
+    ],
+    "explanation": "Der kostbare 'Schatz' des Evangeliumsdienstes und der Erkenntnis Gottes wird unvollkommenen Menschen ('irdenen Gefäßen') anvertraut. Dieser Kontrast zwischen dem Wert des Schatzes und der Zerbrechlichkeit der Gefäße zeigt, dass die Kraft, die im Dienst wirksam ist, nicht menschlichen Ursprungs ist, sondern von Gott kommt, sodass ihm die Ehre gebührt.",
+    "verse": "2. Korinther 4:7 (NWÜ)",
+    "verseTextContent": "Wir haben aber diesen Schatz in irdenen Gefäßen, damit die Kraft, die über das Normale hinausgeht, Gottes sei und nicht die aus uns selbst."
+  },
+  {
+    "book": "2. Korinther",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welchen 'neuen Bund' erwähnt Paulus in 2. Korinther 3:6, dessen Diener er und seine Mitarbeiter geworden sind, und wie unterscheidet er sich vom 'geschriebenen Kodex' (dem Gesetz Mose)?",
+    "options": [
+      { "text": "Einen Bund, der auf noch strengeren geschriebenen Regeln basiert.", "isCorrect": false },
+      { "text": "Einen Bund nicht eines geschriebenen Kodex, sondern des Geistes; denn der geschriebene Kodex verurteilt zum Tode, der Geist aber macht lebendig. Dieser neue Bund ist durch Christus vermittelt und ermöglicht eine direkte Beziehung zu Gott und Vergebung.", "isCorrect": true },
+      { "text": "Einen Bund, der nur für Nichtjuden gilt.", "isCorrect": false },
+      { "text": "Einen geheimen Bund, der nur wenigen Auserwählten bekannt ist.", "isCorrect": false }
+    ],
+    "explanation": "Paulus kontrastiert den alten Bund (Gesetz Mose), der auf geschriebenen Geboten beruhte und letztendlich die Sünde aufdeckte und zum Tod verurteilte, mit dem neuen Bund. Der neue Bund, vermittelt durch Christus und wirksam durch den heiligen Geist, bringt Leben, Vergebung und eine innere Verwandlung, da Gottes Gesetz 'in die Herzen geschrieben' wird.",
+    "verse": "2. Korinther 3:6 (NWÜ)",
+    "verseTextContent": "der uns auch hinreichend befähigt hat, Diener eines neuen Bundes zu sein, nicht eines geschriebenen Kodex, sondern des Geistes; denn der geschriebene Kodex verurteilt zum Tode, der Geist aber macht lebendig."
+  },
+  [
+  {
+    "book": "1. Samuel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welchen besonderen Dienst verrichtete der junge Samuel in der Stiftshütte unter der Aufsicht des Hohenpriesters Eli?",
+    "options": [
+      { "text": "Er war für die Zubereitung der Opfertiere zuständig und half beim Schlachten.", "isCorrect": false },
+      { "text": "Er diente vor Jehova, trug ein leinenes Ephod und öffnete morgens die Türen des Hauses Jehovas.", "isCorrect": true },
+      { "text": "Er unterrichtete die Söhne Elis in den Gesetzen Mose und bereitete sie auf das Priesteramt vor.", "isCorrect": false },
+      { "text": "Er war der persönliche Mundschenk des Hohenpriesters Eli und bewachte nachts die Bundeslade.", "isCorrect": false }
+    ],
+    "explanation": "Schon als kleiner Junge diente Samuel in der Stiftshütte in Silo. Er trug ein leinenes Ephod, ein priesterliches Kleidungsstück, und verrichtete verschiedene Aufgaben, wie das Öffnen der Türen des Heiligtums, unter der Anleitung Elis.",
+    "verse": "1. Samuel 2:18; 3:3, 15 (NWÜ)",
+    "verseTextContent": "Samuel aber diente als Knabe vor Jehova, als er mit einem leinenen Ephod gegürtet war. (1. Samuel 2:18) Und die Lampe Gottes war noch nicht ausgelöscht, und Samuel lag im Tempel Jehovas, wo die Lade Gottes war. (1. Samuel 3:3) Dann stand Samuel am Morgen auf und öffnete die Türen des Hauses Jehovas. Und Samuel fürchtete sich, Eli die Vision mitzuteilen. (1. Samuel 3:15)"
+  },
+  {
+    "book": "1. Samuel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Warum verwarf Jehova Saul als König über Israel, wie Samuel es ihm mitteilte?",
+    "options": [
+      { "text": "Weil Saul zu alt wurde, um das Volk effektiv zu führen und die Feinde Israels zu besiegen.", "isCorrect": false },
+      { "text": "Weil er einen Friedensvertrag mit den Philistern schloss, ohne Jehova zu befragen.", "isCorrect": false },
+      { "text": "Weil er das Wort Jehovas verworfen hatte, insbesondere durch seinen Ungehorsam bezüglich der Amalekiter und seiner eigenmächtigen Opferhandlung.", "isCorrect": true },
+      { "text": "Weil das Volk einen neuen, jüngeren König aus dem Stamm Juda forderte.", "isCorrect": false }
+    ],
+    "explanation": "Saul wurde von Jehova verworfen, weil er wiederholt ungehorsam gegenüber Gottes direkten Anweisungen war. Schlüsselereignisse waren sein eigenmächtiges Opfern vor einer Schlacht und seine Weigerung, die Amalekiter und ihren Besitz vollständig dem Bann zu weihen, wie Jehova es befohlen hatte.",
+    "verse": "1. Samuel 15:22-23 (NWÜ)",
+    "verseTextContent": "Darauf sprach Samuel: „Hat Jehova ebenso viel Gefallen an Brandopfern und Schlachtopfern wie daran, dass man der Stimme Jehovas gehorcht? Siehe! Gehorchen ist besser als Schlachtopfer, Aufmerken besser als das Fett von Widdern; denn Widerspenstigkeit ist dasselbe wie die Sünde der Wahrsagerei, und vermessenes Vorandrängen ist dasselbe wie die Anwendung unheimlicher Macht und Teraphim. Weil du das Wort Jehovas verworfen hast, verwirft er dich daher, dass du nicht König seist.“"
+  },
+  {
+    "book": "1. Samuel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche besondere Fähigkeit Davids führte dazu, dass er an den Hof König Sauls gerufen wurde, um ihm zu dienen?",
+    "options": [
+      { "text": "Seine außergewöhnliche Stärke im Kampf, die er bereits als Hirte bewiesen hatte.", "isCorrect": false },
+      { "text": "Seine prophetische Gabe, die Zukunft vorherzusagen und Träume zu deuten.", "isCorrect": false },
+      { "text": "Seine Fähigkeit, Harfe zu spielen, wodurch er den von einem bösen Geist geplagten Saul beruhigen konnte.", "isCorrect": true },
+      { "text": "Sein diplomatisches Geschick im Umgang mit den umliegenden Völkern.", "isCorrect": false }
+    ],
+    "explanation": "Als König Saul von einem bösen Geist von Jehova geängstigt wurde, suchten seine Diener jemanden, der gut Harfe spielen konnte, um ihn zu beruhigen. David wurde als geschickter Harfenspieler empfohlen und an den Hof gerufen. Sein Spiel verschaffte Saul Erleichterung.",
+    "verse": "1. Samuel 16:16, 23 (NWÜ)",
+    "verseTextContent": "Unser Herr möge bitte deinen Knechten, die vor dir sind, gebieten, dass sie einen Mann suchen sollten, der auf der Harfe zu spielen versteht; und es soll geschehen, wenn der böse Geist von Gott über dir ist, dass er dann mit seiner Hand spielen soll, und es wird dir gewiss gut tun.“ ... Und es geschah, wenn der Geist von Gott über Saul war, dass David dann die Harfe nahm und mit seiner Hand spielte; und da war Erleichterung für Saul, und es wurde ihm gut, und der böse Geist wich von ihm."
+  },
+  {
+    "book": "1. Samuel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war die Hauptursache für Sauls zunehmende Feindseligkeit und Eifersucht gegenüber David?",
+    "options": [
+      { "text": "David stammte aus einem rivalisierenden Stamm und bedrohte Sauls Autorität.", "isCorrect": false },
+      { "text": "Davids militärische Erfolge und seine wachsende Popularität beim Volk ('Saul hat seine Tausende geschlagen und David seine Zehntausende'), was Saul als Bedrohung für sein Königtum ansah.", "isCorrect": true },
+      { "text": "Ein direkter Befehl Jehovas, David zu verfolgen, um seinen Glauben zu prüfen.", "isCorrect": false },
+      { "text": "David weigerte sich, Sauls Tochter Michal zu heiraten und Bündnisse mit ihm zu schließen.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem David Goliath besiegt hatte und weitere militärische Erfolge feierte, sangen die Frauen Israels zu seinen Ehren, was Saul neidisch und misstrauisch machte. Er fürchtete, dass David ihm den Thron streitig machen könnte, und begann, ihn zu verfolgen.",
+    "verse": "1. Samuel 18:7-9 (NWÜ)",
+    "verseTextContent": "Und die Frauen, die sich spielend vergnügten, antworteten dann und sprachen: „Saul hat seine Tausende geschlagen und David seine Zehntausende.“ Und Saul wurde sehr zornig, und dieses Wort war übel in seinen Augen; und er sprach dann: „David haben sie die Zehntausende gegeben, und mir haben sie die Tausende gegeben, und was fehlt ihm noch als nur das Königtum?“ Und Saul blickte von jenem Tag an und weiterhin argwöhnisch auf David."
+  },
+  {
+    "book": "1. Samuel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welche verbotene Handlung unternahm König Saul in seiner Verzweiflung vor seiner letzten Schlacht gegen die Philister bei Gilboa, nachdem Jehova ihm nicht mehr antwortete?",
+    "options": [
+      { "text": "Er versuchte, einen Friedensvertrag mit den Philistern auszuhandeln und bot ihnen Gold an.", "isCorrect": false },
+      { "text": "Er schloss einen Bund mit den umliegenden heidnischen Nationen, um militärische Unterstützung zu erhalten.", "isCorrect": false },
+      { "text": "Er befragte ein Geistermedium in En-Dor, um den verstorbenen Propheten Samuel um Rat zu fragen, obwohl er selbst zuvor die Geistermedien aus dem Land ausgerottet hatte.", "isCorrect": true },
+      { "text": "Er opferte seinen eigenen Sohn Jonathan, um Jehovas Gunst zurückzugewinnen.", "isCorrect": false }
+    ],
+    "explanation": "Als Saul von den Philistern bedrängt wurde und keine Antwort von Jehova durch Träume, Urim oder Propheten erhielt, suchte er in seiner Verzweiflung ein Geistermedium in En-Dor auf, um mit dem verstorbenen Samuel zu kommunizieren. Dies war ein schwerer Verstoß gegen Jehovas Gesetz, das Spiritismus verbot.",
+    "verse": "1. Samuel 28:6-8 (NWÜ)",
+    "verseTextContent": "Und Saul begann Jehova zu befragen, aber Jehova antwortete ihm nicht, weder durch Träume noch durch die Urim noch durch die Propheten. Schließlich sprach Saul zu seinen Knechten: „Sucht mir eine Frau, die ein Geistermedium ist, und ich will zu ihr hingehen und sie befragen.“ Da sprachen seine Knechte zu ihm: „Siehe! Da ist eine Frau, die ein Geistermedium ist, in En-Dor.“ Und Saul verkleidete sich dann und legte andere Kleider an und ging hin, er und zwei Männer mit ihm, und sie kamen bei Nacht zu der Frau. Und er sprach dann: „Wahrsage mir bitte durch Geisterbeschwörung, und bring mir den herauf, den ich dir nennen werde.“"
+  },
+  {
+    "book": "1. Samuel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welche Haltung zeigte David mehrmals, als er die Gelegenheit hatte, König Saul zu töten, der ihn ungerechterweise verfolgte?",
+    "options": [
+      { "text": "Er nutzte die Gelegenheit sofort, um Saul zu beseitigen und selbst König zu werden, da er bereits gesalbt war.", "isCorrect": false },
+      { "text": "Er weigerte sich, seine Hand gegen Saul, den Gesalbten Jehovas, zu erheben, und überließ es Jehova, zu richten und zu handeln, obwohl seine Männer ihn drängten.", "isCorrect": true },
+      { "text": "Er verwundete Saul schwer, um ihn kampfunfähig zu machen, tötete ihn aber nicht direkt.", "isCorrect": false },
+      { "text": "Er nahm Saul gefangen und lieferte ihn den Philistern aus, um sich selbst zu schützen.", "isCorrect": false }
+    ],
+    "explanation": "Trotz der lebensbedrohlichen Verfolgung durch Saul und mehrerer Gelegenheiten, ihn zu töten (z.B. in der Höhle bei En-Gedi oder im Lager Sauls), weigerte sich David, Saul etwas anzutun. Er respektierte Saul als den von Jehova eingesetzten König und überließ das Gericht Jehova. Dies zeigte seine tiefe Ehrfurcht vor Gottes auserwählter Autorität.",
+    "verse": "1. Samuel 24:4-7 (NWÜ)",
+    "verseTextContent": "Schließlich sprachen die Männer Davids zu ihm: „Siehe, dies ist der Tag, von dem Jehova zu dir gesagt hat: ‚Siehe, ich gebe deinen Feind in deine Hand, und du sollst ihm tun, so wie es gut ist in deinen Augen.‘“ Da stand David auf und schnitt den Zipfel des ärmellosen Obergewandes, das Saul gehörte, heimlich ab. Und es geschah danach, dass Davids Herz ihm dann fortwährend schlug, weil er den Zipfel, der Saul gehörte, abgeschnitten hatte. So sprach er zu seinen Männern: „Es ist im Hinblick auf Jehova für mich undenkbar, dass ich meinem Herrn, dem Gesalbten Jehovas, diese Sache tun sollte, meine Hand gegen ihn auszustrecken, denn er ist der Gesalbte Jehovas.“ Demgemäß zerstreute David seine Männer mit Worten, und er erlaubte ihnen nicht, sich gegen Saul zu erheben."
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wie reagierte David, als er die Nachricht vom Tod Sauls und Jonathans in der Schlacht gegen die Philister erhielt?",
+    "options": [
+      { "text": "Er freute sich, weil sein Hauptverfolger beseitigt war und der Weg zum Thron frei wurde.", "isCorrect": false },
+      { "text": "Er zerriss seine Kleider, trauerte, weinte und fastete; er verfasste ein Klagelied über Saul und Jonathan und ließ den Boten, der Sauls Tod meldete und behauptete, ihn getötet zu haben, hinrichten.", "isCorrect": true },
+      { "text": "Er zog sofort nach Jerusalem, um sich zum König über ganz Israel krönen zu lassen.", "isCorrect": false },
+      { "text": "Er sandte eine Armee aus, um die Philister für den Tod Sauls zu bestrafen.", "isCorrect": false }
+    ],
+    "explanation": "David zeigte tiefe Trauer und Respekt beim Tod Sauls, seines Verfolgers, und seines geliebten Freundes Jonathan. Sein Klagelied in 2. Samuel 1 drückt seinen Schmerz aus. Er bestrafte auch den Amalekiter, der fälschlicherweise behauptete, Saul auf dessen Wunsch getötet zu haben.",
+    "verse": "2. Samuel 1:11-12, 17 (NWÜ)",
+    "verseTextContent": "Darauf ergriff David seine Kleider und zerriss sie, und ebenso alle Männer, die bei ihm waren. Und sie klagten dann und weinten und fasteten bis zum Abend um Saul und um Jonathan, seinen Sohn, und um das Volk Jehovas und um das Haus Israel, weil sie durch das Schwert gefallen waren. ... Und David begann dann dieses Klagelied über Saul und über Jonathan, seinen Sohn, anzustimmen."
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche wichtige religiöse Handlung vollzog David, nachdem er Jerusalem erobert und zur Hauptstadt gemacht hatte, wie in 2. Samuel Kapitel 6 berichtet?",
+    "options": [
+      { "text": "Er baute sofort den Tempel für Jehova.", "isCorrect": false },
+      { "text": "Er ließ die Bundeslade Jehovas unter großem Jubel und mit Opfern nach Jerusalem in die Stadt Davids bringen.", "isCorrect": true },
+      { "text": "Er ernannte neue Hohepriester.", "isCorrect": false },
+      { "text": "Er verfasste das gesamte Buch der Psalmen.", "isCorrect": false }
+    ],
+    "explanation": "Ein zentrales Anliegen Davids war es, die Bundeslade, die Jehovas Gegenwart symbolisierte, in seine neue Hauptstadt Jerusalem zu bringen. Nach einem ersten fehlgeschlagenen Versuch gelang die Überführung unter Einhaltung der korrekten Vorschriften und mit großer Freude.",
+    "verse": "2. Samuel 6:12, 14-15 (NWÜ)",
+    "verseTextContent": "Und es wurde König David berichtet und gesagt: „Jehova hat das Haus Obed-Edoms und alles, was ihm gehört, gesegnet um der Lade des wahren Gottes willen.“ Da ging David hin und brachte die Lade des wahren Gottes aus dem Haus Obed-Edoms mit Freuden in die Stadt Davids herauf. ... Und David selbst tanzte mit aller Kraft vor Jehova umher, wobei David mit einem leinenen Ephod gegürtet war. Und David und das ganze Haus Israel brachten die Lade Jehovas mit Jauchzen und mit Hörnerschall herauf."
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welcher Prophet konfrontierte David mit seiner Sünde bezüglich Bathseba und Uria durch ein Gleichnis?",
+    "options": [
+      { "text": "Der Prophet Samuel, der ihm erschien.", "isCorrect": false },
+      { "text": "Der Prophet Gad, der ihm oft Rat gab.", "isCorrect": false },
+      { "text": "Der Prophet Nathan, der ihm das Gleichnis vom reichen Mann und dem Lamm des armen Mannes erzählte.", "isCorrect": true },
+      { "text": "Der Hohepriester Abjathar.", "isCorrect": false }
+    ],
+    "explanation": "Jehova sandte den Propheten Nathan zu David. Nathan erzählte das Gleichnis von einem reichen Mann, der viele Schafe hatte, aber das einzige Lamm eines armen Mannes nahm, um einen Gast zu bewirten. Als David zornig das Todesurteil über den reichen Mann sprach, sagte Nathan: 'Du selbst bist der Mann!' und deckte so Davids Sünde auf.",
+    "verse": "2. Samuel 12:1, 7a (NWÜ)",
+    "verseTextContent": "Und Jehova sandte dann Nathan zu David. So kam er zu ihm herein und sprach zu ihm: „Es waren da zwei Männer in einer Stadt, der eine reich und der andere arm.“ ... Darauf sprach Nathan zu David: „Du selbst bist der Mann!“"
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war die Folge von Absaloms Rebellion für ihn persönlich, obwohl er anfangs erfolgreich war und David aus Jerusalem vertrieb?",
+    "options": [
+      { "text": "Er wurde von David begnadigt und durfte als Prinz weiterleben.", "isCorrect": false },
+      { "text": "Er wurde in der Schlacht im Wald von Ephraim besiegt, verfing sich mit seinem langen Haar in den Ästen eines großen Baumes und wurde von Joab und seinen Männern getötet.", "isCorrect": true },
+      { "text": "Er floh in ein anderes Land und kehrte nie wieder zurück.", "isCorrect": false },
+      { "text": "Er schloss Frieden mit David und teilte sich die Königsherrschaft.", "isCorrect": false }
+    ],
+    "explanation": "Obwohl David seinen Heerführern befohlen hatte, schonend mit Absalom umzugehen, wurde Absaloms Heer in der Schlacht besiegt. Er selbst blieb mit seinem Kopfhaar in einem Baum hängen und wurde von Joab getötet, was David tief betrauerte.",
+    "verse": "2. Samuel 18:9, 14-15 (NWÜ)",
+    "verseTextContent": "Schließlich traf Absalom zufällig auf die Knechte Davids. Und Absalom ritt auf einem Maultier, und das Maultier kam dann unter das dichte Geäst eines massigen großen Baumes, sodass sein Haupt am massigen großen Baum hängen blieb, und so kam es, dass er zwischen Himmel und Erde schwebte, da das Maultier, das unter ihm war, weiterlief. ... Da sprach Joab: „Ich will nicht so vor dir zögern!“ Und er nahm drei Schäfte in seine Handfläche und stieß sie Absalom ins Herz, während er noch lebendig war im Herzen des massigen großen Baumes. Dann umringten ihn zehn junge Männer, Waffenträger Joabs, und sie schlugen Absalom nieder und brachten ihn zu Tode."
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In 2. Samuel 24 ließ David eine Volkszählung durchführen, die Jehova missfiel. Welche drei Strafoptionen bot Jehova David durch den Propheten Gad an, und welche wählte David?",
+    "options": [
+      { "text": "Eine schwere Krankheit, eine Hungersnot oder eine Niederlage gegen seine Feinde; David wählte die Krankheit.", "isCorrect": false },
+      { "text": "Sieben Jahre Hungersnot im Land, drei Monate Flucht vor seinen Feinden oder drei Tage Pest im Land; David wählte die Pest, weil er lieber in die Hand Jehovas fallen wollte, dessen Barmherzigkeit groß ist.", "isCorrect": true },
+      { "text": "Der Verlust seines Königtums, die Zerstörung Jerusalems oder der Tod seines erstgeborenen Sohnes; David wählte den Tod seines Sohnes.", "isCorrect": false },
+      { "text": "Ein Erdbeben, eine Dürre oder ein Angriff wilder Tiere; David konnte sich nicht entscheiden.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem David seine Sünde der Volkszählung erkannt hatte, bot ihm Jehova durch Gad drei Strafmöglichkeiten an. David entschied sich für die dreitägige Pest, da er es vorzog, in die Hand Jehovas zu fallen, dessen Barmherzigkeit groß ist, anstatt in die Hand von Menschen.",
+    "verse": "2. Samuel 24:12-14 (NWÜ)",
+    "verseTextContent": "„Geh, und du sollst zu David reden: ‚Dies ist, was Jehova gesprochen hat: „Drei Dinge lege ich dir auf. Wähle dir eines davon, damit ich es dir antue.“‘“ So kam Gad zu David herein und sagte es ihm dann und sprach zu ihm: „Sollen sieben Jahre Hungersnot in deinem Land über dich kommen oder drei Monate dein Fliehen vor deinen Widersachern, während sie dich verfolgen, oder drei Tage Pest in deinem Land? Nun wisse und sieh, was ich dem antworten soll, der mich sendet.“ Da sprach David zu Gad: „Es ist mir sehr angst. Lass uns bitte in die Hand Jehovas fallen, denn seine Erbarmungen sind viele; aber in die Hand von Menschen lass mich nicht fallen.“"
+  },
+  {
+    "book": "2. Samuel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Wer war Abner, und welche Rolle spielte er in der Zeit nach Sauls Tod, bevor David König über ganz Israel wurde?",
+    "options": [
+      { "text": "Ein Prophet, der David zum König salbte.", "isCorrect": false },
+      { "text": "Der Heerführer Sauls, der nach Sauls Tod dessen Sohn Isch-Boscheth als König über Israel (die nördlichen Stämme) einsetzte und zunächst gegen David und Juda kämpfte, später aber zu David überlaufen wollte, bevor er von Joab ermordet wurde.", "isCorrect": true },
+      { "text": "Ein Priester, der die Bundeslade nach Jerusalem brachte.", "isCorrect": false },
+      { "text": "Ein Sohn Davids, der versuchte, den Thron an sich zu reißen.", "isCorrect": false }
+    ],
+    "explanation": "Abner war ein Verwandter Sauls und dessen oberster Heerführer. Nach Sauls Tod setzte er Isch-Boscheth, einen überlebenden Sohn Sauls, als König über die meisten Stämme Israels ein, während David in Hebron über Juda regierte. Es kam zu Kämpfen zwischen den Anhängern Davids und Isch-Boscheths. Später geriet Abner mit Isch-Boscheth in Streit und bot an, zu David überzulaufen und ganz Israel unter dessen Herrschaft zu bringen, wurde aber aus Rache von Joab, Davids Heerführer, ermordet.",
+    "verse": "2. Samuel 2:8-9; 3:12, 27 (NWÜ)",
+    "verseTextContent": "Was nun Abner betrifft, den Sohn Ners, den Heerobersten, der Saul gehört hatte, er hatte Isch-Boscheth, den Sohn Sauls, genommen und führte ihn dann nach Mahanajim hinüber und machte ihn dann zum König über Gilead und über die Aschuriter und über Jisreel und über Ephraim und über Benjamin, ja über ganz Israel. (2. Samuel 2:8-9) Darauf sandte Abner sogleich Boten zu David und ließ sagen: „Wem gehört das Land?“ und fügte hinzu: „Schließe deinen Bund mit mir, und siehe, meine Hand wird mit dir sein, um ganz Israel zu dir herumzuwenden.“ (2. Samuel 3:12) Als Abner nun nach Hebron zurückkehrte, da führte Joab ihn mitten ins Tor hinein beiseite, um in Ruhe mit ihm zu reden. Doch schlug er ihn dort in den Bauch, sodass er starb, wegen des Blutes Asahels, seines Bruders. (2. Samuel 3:27)"
+  },
+  [
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welches Ereignis fand gemäß Apostelgeschichte Kapitel 2 zu Pfingsten in Jerusalem statt, nachdem die Jünger Jesu zusammengekommen waren?",
+    "options": [
+      { "text": "Jesus erschien ihnen erneut und gab ihnen letzte Anweisungen für ihren Dienst.", "isCorrect": false },
+      { "text": "Sie wurden alle mit heiligem Geist erfüllt und begannen, in verschiedenen Zungen zu reden, wie der Geist ihnen gewährte, sich auszudrücken.", "isCorrect": true },
+      { "text": "Ein großes Erdbeben erschütterte die Stadt und öffnete die Gefängnistore für viele Gläubige.", "isCorrect": false },
+      { "text": "Die Apostel wählten durch Los einen Nachfolger für Judas Iskariot aus, nämlich Matthias.", "isCorrect": false }
+    ],
+    "explanation": "Zu Pfingsten wurden die etwa 120 versammelten Jünger Jesu mit heiligem Geist erfüllt. Dieses Ereignis wurde durch ein Geräusch wie eine starke Brise und Zungen wie von Feuer sichtbar. Die unmittelbare Folge war, dass sie in den verschiedenen Sprachen der anwesenden Juden aus der Diaspora reden konnten.",
+    "verse": "Apostelgeschichte 2:4 (NWÜ)",
+    "verseTextContent": "und sie alle wurden mit heiligem Geist erfüllt und fingen an, in verschiedenen Zungen zu reden, so wie der Geist ihnen gewährte, sich auszudrücken."
+  },
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wer hielt die erste große Predigt nach der Ausgießung des heiligen Geistes, die dazu führte, dass sich etwa dreitausend Menschen taufen ließen?",
+    "options": [
+      { "text": "Der Apostel Johannes, der als 'Jünger, den Jesus liebte' bekannt war und besonders redegewandt sprach.", "isCorrect": false },
+      { "text": "Der Apostel Paulus, nachdem er sich auf dem Weg nach Damaskus bekehrt hatte.", "isCorrect": false },
+      { "text": "Der Apostel Petrus, der mutig aufstand und der Volksmenge Jesus als den Christus und Herrn erklärte.", "isCorrect": true },
+      { "text": "Stephanus, bevor er gesteinigt wurde, hielt eine lange Rede über die Geschichte Israels.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem die Jünger in Zungen redeten, trat Petrus als Wortführer auf und erklärte der verwunderten Menge, dass dies die Erfüllung der Prophetie Joels sei und dass Jesus, den sie gekreuzigt hatten, von Gott auferweckt und zum Herrn und Christus gemacht worden sei. Viele nahmen seine Worte an und ließen sich taufen.",
+    "verse": "Apostelgeschichte 2:14, 41 (NWÜ)",
+    "verseTextContent": "Petrus aber stand mit den Elfen auf und erhob seine Stimme und tat ihnen folgende Äußerung: „Männer von Judäa und all ihr Bewohner von Jerusalem, dies sei euch kund, und nehmt meine Reden zu Ohren.“ ... Die nun sein Wort von Herzen annahmen, wurden getauft, und an jenem Tag wurden ungefähr dreitausend Seelen hinzugetan."
+  },
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welchen Rat gab der angesehene Gesetzeslehrer Gamaliel dem Hohen Rat (Sanhedrin), als die Apostel erneut verhaftet worden waren, weil sie weiterhin von Jesus predigten?",
+    "options": [
+      { "text": "Er riet, die Apostel sofort hinzurichten, um die neue Lehre im Keim zu ersticken.", "isCorrect": false },
+      { "text": "Er empfahl, sie auszupeitschen und ihnen dann zu verbieten, jemals wieder in Jerusalem zu lehren.", "isCorrect": false },
+      { "text": "Er riet zur Vorsicht: Wenn ihr Werk von Menschen sei, würde es sich von selbst auflösen; wenn es aber von Gott sei, könnten sie es nicht bekämpfen und würden sich als Gottesbekämpfer erweisen. Sie sollten sie daher gehen lassen.", "isCorrect": true },
+      { "text": "Er schlug vor, die Apostel ins Exil zu schicken, um ihre Lehren aus Judäa zu verbannen.", "isCorrect": false }
+    ],
+    "explanation": "Gamaliel, ein im Volk hochangesehener Pharisäer, riet dem Sanhedrin zur Mäßigung. Er erinnerte an frühere Aufrührer, deren Bewegungen nach ihrem Tod zerfielen. Er argumentierte, wenn das Werk der Apostel menschlichen Ursprungs sei, würde es ebenfalls scheitern. Sei es aber von Gott, könnten sie es nicht verhindern und würden gegen Gott kämpfen.",
+    "verse": "Apostelgeschichte 5:38-39 (NWÜ)",
+    "verseTextContent": "Und nun sage ich euch: Lasst von diesen Menschen ab und lasst sie gehen (denn wenn dieses Unterfangen oder dieses Werk von Menschen ist, wird es niedergerissen werden; wenn es aber von Gott ist, werdet ihr sie nicht niederreißen können); andernfalls werdet ihr vielleicht als solche erfunden werden, die tatsächlich gegen Gott kämpfen.“"
+  },
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Wer war der erste christliche Märtyrer, der gesteinigt wurde, nachdem er eine kraftvolle Rede vor dem Sanhedrin gehalten hatte?",
+    "options": [
+      { "text": "Der Apostel Jakobus, der Bruder des Johannes. Er wurde bei einer Feier zu Ehren von Herodes ermordet.", "isCorrect": false },
+      { "text": "Stephanus, einer der sieben Männer, die für die tägliche Austeilung an die Witwen ausgewählt worden waren, ein Mann voll Glaubens und heiligen Geistes.", "isCorrect": true },
+      { "text": "Barnabas, der Paulus auf seinen Reisen begleitete.", "isCorrect": false },
+      { "text": "Der Apostel Andreas, der Bruder des Petrus.", "isCorrect": false }
+    ],
+    "explanation": "Stephanus, bekannt für seine Weisheit und die Wunder, die er wirkte, wurde von falschen Zeugen angeklagt. Vor dem Sanhedrin hielt er eine lange Rede, in der er die Geschichte Israels darlegte und die Führer wegen ihrer Verstocktheit und der Tötung des Messias anklagte. Daraufhin wurde er zornig aus der Stadt geführt und gesteinigt.",
+    "verse": "Apostelgeschichte 7:58-60 (NWÜ)",
+    "verseTextContent": "Und sie stießen ihn zur Stadt hinaus und begannen ihn zu steinigen. Und die Zeugen legten ihre äußeren Kleider zu den Füßen eines jungen Mannes nieder, der Saulus genannt wurde. Und sie fuhren fort, Stephanus zu steinigen, während er flehte und sprach: „Herr Jesus, nimm meinen Geist auf.“ Dann beugte er seine Knie und rief mit lauter Stimme: „Jehova, rechne ihnen diese Sünde nicht an!“ Und nachdem er dies gesagt hatte, entschlief er im Tod."
+  },
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Welche wichtige Entscheidung traf die 'Versammlung und die Apostel und die älteren Männer' in Jerusalem bezüglich der nichtjüdischen Gläubigen, wie in Apostelgeschichte Kapitel 15 berichtet?",
+    "options": [
+      { "text": "Dass Nichtjuden zuerst die jüdische Staatsbürgerschaft annehmen müssen, um Christen zu werden.", "isCorrect": false },
+      { "text": "Dass die Beschneidung und das Halten des mosaischen Gesetzes keine Voraussetzung für die Rettung von Nichtjuden sind, sie sich aber von Götzenopfern, Blut, Erwürgtem und Hurerei enthalten sollten.", "isCorrect": true },
+      { "text": "Dass Nichtjuden eigene Versammlungen getrennt von den jüdischen Christen bilden sollten.", "isCorrect": false },
+      { "text": "Dass Nichtjuden alle jüdischen Speisegebote befolgen müssen, um als rein zu gelten.", "isCorrect": false }
+    ],
+    "explanation": "Nachdem einige Judenchristen darauf bestanden hatten, dass Nichtjuden beschnitten werden und das Gesetz Mose halten müssten, kamen die Apostel und Ältesten in Jerusalem zusammen. Nach Berichten von Petrus und Paulus und unter der Leitung des heiligen Geistes entschieden sie, dass den bekehrten Nichtjuden keine solchen Bürden auferlegt werden sollten, außer einigen notwendigen Enthaltungen.",
+    "verse": "Apostelgeschichte 15:28-29 (NWÜ)",
+    "verseTextContent": "Denn der heilige Geist und wir selbst haben es für gut befunden, euch keine weitere Bürde aufzuerlegen als folgende notwendige Dinge: euch von Dingen zu enthalten, die Götzen geopfert wurden, sowie von Blut und von Erwürgtem und von Hurerei. Wenn ihr euch vor diesen Dingen sorgfältig bewahrt, wird es euch gut gehen. Bleibt gesund!“"
+  },
+  {
+    "book": "Apostelgeschichte",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Paulus' Predigttätigkeit führte oft zu Widerstand. Welche Gruppe von Handwerkern in Ephesus zettelte einen Aufruhr gegen ihn an, weil sein Predigen ihren Götzenkult und ihr Geschäft bedrohte?",
+    "options": [
+      { "text": "Die Fischer, weil er ihre Fanggründe störte.", "isCorrect": false },
+      { "text": "Die Zeltmacher, die mit Paulus in Konkurrenz standen.", "isCorrect": false },
+      { "text": "Die Silberschmiede, angeführt von Demetrius, die silberne Schreine der Göttin Artemis herstellten und befürchteten, dass ihr Gewerbe durch Paulus' Lehre in Verruf geraten würde.", "isCorrect": true },
+      { "text": "Die Töpfer, deren Gefäße er als unrein bezeichnete.", "isCorrect": false }
+    ],
+    "explanation": "In Ephesus hatte Paulus großen Erfolg beim Predigen, was viele dazu brachte, ihre Götzenbilder zu verbrennen. Demetrius, ein Silberschmied, der Modelle des Artemistempels anfertigte, sah sein Geschäft und den Kult der Artemis gefährdet. Er wiegelte die anderen Handwerker auf, was zu einem großen Tumult in der Stadt führte.",
+    "verse": "Apostelgeschichte 19:24-27 (NWÜ)",
+    "verseTextContent": "Denn ein gewisser Demetrius, ein Silberschmied, der silberne Schreine der Artemis machte, verschaffte den Handwerkern keinen geringen Gewinn; und er versammelte sie und die Arbeiter verwandter Gewerbe und sprach: „Männer, ihr wisst wohl, dass wir aus diesem Geschäft unseren Wohlstand haben. Auch seht und hört ihr, wie dieser Paulus nicht nur in Ephesus, sondern nahezu in dem ganzen Bezirk Asien eine beträchtliche Volksmenge überredet und zu einer anderen Meinung herübergezogen hat, indem er sagt, dass die mit Händen gemachten keine Götter seien.“"
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welchen babylonischen Namen erhielt Daniel, als er und seine Freunde am Hof Nebukadnezars erzogen wurden?",
+    "options": [
+      { "text": "Schadrach", "isCorrect": false },
+      { "text": "Beltschazzar", "isCorrect": true },
+      { "text": "Meschach", "isCorrect": false },
+      { "text": "Abednego", "isCorrect": false }
+    ],
+    "explanation": "Dem Daniel wurde von dem obersten Hofbeamten des babylonischen Königs der Name Beltschazzar gegeben. Seinen drei Freunden Hananja, Mischael und Asarja wurden die Namen Schadrach, Meschach bzw. Abednego gegeben.",
+    "verse": "Daniel 1:7 (NWÜ)",
+    "verseTextContent": "Und der oberste Hofbeamte begann ihnen dann Namen zu geben. So gab er Daniel den Namen Beltschazzar und Hananja den Namen Schadrach und Mischael den Namen Meschach und Asarja den Namen Abednego."
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche geheimnisvolle Schrift erschien an der Wand während des Festmahls von König Belsazar, die nur Daniel deuten konnte?",
+    "options": [
+      { "text": "Eine Warnung vor einem bevorstehenden Erdbeben und einer großen Flut.", "isCorrect": false },
+      { "text": "Eine Reihe von unverständlichen Symbolen, die Daniel als eine Prophezeiung über zukünftige Könige deutete.", "isCorrect": false },
+      { "text": "Die Worte 'MENE, MENE, TEKEL und PARSIN', die bedeuteten, dass Gott Belsazars Königtum gezählt, gewogen und geteilt und den Medern und Persern gegeben hatte.", "isCorrect": true },
+      { "text": "Ein Lobgesang auf die Götter Babylons, den Daniel aber als Gotteslästerung entlarvte.", "isCorrect": false }
+    ],
+    "explanation": "Während Belsazar mit den heiligen Gefäßen aus Jehovas Tempel ein Fest feierte, erschien eine Hand und schrieb vier Worte an die Wand. Daniel deutete sie als Gottes Gericht über Belsazar und sein Reich: Es wurde gezählt und für beendet befunden, auf der Waage zu leicht erfunden und würde geteilt und den Medern und Persern gegeben werden. Noch in derselben Nacht wurde Belsazar getötet.",
+    "verse": "Daniel 5:25-28 (NWÜ)",
+    "verseTextContent": "Und dies ist die Schrift, die aufgezeichnet wurde: MENE, MENE, TEKEL und PARSIN. Das ist die Deutung des Wortes: MENE, Gott hat die Tage deines Königreiches gezählt und hat ihm ein Ende bereitet. TEKEL, du bist auf der Waage gewogen und für zu leicht befunden worden. PERES, dein Königreich ist geteilt und den Medern und den Persern gegeben worden.“"
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Welche Vision hatte Daniel in Kapitel 7, die vier große Tiere zeigte, die aus dem Meer stiegen und aufeinanderfolgende Weltmächte darstellten?",
+    "options": [
+      { "text": "Eine Vision von sieben Engeln mit Posaunen, die Gottes Gericht ankündigten.", "isCorrect": false },
+      { "text": "Einen Löwen mit Adlerflügeln (Babylon), einen Bären (Medo-Persien), einen Leoparden mit vier Flügeln und vier Köpfen (Griechenland) und ein viertes, furchterregendes Tier mit eisernen Zähnen und zehn Hörnern (Rom und seine Folge).", "isCorrect": true },
+      { "text": "Eine Vision von einem riesigen Standbild aus verschiedenen Metallen, das ebenfalls Weltmächte symbolisierte.", "isCorrect": false }, 
+      { "text": "Eine Vision von einem Kampf zwischen einem Widder und einem Ziegenbock, die Medo-Persien und Griechenland darstellten.", "isCorrect": false } 
+    ],
+    "explanation": "Daniel sah in einer nächtlichen Vision vier verschiedene Tiere, die Weltmächte symbolisierten, beginnend mit Babylon. Diese Vision zeigte auch, wie der 'Alte an Tagen' (Jehova) Gericht hielt und dem 'Menschensohn' (Jesus Christus) ewige Herrschaft über alle Völker gab.",
+    "verse": "Daniel 7:3-7 (NWÜ)",
+    "verseTextContent": "Und vier riesige Tiere stiegen aus dem Meer auf, ein jedes verschieden von den anderen. Das erste war wie ein Löwe, und es hatte Adlerschwingen. ... Und siehe, ein anderes Tier, ein zweites, es glich einem Bären. ... Nach diesem schaute ich weiter, und siehe, ein anderes Tier, gleich einem Leoparden, aber es hatte vier Flügel eines fliegenden Geschöpfes auf seinem Rücken. Und das Tier hatte vier Köpfe, und es wurde ihm Herrschaft verliehen. Nach diesem schaute ich in den Visionen der Nacht weiter, und siehe da, ein viertes Tier, furchteinflößend und schrecklich und ungewöhnlich stark. Und es hatte große Zähne aus Eisen. Es fraß und zermalmte, und was übrig blieb, zertrat es mit seinen Füßen. Und es war verschieden von all den Tieren, die vor ihm gewesen waren, und es hatte zehn Hörner."
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was war der Inhalt von Nebukadnezars Traum von dem großen Baum, der abgehauen wurde, und wie deutete Daniel diesen Traum (Daniel Kapitel 4)?",
+    "options": [
+      { "text": "Der Baum stellte das babylonische Reich dar, das für immer bestehen würde.", "isCorrect": false },
+      { "text": "Der Baum stellte Nebukadnezars eigene Königsherrschaft dar. Das Abhauen des Baumes bedeutete, dass Nebukadnezar für 'sieben Zeiten' von seinem Thron entfernt, von den Menschen verstoßen und wie ein Tier leben würde, bis er anerkennen würde, dass der Höchste der Herrscher im Königreich der Menschheit ist.", "isCorrect": true },
+      { "text": "Der Baum symbolisierte den Tempel in Jerusalem, der zerstört werden sollte.", "isCorrect": false },
+      { "text": "Der Baum stellte einen zukünftigen Weltherrscher dar, der gestürzt werden würde.", "isCorrect": false }
+    ],
+    "explanation": "Daniel erklärte Nebukadnezar, dass der riesige Baum ihn selbst und seine weitreichende Herrschaft symbolisierte. Das Abhauen des Baumes mit dem verbleibenden Stumpf bedeutete, dass Nebukadnezar seine Königsherrschaft für eine Periode von 'sieben Zeiten' verlieren und gedemütigt werden würde, bis er die Oberhoheit Gottes anerkennen würde. Diese Prophezeiung erfüllte sich an Nebukadnezar.",
+    "verse": "Daniel 4:20-22, 25 (NWÜ)",
+    "verseTextContent": "Der Baum, den du sahst, der groß wurde und stark wurde und dessen Höhe schließlich die Himmel erreichte und der für die ganze Erde sichtbar war ... du bist es, o König, denn du bist groß und stark geworden, und deine Größe ist gewachsen und hat die Himmel erreicht und deine Herrschaft bis an das äußerste Ende der Erde. ... und man wird dich von den Menschen wegtreiben, und bei den Tieren des Feldes wird schließlich deine Wohnung sein, und Pflanzen gleich Stieren wird man dir zu essen geben; und mit dem Tau der Himmel wirst du selbst benetzt werden, und sieben Zeiten selbst werden über dir vergehen, bis du erkennst, dass der Höchste der Herrscher ist im Königreich der Menschheit und dass er es gibt, wem er will."
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "In Daniel Kapitel 11 wird ein lang andauernder Konflikt zwischen dem 'König des Nordens' und dem 'König des Südens' prophezeit. Welche allgemeine Identität haben diese beiden rivalisierenden Mächte im Laufe der Geschichte gemäß dem Verständnis vieler Bibelausleger, einschließlich Jehovas Zeugen?",
+    "options": [
+      { "text": "Sie stellen immer nur Ägypten und Syrien dar.", "isCorrect": false },
+      { "text": "Es handelt sich um eine Abfolge von dominierenden politischen Mächten, die nördlich bzw. südlich von Gottes Volk (ursprünglich Israel, später die Christenheit im übertragenen Sinne) lagen und um die Weltherrschaft kämpften, wobei sich ihre Identität im Laufe der Zeit änderte (z.B. Seleukiden vs. Ptolemäer, Rom vs. seine Rivalen, bis hin zu modernen Machtblöcken).", "isCorrect": true },
+      { "text": "Sie symbolisieren den Kampf zwischen Gut und Böse im Herzen jedes Menschen.", "isCorrect": false },
+      { "text": "Sie beziehen sich ausschließlich auf engelische Mächte im unsichtbaren Bereich.", "isCorrect": false }
+    ],
+    "explanation": "Die Prophezeiung vom König des Nordens und dem König des Südens beschreibt eine lange Kette von Konflikten zwischen rivalisierenden politischen Mächten. Die spezifische Identität dieser 'Könige' hat sich im Laufe der Jahrhunderte gewandelt, aber sie repräsentieren jeweils die vorherrschende Macht nördlich bzw. südlich des Landes, in dem Gottes Volk ansässig war oder das im Fokus der Prophezeiung stand. Die Rivalität setzt sich bis in die 'Zeit des Endes' fort.",
+    "verse": "Daniel 11:40 (NWÜ) (als Beispiel für die Endzeitphase dieses Konflikts)",
+    "verseTextContent": "Und in der Zeit des Endes wird sich der König des Südens mit ihm messen durch einen Stoß, und gegen ihn wird der König des Nordens mit Wagen und mit Reitern und mit vielen Schiffen anstürmen; und er wird gewiss in die Länder eindringen und darüber hinwegfegen und hindurchziehen."
+  },
+  {
+    "book": "Daniel",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was wird gemäß Daniel 12:1-2 in der 'Zeit der Bedrängnis, wie eine solche nicht herbeigeführt worden ist, seitdem eine Nation entstanden ist', geschehen, und wer wird entrinnen?",
+    "options": [
+      { "text": "Alle Menschen werden vernichtet, ohne Ausnahme.", "isCorrect": false },
+      { "text": "Michael (Jesus Christus) wird aufstehen, und es wird eine Zeit großer Bedrängnis geben. Jeder aber, der im Buch eingeschrieben gefunden wird, wird entrinnen. Und viele von denen, die im Staub des Erdbodens schlafen, werden aufwachen, diese zu Leben auf unabsehbare Zeit und jene zu Schmach und zu Abscheu auf unabsehbare Zeit.", "isCorrect": true },
+      { "text": "Nur die Nation Israel wird gerettet werden, alle anderen Nationen werden vernichtet.", "isCorrect": false },
+      { "text": "Die Welt wird durch eine Flut gereinigt werden.", "isCorrect": false }
+    ],
+    "explanation": "Daniel prophezeit eine beispiellose Zeit der Bedrängnis am Ende des Systems der Dinge. In dieser Zeit wird Michael, der große Fürst (identifiziert als Jesus Christus), zugunsten von Gottes Volk handeln. Diejenigen, deren Namen im 'Buch des Lebens' eingeschrieben sind, werden gerettet. Diese Zeit wird auch eine Auferstehung der Toten beinhalten, einige zu ewigem Leben und andere zu ewigem Gericht.",
+    "verse": "Daniel 12:1-2 (NWÜ)",
+    "verseTextContent": "Und während jener Zeit wird Michael aufstehen, der große Fürst, der zugunsten der Söhne deines Volkes steht. Und es wird gewiss eine Zeit der Bedrängnis eintreten, wie eine solche nicht herbeigeführt worden ist, seitdem eine Nation entstanden ist bis zu jener Zeit. Und während jener Zeit wird dein Volk entrinnen, jeder, der im Buch eingeschrieben gefunden wird. Und viele von denen, die im Staub des Erdbodens schlafen, werden aufwachen, diese zu Leben auf unabsehbare Zeit und jene zu Schmach und zu Abscheu auf unabsehbare Zeit."
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Wie viele Reiter werden in Offenbarung Kapitel 6 beschrieben, als das Lamm die ersten vier Siegel des Buches öffnet?",
+    "options": [
+      { "text": "Sieben Reiter auf verschiedenfarbigen Pferden.", "isCorrect": false },
+      { "text": "Drei Reiter, die Krieg, Hunger und Tod symbolisieren.", "isCorrect": false },
+      { "text": "Vier Reiter: einer auf einem weißen Pferd (Christus), einer auf einem feuerfarbenen Pferd (Krieg), einer auf einem schwarzen Pferd (Hungersnot) und einer auf einem fahlen Pferd (Tod).", "isCorrect": true },
+      { "text": "Ein einziger Reiter auf einem weißen Pferd, der als 'Das Wort Gottes' bekannt ist.", "isCorrect": false } 
+    ],
+    "explanation": "Beim Öffnen der ersten vier Siegel erscheinen nacheinander vier symbolische Reiter. Der erste auf einem weißen Pferd stellt den siegreichen Christus dar. Die folgenden Reiter symbolisieren Krieg, Hungersnot und Tod, die charakteristisch für die 'letzten Tage' sind.",
+    "verse": "Offenbarung 6:1-2, 3-4, 5-6, 7-8 (NWÜ)",
+    "verseTextContent": "Und ich sah, als das Lamm eines von den sieben Siegeln öffnete, und ich hörte eines von den vier lebenden Geschöpfen wie mit Donnerstimme sagen: „Komm!“ Und ich sah, und siehe, ein weißes Pferd; und der, der darauf saß, hatte einen Bogen; und es wurde ihm eine Krone gegeben, und er zog aus, siegend und um seinen Sieg zu vollenden. ... Und als es das zweite Siegel öffnete, hörte ich das zweite lebende Geschöpf sagen: „Komm!“ Und ein anderes Pferd kam hervor, ein feuerfarbenes; und dem, der darauf saß, wurde gewährt, den Frieden von der Erde wegzunehmen, sodass sie einander hinschlachten würden; und ein großes Schwert wurde ihm gegeben. ... Und als es das dritte Siegel öffnete, ... siehe, ein schwarzes Pferd; und der, der darauf saß, hatte eine Waage in seiner Hand. ... Und als es das vierte Siegel öffnete, ... siehe, ein fahles Pferd; und der, der darauf saß, hatte den Namen Tod. Und der Hades folgte ihm dichtauf."
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "einfach",
+    "language": "de",
+    "question": "Welche Stadt wird in der Offenbarung als 'das Neue Jerusalem' beschrieben, das von Gott aus dem Himmel herabkommt?",
+    "options": [
+      { "text": "Das wiederaufgebaute irdische Jerusalem zur Zeit des Messias.", "isCorrect": false },
+      { "text": "Eine buchstäbliche Stadt aus Gold und Edelsteinen auf der Erde.", "isCorrect": false },
+      { "text": "Die 'Braut, die Frau des Lammes', die aus den 144.000 gesalbten Christen besteht, die mit Christus im Himmel regieren werden.", "isCorrect": true },
+      { "text": "Ein Symbol für den Himmel selbst, wo Gott wohnt.", "isCorrect": false }
+    ],
+    "explanation": "Das Neue Jerusalem ist keine irdische Stadt, sondern symbolisiert die verherrlichte Versammlung der gesalbten Nachfolger Christi (die 144.000), die als seine 'Braut' mit ihm im himmlischen Königreich regieren und Segen für die Menschheit auf der erneuerten Erde bringen werden.",
+    "verse": "Offenbarung 21:2, 9-10 (NWÜ)",
+    "verseTextContent": "Ich sah auch die heilige Stadt, das Neue Jerusalem, von Gott aus dem Himmel herabkommen, bereitgemacht wie eine für ihren Mann geschmückte Braut. ... Und einer von den sieben Engeln, die die sieben Schalen hatten, welche der sieben letzten Plagen voll waren, kam und redete mit mir und sprach: „Komm hierher, ich will dir die Braut, die Frau des Lammes, zeigen.“ Da führte er mich in der Kraft des Geistes weg auf einen großen und hohen Berg, und er zeigte mir die heilige Stadt Jerusalem, die von Gott aus dem Himmel herniederkam"
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Was geschieht gemäß Offenbarung Kapitel 20 mit Satan dem Teufel zu Beginn der Tausendjahrherrschaft Christi?",
+    "options": [
+      { "text": "Er wird endgültig vernichtet.", "isCorrect": false },
+      { "text": "Er wird für tausend Jahre in den Abgrund geworfen und gebunden, damit er die Nationen nicht mehr irreführen kann.", "isCorrect": true },
+      { "text": "Er darf weiterhin die Menschen auf der Erde versuchen.", "isCorrect": false },
+      { "text": "Er bekehrt sich und dient Christus.", "isCorrect": false }
+    ],
+    "explanation": "Die Offenbarung beschreibt, dass nach Harmagedon ein Engel Satan ergreifen, ihn binden und für die Dauer der Tausendjahrherrschaft Christi in einen Abgrund werfen wird. In dieser Zeit wird sein irreführender Einfluss auf die Menschheit beseitigt sein.",
+    "verse": "Offenbarung 20:1-3 (NWÜ)",
+    "verseTextContent": "Und ich sah einen Engel aus dem Himmel herabkommen mit dem Schlüssel des Abgrunds und einer großen Kette in seiner Hand. Und er ergriff den Drachen, die Urschlange, welcher der Teufel und der Satan ist, und band ihn für tausend Jahre. Und er schleuderte ihn in den Abgrund und verschloss diesen und versiegelte ihn über ihm, damit er die Nationen nicht mehr irreführe, bis die tausend Jahre zu Ende wären. Nach diesen Dingen muss er für eine kleine Weile losgelassen werden."
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "mittel",
+    "language": "de",
+    "question": "Wer ist 'Babylon die Große', die in Offenbarung Kapitel 17 und 18 als eine Hure beschrieben wird, die auf einem scharlachfarbenen wilden Tier reitet und mit den Königen der Erde Hurerei treibt?",
+    "options": [
+      { "text": "Die Stadt Rom zur Zeit des Apostels Johannes.", "isCorrect": false },
+      { "text": "Das Weltreich der falschen Religion in seiner Gesamtheit, das im Laufe der Geschichte Kompromisse mit politischen Mächten eingegangen ist und Gottes Volk verfolgt hat.", "isCorrect": true },
+      { "text": "Eine zukünftige globale politische Supermacht.", "isCorrect": false },
+      { "text": "Die materialistische und konsumorientierte Weltgesellschaft.", "isCorrect": false }
+    ],
+    "explanation": "Jehovas Zeugen verstehen 'Babylon die Große' als ein Symbol für alle falschen Religionen der Welt, die sich von der wahren Anbetung Gottes abgewandt haben. Ihre 'Hurerei' mit den 'Königen der Erde' stellt ihre unheiligen Bündnisse und Kompromisse mit politischen Mächten dar. Die Offenbarung kündigt ihren plötzlichen und endgültigen Untergang an.",
+    "verse": "Offenbarung 17:3-5 (NWÜ)",
+    "verseTextContent": "Und er trug mich in der Kraft des Geistes an einen Ort der Wildnis. Und ich erblickte eine Frau, die auf einem scharlachfarbenen wilden Tier saß, das voll lästerlicher Namen war und sieben Köpfe und zehn Hörner hatte. Und die Frau war in Purpur und Scharlach gehüllt und war mit Gold und kostbaren Steinen und Perlen geschmückt und hatte in ihrer Hand einen goldenen Becher, der voll von abscheulichen Dingen und den Unreinheiten ihrer Hurerei war. Und auf ihrer Stirn war ein Name geschrieben, ein Geheimnis: „Babylon die Große, die Mutter der Huren und der abscheulichen Dinge der Erde.“"
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Was ist das 'Malzeichen des wilden Tieres' (Offenbarung 13:16-18), und welche Konsequenzen hat es, dieses Malzeichen anzunehmen?",
+    "options": [
+      { "text": "Ein sichtbares Tattoo oder ein implantierter Mikrochip.", "isCorrect": false },
+      { "text": "Ein symbolisches Zeichen, das die Unterwerfung unter und die Anbetung des weltweiten politischen Systems (des 'wilden Tieres') und seines militaristischen 'Bildes' darstellt, indem man dessen Ideologie und Herrschaft über Gottes Souveränität stellt. Die Annahme führt dazu, dass man Gottes Zorn auf sich zieht und nicht in das 'Buch des Lebens' eingetragen wird.", "isCorrect": true },
+      { "text": "Die Mitgliedschaft in einer bestimmten politischen Partei.", "isCorrect": false },
+      { "text": "Das Zahlen von Steuern an die Regierung.", "isCorrect": false }
+    ],
+    "explanation": "Das 'Malzeichen des wilden Tieres' ist kein buchstäbliches Zeichen, sondern symbolisiert die Identifikation mit und die Unterstützung des von Satan kontrollierten globalen politischen Systems. Es bedeutet, diesem System Loyalität und Anbetung (Anerkennung seiner Autorität als höchstes Gut) zu erweisen, anstatt Gott und seinem Königreich treu zu bleiben. Diejenigen, die dieses Malzeichen annehmen (an ihrer rechten Hand – Taten, oder an ihrer Stirn – Denkweise), ziehen Gottes Gericht auf sich.",
+    "verse": "Offenbarung 13:16-17; 14:9-10 (NWÜ)",
+    "verseTextContent": "Und es zwingt alle Personen, die Kleinen und die Großen und die Reichen und die Armen und die Freien und die Sklaven, dass man diesen ein Kennzeichen an ihre rechte Hand oder an ihre Stirn gebe, und dass niemand kaufen oder verkaufen könne, ausgenommen jemand, der das Kennzeichen hat, den Namen des wilden Tieres oder die Zahl seines Namens. (Offenbarung 13:16-17) Und ein anderer Engel, ein dritter, folgte ihnen und sprach mit lauter Stimme: „Wenn jemand das wilde Tier und sein Bild anbetet und ein Kennzeichen an seiner Stirn oder auf seiner Hand empfängt, wird er auch von dem Wein des Grimmes Gottes trinken, der unverdünnt in den Becher seines Zorns eingeschenkt ist..."
+  },
+  {
+    "book": "Offenbarung",
+    "difficulty": "schwer",
+    "language": "de",
+    "question": "Die Offenbarung beschreibt eine 'große Volksmenge, die kein Mensch zählen konnte, aus allen Nationen und Stämmen und Völkern und Zungen' (Offenbarung 7:9). Welche Hoffnung hat diese große Volksmenge gemäß dem Verständnis von Jehovas Zeugen?",
+    "options": [
+      { "text": "Sie werden zusammen mit den 144.000 im Himmel regieren.", "isCorrect": false },
+      { "text": "Sie kommen aus der 'großen Drangsal', haben ihre Gewänder im Blut des Lammes weiß gemacht und werden ewiges Leben auf einer paradiesischen Erde unter der Herrschaft von Gottes Königreich erlangen, wo Gott bei ihnen weilen und jede Träne abwischen wird.", "isCorrect": true },
+      { "text": "Sie repräsentieren alle Menschen, die jemals gelebt haben und eine zweite Chance erhalten.", "isCorrect": false },
+      { "text": "Sie sind Engel, die Gott im Himmel dienen.", "isCorrect": false }
+    ],
+    "explanation": "Jehovas Zeugen verstehen die 'große Volksmenge' als eine unzählbare Schar von Menschen aus allen Nationen, die die große Drangsal überleben werden. Sie üben Glauben an Jesu Loskaufsopfer aus ('ihre Gewänder im Blut des Lammes gewaschen') und haben die Aussicht auf ewiges Leben in einem Paradies auf der Erde, wo Gott bei ihnen sein und alles Leid beseitigen wird.",
+    "verse": "Offenbarung 7:9-10, 13-14, 17 (NWÜ)",
+    "verseTextContent": "Nach diesen Dingen sah ich, und siehe, eine große Volksmenge, die kein Mensch zählen konnte, aus allen Nationen und Stämmen und Völkern und Zungen stand vor dem Thron und vor dem Lamm, in weiße lange Gewänder gehüllt; und Palmzweige waren in ihren Händen. Und sie rufen weiterhin mit lauter Stimme und sagen: „Die Rettung verdanken wir unserem Gott, der auf dem Thron sitzt, und dem Lamm.“ ... Und als Antwort sprach einer der älteren Männer zu mir: „Diese, die in die weißen langen Gewänder gehüllt sind, wer sind sie, und woher sind sie gekommen?“ Da sagte ich sogleich zu ihm: „Mein Herr, du weißt es.“ Und er sprach zu mir: „Das sind die, die aus der großen Drangsal kommen, und sie haben ihre langen Gewänder gewaschen und sie im Blut des Lammes weiß gemacht.“ ... denn das Lamm, das inmitten des Thrones ist, wird sie hüten und sie zu Wasserquellen des Lebens leiten. Und Gott wird jede Träne von ihren Augen abwischen.“"
   }
+
+
+
+
+
  
  ]

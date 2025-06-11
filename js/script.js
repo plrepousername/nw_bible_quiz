@@ -202,19 +202,46 @@ function populateStatsPage() {
 function updateAccuracyBar(barElement, percentage) {
     let barFill = barElement.querySelector('.bar .fill');
     let valueSpan = barElement.querySelector('.value');
-    if (!barFill || !valueSpan) { // Erstelle Struktur, falls nicht vorhanden
-        barElement.innerHTML = ''; 
-        const barDiv = document.createElement('span'); barDiv.classList.add('bar');
-        barFill = document.createElement('span'); barFill.classList.add('fill');
+
+    // Stelle sicher, dass die HTML-Struktur für den Balken existiert oder erstelle sie
+    if (!barFill || !valueSpan) {
+        barElement.innerHTML = ''; // Leere vorherigen Inhalt, falls vorhanden
+        const barDiv = document.createElement('span');
+        barDiv.classList.add('bar');
+        barFill = document.createElement('span');
+        barFill.classList.add('fill');
         barDiv.appendChild(barFill);
-        valueSpan = document.createElement('span'); valueSpan.classList.add('value');
-        barElement.appendChild(barDiv); barElement.appendChild(valueSpan);
+        
+        valueSpan = document.createElement('span');
+        valueSpan.classList.add('value');
+        
+        barElement.appendChild(barDiv);
+        barElement.appendChild(valueSpan);
     }
+
+    // Setze die Breite des Füllbalkens und den Prozentwert
     barFill.style.width = `${percentage}%`;
     valueSpan.textContent = `${percentage} %`;
-    if (percentage < 30) barFill.style.backgroundColor = '#dc3545';
-    else if (percentage < 70) barFill.style.backgroundColor = '#ffc107';
-    else barFill.style.backgroundColor = '#28a745';
+
+    // Farblogik anpassen:
+    // 0-29%: Rot
+    // 30-59%: Orange
+    // 60-89%: Gelb
+    // 90-100%: Grün
+
+    if (percentage < 30) {
+        barFill.style.backgroundColor = '#dc3545'; // Rot
+        valueSpan.style.color = '#dc3545'; // Optional: Textfarbe anpassen
+    } else if (percentage < 60) { // Zwischen 30% und 59%
+        barFill.style.backgroundColor = '#fd7e14'; // Orange
+        valueSpan.style.color = '#fd7e14';
+    } else if (percentage < 85) { // Zwischen 60% und 89%
+        barFill.style.backgroundColor = '#ffc107'; // Gelb
+        valueSpan.style.color = '#b8860b'; // Dunkleres Gelb für besseren Kontrast des Textes
+    } else { // 90% und darüber
+        barFill.style.backgroundColor = '#28a745'; // Grün
+        valueSpan.style.color = '#28a745';
+    }
 }
 
 function resetOverallStats() {
