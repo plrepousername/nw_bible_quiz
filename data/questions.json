@@ -5582,8 +5582,8 @@
     "options": [
       { "text": "An Esra und Nehemia.", "isCorrect": false },
       { "text": "An Serubbabel, den Statthalter von Juda, und an Jeschua (oder Josua), den Hohenpriester.", "isCorrect": true },
-      { "text": "An König Darius und seine Beamten.", "isCorrect": false },
-      { "text": "An die Propheten Sacharja und Maleachi.", "isCorrect": false }
+      { "text": "An König Darius (vermutlich Darius I.) und seine 10 höchsten Beamten.", "isCorrect": false },
+      { "text": "An die Propheten Sacharja und Maleachi. Ebenfalls an den Propheten Elia.", "isCorrect": false }
     ],
     "explanation": "Haggai überbrachte Jehovas Wort an Serubbabel, den Sohn Schealtiels, den Statthalter von Juda, und an Jeschua, den Sohn Jozadaks, den Hohenpriester, die die Hauptverantwortung für die Leitung des Volkes und den Tempelbau trugen.",
     "verse": "Haggai 1:1 (NWÜ)",
@@ -5595,7 +5595,7 @@
     "language": "de",
     "question": "Was war der Hauptvorwurf oder die Hauptfrage, die Jehova durch Haggai an das Volk richtete, weil sie den Wiederaufbau des Tempels vernachlässigt hatten (Haggai 1:4)?",
     "options": [
-      { "text": "Warum sie nicht genug Geld für den Tempelbau spendeten.", "isCorrect": false },
+      { "text": "Warum sie nicht genug Geld für den Tempelbau spendeten. Es war ein Auftrag von Jehova den Tempelbau voranzutreiben. Ohne Spenden war dies aber nicht möglich.", "isCorrect": false },
       { "text": "'Ist es für euch selbst die Zeit, in euren getäfelten Häusern zu wohnen, während dieses Haus (der Tempel) wüst liegt?'", "isCorrect": true },
       { "text": "Warum sie den Sabbat nicht heiligten.", "isCorrect": false },
       { "text": "Warum sie Bündnisse mit heidnischen Nationen schlossen.", "isCorrect": false }
@@ -5642,7 +5642,7 @@
     "options": [
       { "text": "An die Eroberung Jerichos unter Josua.", "isCorrect": false },
       { "text": "An den Bundesschluss am Berg Sinai und die Gegenwart Gottes beim Auszug aus Ägypten, als sein Geist unter ihnen wirkte.", "isCorrect": true },
-      { "text": "An Davids Sieg über Goliath.", "isCorrect": false },
+      { "text": "An Davids Sieg über Goliath. Wie Jehova allen Gläubigen die Kraft gibt jede Hrausforderung zu meistern. Egal wie groß die Herausforderung ist.", "isCorrect": false },
       { "text": "An die Befreiung durch die Richter.", "isCorrect": false }
     ],
     "explanation": "Um das entmutigte Volk zu stärken, erinnert Jehova sie an seine mächtigen Taten beim Auszug aus Ägypten und an den Bund, den er mit ihnen am Sinai geschlossen hatte. So wie sein Geist damals in ihrer Mitte wirkte, um sie zu führen und zu schützen, so würde er auch jetzt mit ihnen sein, wenn sie das Werk des Tempelbaus fortsetzen würden. Sie sollten sich also nicht fürchten.",
@@ -5793,7 +5793,7 @@
       { "text": "Dass sie ihre Frauen nicht genug ehrten und ihnen keine Geschenke machten.", "isCorrect": false },
       { "text": "Dass sie treulos an den Frauen ihrer Jugend handelten und sich von ihnen scheiden ließen, obwohl Jehova Ehescheidung hasst.", "isCorrect": true },
       { "text": "Dass sie ihre Frauen zwangen, im Tempel zu dienen.", "isCorrect": false },
-      { "text": "Dass sie zu viele ausländische Frauen heirateten.", "isCorrect": false } 
+      { "text": "Dass sie zu viele ausländische Frauen heirateten. Ein berühmtes Beispiel ist hierfür König Salomon, der aufgrund seiner vielen ausländischen Frauen und deren Bräuchen vom reinen GLauben abgekommen ist.", "isCorrect": false } 
     ],
     "explanation": "Jehova klagt die Männer Judas an, weil sie ihren Ehefrauen, mit denen sie in ihrer Jugend den Bund der Ehe geschlossen hatten, untreu geworden waren und sich von ihnen scheiden ließen. Er betont, dass er Ehescheidung (grundlose, verräterische) hasst und dass dies ein schweres Vergehen ist.",
     "verse": "Maleachi 2:14-16 (NWÜ)",
@@ -5806,7 +5806,7 @@
     "question": "Wer wird gemäß Maleachi 3:1 kommen, um den Weg vor Jehova zu bereiten, und wer ist der 'Herr', der plötzlich zu seinem Tempel kommen wird?",
     "options": [
       { "text": "Der Prophet Jeremia als Vorläufer und König David als Herr.", "isCorrect": false },
-      { "text": "Ein Bote (oft als Johannes der Täufer interpretiert) wird den Weg bereiten, und dann wird 'der wahre Herr' (Jehova oder der Messias als sein Vertreter) und der 'Engel des Bundes' zu seinem Tempel kommen.", "isCorrect": true },
+      { "text": "Ein Bote wird den Weg bereiten, und dann wird 'der wahre Herr' und der 'Engel des Bundes' zu seinem Tempel kommen.", "isCorrect": true },
       { "text": "Der Prophet Elia als Vorläufer und der Messias als Herr.", "isCorrect": false }, 
       { "text": "Zwei Zeugen, die als Propheten auftreten werden.", "isCorrect": false }
     ],
@@ -5822,7 +5822,7 @@
     "options": [
       { "text": "Ein Buch mit den Sünden aller Menschen.", "isCorrect": false },
       { "text": "Ein Buch, in dem diejenigen verzeichnet werden, die Jehova fürchten und die an seinen Namen denken (oder ihn hochachten), was auf ihre Treue und Gottes Anerkennung hindeutet.", "isCorrect": true },
-      { "text": "Ein Geschlechtsregister der Priester und Leviten.", "isCorrect": false },
+      { "text": "Ein Geschlechtsregister der Priester und Leviten. Es beginnt mit Adam und zählt alle Nachkommen bis zu Jesus auf. Dadurch kann man die direkte Nachkommenschaft von Adam bis Jesus zurückverfolgen.", "isCorrect": false },
       { "text": "Ein Buch mit allen Prophezeiungen über den Messias.", "isCorrect": false }
     ],
     "explanation": "In einer Zeit des weitverbreiteten Abfalls und der Respektlosigkeit gegenüber Gott gab es immer noch einen treuen Überrest. Diese Gottesfürchtigen sprachen miteinander (wahrscheinlich um sich gegenseitig zu ermutigen), und Jehova hörte aufmerksam zu. Für sie wurde ein 'Buch der Erinnerung' geschrieben, das ihre Namen und ihre Treue festhielt, als Zeichen dafür, dass Gott sie nicht vergisst und sie als sein besonderes Eigentum betrachtet.",
@@ -5852,7 +5852,7 @@
     "options": [
       { "text": "Prophezeiungen und Geschichte", "isCorrect": false },
       { "text": "Das Alte Testament (Hebräische Schriften) und das Neue Testament (Christliche Griechische Schriften).", "isCorrect": true },
-      { "text": "Die Evangelien und die Briefe.", "isCorrect": false },
+      { "text": "Die Evangelien (Matthäus, Markus, Johannes, Lukas) und die Briefe (u.a. Hebräer, Korinther).", "isCorrect": false },
       { "text": "Das Gesetz und die Psalmen.", "isCorrect": false }
     ],
     "explanation": "Die christliche Bibel ist traditionell in zwei Hauptabschnitte unterteilt: Das Alte Testament, das die Schriften des jüdischen Glaubens vor der Zeit Jesu umfasst, und das Neue Testament, das sich auf das Leben und die Lehren Jesu Christi sowie die frühe christliche Gemeinde konzentriert.",
@@ -5898,7 +5898,7 @@
       { "text": "Die Originalmanuskripte der biblischen Bücher.", "isCorrect": false },
       { "text": "Die Sammlung der Bücher, die von Gott inspiriert und als maßgebend für Glauben und Leben anerkannt sind.", "isCorrect": true },
       { "text": "Die Kommentare und Auslegungen der Kirchenväter.", "isCorrect": false },
-      { "text": "Die verschiedenen Übersetzungen der Bibel in moderne Sprachen.", "isCorrect": false }
+      { "text": "Die verschiedenen Übersetzungen der Bibel in moderne Sprachen. Die Bibel wurde in insgesamt über 1000 Sprachen übersetzt. ", "isCorrect": false }
     ],
     "explanation": "Der biblische Kanon bezeichnet die offizielle Liste der Bücher, die als inspiriertes Wort Gottes gelten und somit Autorität für die christliche Lehre und Praxis besitzen. Der Prozess der Kanonisierung war eine historische Entwicklung, bei der die Kirche unter der Führung des Heiligen Geistes diese inspirierten Schriften erkannte.",
     "verse": "2. Timotheus 3:16 (NWÜ) (stützt das Konzept inspirierter Schriften)",
@@ -5912,7 +5912,7 @@
     "options": [
       { "text": "Der Noahische Bund (mit Noah nach der Sintflut).", "isCorrect": false },
       { "text": "Der Neue Bund, der durch das Blut Jesu Christi vermittelt wurde, der Vergebung der Sünden und eine innere Verwandlung durch den Heiligen Geist verheißt, wie von Jeremia prophezeit.", "isCorrect": true },
-      { "text": "Der Abrahamische Bund (mit Abraham bezüglich seiner Nachkommen und des Landes).", "isCorrect": false },
+      { "text": "Der Abrahamische Bund (mit Abraham bezüglich seiner Nachkommen und des Landes). Er besagt, dass Jehova aus Abrahams Nachkommen soviele machen wird wie es Sandkörner auf der Erde gibt und sie werden ein Volk sein.", "isCorrect": false },
       { "text": "Der Davidische Bund (mit David bezüglich seines Königtums).", "isCorrect": false }
     ],
     "explanation": "Jesus Christus stiftete beim letzten Abendmahl den 'neuen Bund' in seinem Blut. Dieser Bund, der bereits im Buch Jeremia (31:31-34) angekündigt wurde, löste den alten Gesetzesbund vom Berg Sinai ab. Er ermöglicht eine direktere Beziehung zu Gott, die Vergebung von Sünden durch Glauben an Christus und das Wirken des Heiligen Geistes im Herzen der Gläubigen.",
@@ -5926,7 +5926,7 @@
     "question": "Was ist die Bedeutung des hebräischen Wortes 'Messias' (gr. 'Christos'), und welche Rolle erfüllt Jesus gemäß der Bibel als der Messias?",
     "options": [
       { "text": "'Lehrer' oder 'Rabbi'; Jesus war ein großer religiöser Lehrer.", "isCorrect": false },
-      { "text": "'Der Gesalbte'; Jesus ist der von Gott auserwählte und gesalbte König, Priester und Prophet, der gekommen ist, um Gottes Volk zu erlösen und Gottes Königreich aufzurichten.", "isCorrect": true },
+      { "text": "'Der Gesalbte'; Jesus ist der von Gott auserwählte und gesalbte König.", "isCorrect": true },
       { "text": "'Sohn Davids'; Jesus war nur ein menschlicher Nachkomme Davids ohne göttliche Eigenschaften.", "isCorrect": false },
       { "text": "'Retter'; Jesus ist nur einer von vielen möglichen Rettern der Menschheit.", "isCorrect": false }
     ],
@@ -5941,9 +5941,9 @@
     "question": "Welches Buch der Bibel enthält die 'Zehn Gebote', die Gott Mose auf dem Berg Sinai gab?",
     "options": [
       { "text": "1. Mose (Genesis)", "isCorrect": false },
-      { "text": "2. Mose (Exodus) und 5. Mose (Deuteronomium)", "isCorrect": true },
+      { "text": "2. Mose und 5. Mose", "isCorrect": true },
       { "text": "Psalmen", "isCorrect": false },
-      { "text": "Matthäusevangelium", "isCorrect": false }
+      { "text": "Matthäusevangelium und Lukasevangelium", "isCorrect": false }
     ],
     "explanation": "Die Zehn Gebote, eine grundlegende Zusammenfassung von Gottes moralischen und religiösen Anforderungen an Israel, wurden Mose auf dem Berg Sinai gegeben und sind hauptsächlich in 2. Mose, Kapitel 20 und in einer Wiederholung in 5. Mose, Kapitel 5 aufgezeichnet.",
     "verse": "2. Mose 20:1-17 (NWÜ)",
@@ -5971,7 +5971,7 @@
     "question": "Was ist das 'Passah' (oder Passa), das die Israeliten jährlich feiern sollten?",
     "options": [
       { "text": "Ein Erntedankfest für die erste Ernte des Jahres.", "isCorrect": false },
-      { "text": "Ein Fest zur Erinnerung an die Befreiung der Israeliten aus der Sklaverei in Ägypten, bei dem der Todesengel an den mit Lammblut bestrichenen Häusern vorüberging.", "isCorrect": true },
+      { "text": "Ein Fest zur Erinnerung an die Befreiung der Israeliten aus der Sklaverei in Ägypten.", "isCorrect": true },
       { "text": "Ein Fest zur Erinnerung an den Bundesschluss am Berg Sinai.", "isCorrect": false },
       { "text": "Ein Fest zur Feier der Erschaffung der Welt.", "isCorrect": false }
     ],
@@ -6002,8 +6002,8 @@
     "language": "de",
     "question": "Welches ist das erste Buch der Bibel und wovon handelt es hauptsächlich?",
     "options": [
-      { "text": "Das Buch der Psalmen; es enthält Lieder und Gebete.", "isCorrect": false },
-      { "text": "1. Mose (Genesis); es berichtet von der Schöpfung, den ersten Menschen, der Sintflut und den Anfängen des Volkes Israel mit den Patriarchen Abraham, Isaak und Jakob.", "isCorrect": true },
+      { "text": "Das Buch der Psalmen; es enthält viele Lieder und Gebete. Das Buch der Psalmen enthält verschiedene unabhängige Texte, die von verschiedenen Autoren verfasst wurden.", "isCorrect": false },
+      { "text": "1. Mose; es berichtet von der Schöpfung, den ersten Menschen, der Sintflut und den Anfängen des Volkes Israel mit den Patriarchen Abraham, Isaak und Jakob.", "isCorrect": true },
       { "text": "Das Matthäusevangelium; es handelt vom Leben Jesu.", "isCorrect": false },
       { "text": "Das Buch der Offenbarung; es beschreibt prophetische Visionen vom Ende der Zeit.", "isCorrect": false }
     ],
@@ -6703,7 +6703,7 @@
       { "text": "Er bat seine Jünger, für ihn zu kämpfen.", "isCorrect": false },
       { "text": "Er geriet in Todesangst, und sein Schweiß wurde wie Blutstropfen, die zur Erde fielen; und ein Engel erschien ihm und stärkte ihn.", "isCorrect": true },
       { "text": "Er versuchte, aus dem Garten zu fliehen.", "isCorrect": false },
-      { "text": "Er war so erschöpft von seinem Gebetskampf, dass er seine AUgen nicht mehr aufhalten konnten und letztendlich eingeschlafen ist.", "isCorrect": false }
+      { "text": "Er war so erschöpft von seinem Gebetskampf, dass er seine Augen nicht mehr aufhalten konnten und letztendlich eingeschlafen ist.", "isCorrect": false }
     ],
     "explanation": "Lukas schildert eindrücklich die extreme seelische Anspannung Jesu vor seiner Verhaftung. Er betete so intensiv, dass sein Schweiß wie Blutstropfen wurde. In dieser schweren Stunde wurde er von einem Engel gestärkt, was seine völlige Unterordnung unter den Willen seines Vaters trotz des bevorstehenden Leidens zeigt.",
     "verse": "Lukas 22:42-44 (NWÜ)",
