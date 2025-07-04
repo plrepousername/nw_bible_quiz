@@ -2,6 +2,98 @@
 
 const STATS_STORAGE_KEY = 'bibleQuizDetailedStats_v3'; // Version erhöht für Strukturänderungen
 
+
+// --- Sprachsteuerung ---
+const DEFAULT_LANGUAGE = 'de';
+const supportedLanguages = ['de', 'eng', 'ron'];
+
+
+
+function getInitialLanguage() {
+    const savedLang = localStorage.getItem('quizLang');
+    if (savedLang && supportedLanguages.includes(savedLang)) return savedLang;
+
+    const browserLang = navigator.language.slice(0, 2);
+    if (supportedLanguages.includes(browserLang)) return browserLang;
+
+    return DEFAULT_LANGUAGE;
+}
+
+async function loadLanguage(lang) {
+    const response = await fetch(`lang/lang_${lang}.json`);
+    const texts = await response.json();
+    applyTexts(texts);
+    localStorage.setItem('quizLang', lang);
+    languageSelect.value = lang;
+}
+
+function applyTexts(texts) {
+    const textMap = {
+        'app-title': 'app_title',
+        'language-select-label': 'select_language',
+        'start-quiz-btn': 'start_quiz',
+		'book-select-label': 'book_select_label',
+        'open-book-select-modal-btn': 'book_select_button',
+		'difficulty-select-label': 'difficulty',
+        'difficulty-select': {
+			'':'difficulty_default',
+            'einfach': 'difficulty_easy',
+            'mittel': 'difficulty_medium',
+            'schwer': 'difficulty_hard'
+        },
+        'show-stats-page-btn': 'stats_button',
+        'back-to-start-btn': 'back_to_menu',
+        'next-question-btn': 'next_question',
+
+        // Neue IDs für info-panel (falls sie als Text-Knoten ersetzt werden sollen)
+        'info-panel-title': 'info_title',
+        'info-selected-language-label': 'info_selected_language',
+        'info-selected-books-label': 'info_selected_books',
+        'info-selected-difficulty-label': 'info_selected_difficulty',
+        'info-current-question-title': 'info_current_question_title',
+        'info-current-book-label': 'info_current_book',
+        'info-current-difficulty-label': 'info_current_difficulty',
+        'info-progress-title': 'info_progress_title',
+        'info-question-label': 'info_question',
+        'info-score-label': 'info_score',
+        'info-accuracy-label': 'info_accuracy_quote'
+    };
+
+    // Zunächst übersetzen wie gehabt
+    for (const [id, key] of Object.entries(textMap)) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+
+        if (typeof key === 'string') {
+            el.textContent = texts[key] || el.textContent;
+        } else {
+            // Für Select-Optionen wie difficulty-select
+            [...el.options].forEach(opt => {
+                const val = opt.value;
+                if (key[val] && texts[key[val]]) {
+                    opt.textContent = texts[key[val]];
+                }
+            });
+        }
+    }
+}
+
+// Listener für Sprachauswahl
+document.addEventListener('DOMContentLoaded', () => {
+    const initialLang = getInitialLanguage();
+    loadLanguage(initialLang);
+
+    languageSelect.addEventListener('change', (e) => {
+        const lang = e.target.value;
+        if (supportedLanguages.includes(lang)) {
+            loadLanguage(lang);
+        }
+    });
+});
+
+
+
+
 // --- BIBELBUCHREIHENFOLGE (gemäß Neuer-Welt-Übersetzung) ---
 const bibleBookOrderNWT = [
     "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
@@ -15,6 +107,8 @@ const bibleBookOrderNWT = [
     "Hebräer", "Jakobus", "1. Petrus", "2. Petrus", "1. Johannes", "2. Johannes", "3. Johannes",
     "Judas", "Offenbarung", "Allgemein" // "Allgemein" für Sortierung und spezielle Behandlung
 ];
+
+
 const OLD_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(0, 39);
 const NEW_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(39, bibleBookOrderNWT.indexOf("Allgemein"));
 
@@ -600,7 +694,10 @@ function goBackToStart() {
     startScreen.classList.remove('hidden');
     showError(null);
 
-    languageSelect.value = "de";
+    
+	if (currentLanguage) {
+    languageSelect.value = currentLanguage;
+	}
     const availableBooks = [...new Set(allQuestions.map(q => q.book))];
     globallySelectedBooks = [...availableBooks];
     difficultySelect.value = "";   
@@ -638,3 +735,5 @@ languageSelect.addEventListener('change', updateSelectionInfoPanel);
 
 // --- Start ---
 loadQuestions();
+
+

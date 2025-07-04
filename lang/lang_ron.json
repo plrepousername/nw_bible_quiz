@@ -1,0 +1,12 @@
+{
+  "app_title": "ROMANA",
+  "select_language": "Choose language:",
+  "start_quiz": "Start Quiz",
+  "book_select_button": "Bücher wählen...",
+  "difficulty_easy": "Einfach",
+  "difficulty_medium": "Mittel",
+  "difficulty_hard": "Schwer",
+  "stats_button": "Statistiken anzeigen",
+  "back_to_menu": "Zurück zum Menü",
+  "next_question": "Nächste Frage"
+}

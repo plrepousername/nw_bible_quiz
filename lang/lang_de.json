@@ -1,0 +1,26 @@
+{
+  "app_title": "Bibel Quiz (NWÜ)",
+  "select_language": "Sprache wählen:",
+  "start_quiz": "Quiz starten",
+  "book_select_label": "Bibelbücher auswählen:"
+  "book_select_button": "Bücher wählen...",
+  "difficulty":"Schwierigkeitsgrad:",
+  "difficulty_default":"Alle Schwerigkeiten",
+  "difficulty_easy": "Einfach",
+  "difficulty_medium": "Mittel",
+  "difficulty_hard": "Schwer",
+  "stats_button": "Statistiken anzeigen",
+  "back_to_menu": "Zurück zum Menü",
+  "next_question": "Nächste Frage",
+  "info_title": "Quiz Informationen",
+  "info_selected_language": "Sprache:",
+  "info_selected_books": "Ausgewählte Bücher:",
+  "info_selected_difficulty": "Ausgew. Schwierigkeit:",
+  "info_current_question_title": "Aktuelle Frage:",
+  "info_current_book": "Buch:",
+  "info_current_difficulty": "Schwierigkeit:",
+  "info_progress_title": "Fortschritt (Runde):",
+  "info_question_counter": "Frage:",
+  "info_score_counter": "Richtig:",
+  "info_accuracy_quote": "Quote (Runde):"
+}

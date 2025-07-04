@@ -10,52 +10,53 @@
 <body>
     <main id="quiz-layout">
         <div id="info-panel" class="hidden"> <!-- Initial versteckt, wird von JS gesteuert -->
-            <h2>Quiz Informationen</h2>
-            <div class="info-item">
-                <strong>Sprache:</strong>
-                <span id="info-selected-language">Deutsch</span>
-            </div>
-            <div class="info-item">
-                <strong>Ausgewählte Bücher:</strong>
-                <span id="info-selected-books">Alle verfügbaren Bücher</span>
-            </div>
-            <div class="info-item">
-                <strong>Ausgew. Schwierigkeit:</strong>
-                <span id="info-selected-difficulty">Nicht festgelegt</span>
-            </div>
-            <hr>
-            <h3>Aktuelle Frage:</h3>
-            <div class="info-item">
-                <strong>Buch:</strong>
-                <span id="info-current-book">-</span>
-            </div>
-            <div class="info-item">
-                <strong>Schwierigkeit:</strong>
-                <span id="info-current-difficulty">-</span>
-            </div>
-            <hr>
-            <h3>Fortschritt (Runde):</h3>
-            <div class="info-item">
-                <strong>Frage:</strong>
-                <span id="info-question-counter">- / -</span>
-            </div>
-            <div class="info-item">
-                <strong>Richtig:</strong>
-                <span id="info-score-counter">0</span>
-            </div>
-            <div class="info-item">
-                <strong>Quote (Runde):</strong>
-                <span id="info-accuracy-quote">0 %</span>
-            </div>
-        </div>
+    <h2 id="info-panel-title">Quiz Informationen</h2>
+
+    <div class="info-item">
+        <strong id="info-selected-language-label">Sprache:</strong>
+        <span id="info-selected-language">Deutsch</span>
+    </div>
+    <div class="info-item">
+        <strong id="info-selected-books-label">Ausgewählte Bücher:</strong>
+        <span id="info-selected-books">Alle verfügbaren Bücher</span>
+    </div>
+    <div class="info-item">
+        <strong id="info-selected-difficulty-label">Ausgew. Schwierigkeit:</strong>
+        <span id="info-selected-difficulty">Nicht festgelegt</span>
+    </div>
+    <hr>
+    <h3 id="info-current-question-title">Aktuelle Frage:</h3>
+    <div class="info-item">
+        <strong id="info-current-book-label">Buch:</strong>
+        <span id="info-current-book">-</span>
+    </div>
+    <div class="info-item">
+        <strong id="info-current-difficulty-label">Schwierigkeit:</strong>
+        <span id="info-current-difficulty">-</span>
+    </div>
+    <hr>
+    <h3 id="info-progress-title">Fortschritt (Runde):</h3>
+    <div class="info-item">
+        <strong id="info-question-label">Frage:</strong>
+        <span id="info-question-counter">- / -</span>
+    </div>
+    <div class="info-item">
+        <strong id="info-score-label">Richtig:</strong>
+        <span id="info-score-counter">0</span>
+    </div>
+    <div class="info-item">
+        <strong id="info-accuracy-label">Quote (Runde):</strong>
+        <span id="info-accuracy-quote">0 %</span>
+    </div>
+</div>
 
         <div id="app-container">
             <div id="start-screen">
-                <h1>Bibel Quiz (NWÜ)</h1>
+                <h1 id="app-title">Bibel Quiz (NWÜ)</h1>
                 <div id="loading-message" class="hidden">Lade Fragen...</div>
                 <div id="error-message" class="hidden"></div>
 
-                <label for="language-select">Sprache wählen:</label>
+                <label id="language-select-label" for="language-select">Sprache wählen:</label>
                 <select id="language-select">
                     <option value="de">Deutsch</option>
 					<option value="eng">English</option>
@@ -63,11 +64,11 @@
                 </select>
                 <br><br>
 
-                <label>Bibelbücher auswählen:</label>
+                <label id="book-select-label">Bibelbücher auswählen:</label>
                 <button type="button" id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
                 <br><br>
 
-                <label for="difficulty-select">Schwierigkeitsgrad:</label>
+                <label id="difficulty-select-label" for="difficulty-select">Schwierigkeitsgrad:</label>
                 <select id="difficulty-select" disabled>
                     <option value="">Alle Schwierigkeiten</option>
                     <option value="einfach">Einfach</option>
