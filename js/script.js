@@ -88,7 +88,9 @@ function applyTexts(texts) {
         "installation-info-android-text": "installation_info_android_text",
         "installation-info-ios-label": "installation_info_ios_label",
         "installation-info-ios-text": "installation_info_ios_text",
-        "installation-info-note": "installation_info_note"
+        "installation-info-note": "installation_info_note",
+		
+		"share-btn":"share_app"
 		
 		
     };
@@ -783,6 +785,26 @@ backToStartFromStatsBtn.addEventListener('click', hideStatsPage);
 resetAllStatsBtn.addEventListener('click', resetOverallStats);
 difficultySelect.addEventListener('change', updateSelectionInfoPanel);
 languageSelect.addEventListener('change', updateSelectionInfoPanel);
+
+
+
+const shareBtn = document.getElementById('share-btn');
+
+shareBtn.addEventListener('click', async () => {
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: currentTexts['app_title']',
+        text: currentTexts['share_text'],
+        url: window.location.href,
+      });
+    } catch (err) {
+    }
+  } else {
+    alert('Dein Browser unterstützt das Teilen leider nicht.');
+  }
+});
+
 
 // --- Start ---
 loadQuestions();

@@ -44,7 +44,8 @@
   "installation_info_ios_label": "iOS (Safari):",
   "installation_info_ios_text": "Tap the share icon (square with arrow up) and then select \"Add to Home Screen\".",
   "installation_info_note": "Exact steps may vary slightly depending on browser and OS version.",
-
+"share_app":"Share App",
+ "share_text":"Try out this Bible quiz app!",
 
   "bibleBookOrder": [
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",

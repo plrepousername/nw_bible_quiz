@@ -43,7 +43,9 @@
   "installation_info_ios_label": "iOS (Safari):",
   "installation_info_ios_text": "Apasă pe pictograma de partajare (pătrat cu săgeată în sus) și selectează „Adaugă pe ecranul principal”.",
   "installation_info_note": "Pașii exacți pot varia ușor în funcție de browser și versiunea sistemului de operare.",
-
+	"share_app":"Împărtășește aplicația",
+	  "share_text":"Probează această aplicație de quiz Bible!",
+	
   "bibleBookOrder": [
   "Geneza",
   "Exodul",

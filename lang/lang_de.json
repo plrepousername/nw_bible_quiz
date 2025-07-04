@@ -42,7 +42,8 @@
   "installation_info_ios_label": "iOS (Safari):",
   "installation_info_ios_text": "Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann \"Zum Home-Bildschirm\".",
   "installation_info_note": "Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.",
-
+   "share_app":"App teilen",
+   "share_text":"Probier diese Bibel Quiz App aus!",
   
   "bibleBookOrder": [
     "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
