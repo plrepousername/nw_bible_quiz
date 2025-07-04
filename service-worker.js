@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-cache-v11';
+const CACHE_NAME = 'my-cache-v12';
 const URLS_TO_CACHE = [
   './',
   './index.html',
@@ -6,7 +6,10 @@ const URLS_TO_CACHE = [
   './js/script.js',
   './data/questions.json',
   './icons/icon-192x192.png',
-  './icons/icon-512x512.png'
+  './icons/icon-512x512.png',
+  './lang/lang_de.json',
+  './lang/lang_eng.json',
+  './lang/lang_ron.json'
 ];
 
 // Sofort aktivieren
