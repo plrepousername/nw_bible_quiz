@@ -81,16 +81,19 @@
                 <button type="button" id="show-stats-page-btn" class="utility-btn full-width-btn" style="margin-top: 10px; background-color: #4caf50;" disabled>Statistiken anzeigen</button>
 
                 <div id="installation-info" class="info-box">
-                    <h4>App installieren?</h4>
-                    <p>
-                        Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!
-                    </p>
-                    <p>
-                        <strong>Android (Chrome/Edge):</strong> Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".<br>
-                        <strong>iOS (Safari):</strong> Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann "Zum Home-Bildschirm".
-                    </p>
-                    <p><small>Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
-                </div>
+					<h4 id="installation-info-title">App installieren?</h4>
+					<p id="installation-info-p1">
+						Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!
+					</p>
+					<p id="installation-info-p2">
+						<strong id="installation-info-android-label">Android (Chrome/Edge):</strong>
+						<span id="installation-info-android-text">Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".</span><br>
+						<strong id="installation-info-ios-label">iOS (Safari):</strong>
+						<span id="installation-info-ios-text">Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann "Zum Home-Bildschirm".</span>
+					</p>
+					<p><small id="installation-info-note">Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
+				</div>
+
             </div>
 
             <div id="quiz-screen" class="hidden" tabindex="-1">
@@ -107,7 +110,7 @@
                 <div id="feedback-section" class="hidden">
                     <p id="explanation-text"></p>
                     <div class="verse-display">
-                        <p><strong>Bibelstelle: <span id="verse-reference"></span></strong></p>
+                        <p id="verse-label"><strong>Bibelstelle: <span id="verse-reference"></span></strong></p>
                         <blockquote id="verse-content-direct"></blockquote>
                     </div>
                 </div>

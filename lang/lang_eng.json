@@ -12,7 +12,7 @@
   "stats_button": "Show statistics",
   "back_to_menu": "Back to menu",
   "next_question": "Next question",
-  "info_title": "Quiz Information",
+  "info_title": "Quiz information",
   "info_selected_language": "Language:",
   "info_selected_books": "Selected books:",
   "info_selected_difficulty": "Selected difficulty:",
@@ -22,5 +22,39 @@
   "info_progress_title": "Progress (round):",
   "info_question_counter": "Question:",
   "info_score_counter": "Correct:",
-  "info_accuracy_quote": "Accuracy (round):"
+  "info_accuracy_quote": "Accuracy (round):",
+  "explanation_label": "Explanation",
+  "verse_label": "Verse reference:",
+  "book_common": "General",
+  "section_common":"General questions",
+  
+  "hebrew_text": "Hebrew Scriptures (Old Testament)",
+  "greek_text": "Christian Greek Scriptures (New Testament)",
+  "all_books": "All available books",
+  "select_all_books": "Select all books",
+  "delect_all_books": "Deselect all books",
+  "new_testamony": "Greek Scriptures",
+  "old_testamony": "Hebrew Scriptures",
+  "confirm_selection": "Confirm selection",
+  
+ "installation_info_title": "Install the app?",
+  "installation_info_p1": "You can add this quiz app to your home screen and use it like a normal app!",
+  "installation_info_android_label": "Android (Chrome/Edge):",
+  "installation_info_android_text": "Tap the three dots (menu) at the top right and then select \"Add to Home screen\" or \"Install app\".",
+  "installation_info_ios_label": "iOS (Safari):",
+  "installation_info_ios_text": "Tap the share icon (square with arrow up) and then select \"Add to Home Screen\".",
+  "installation_info_note": "Exact steps may vary slightly depending on browser and OS version.",
+
+
+  "bibleBookOrder": [
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",
+    "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra",
+    "Nehemiah", "Esther", "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon",
+    "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos",
+    "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah",
+    "Malachi", "Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthians",
+    "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians",
+    "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James",
+    "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation", "General"
+  ]
 }

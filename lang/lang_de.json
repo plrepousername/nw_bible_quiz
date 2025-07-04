@@ -2,7 +2,7 @@
   "app_title": "Bibel Quiz (NWÜ)",
   "select_language": "Sprache wählen:",
   "start_quiz": "Quiz starten",
-  "book_select_label": "Bibelbücher auswählen:"
+  "book_select_label": "Bibelbücher auswählen:",
   "book_select_button": "Bücher wählen...",
   "difficulty":"Schwierigkeitsgrad:",
   "difficulty_default":"Alle Schwerigkeiten",
@@ -22,5 +22,38 @@
   "info_progress_title": "Fortschritt (Runde):",
   "info_question_counter": "Frage:",
   "info_score_counter": "Richtig:",
-  "info_accuracy_quote": "Quote (Runde):"
+  "info_accuracy_quote": "Quote (Runde):",
+  "explanation_label":"Erklärung",
+  "verse_label":"Bibelstelle:",
+  "book_common":"Allgemein",
+  "section_common":"Allgemeine Fragen",
+  "hebrew_text":"Hebräische Schriften (Altes Testament)",
+  "greek_text":"Christliche Griechische Schriften (Neues Testament)",
+  "all_books":"Alle verfügbaren Bücher",
+  "select_all_books":"Alle Bücher",
+  "delect_all_books":"Alle abwählen",
+  "new_testamony":"Griechische Schriften",
+  "old_testamony":"Hebräische Schriften",
+  "confirm_selection":"Auswahl bestätigen",
+    "installation_info_title": "App installieren?",
+  "installation_info_p1": "Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!",
+  "installation_info_android_label": "Android (Chrome/Edge):",
+  "installation_info_android_text": "Tippe auf die drei Punkte (Menü) oben rechts und wähle dann \"Zum Startbildschirm hinzufügen\" oder \"App installieren\".",
+  "installation_info_ios_label": "iOS (Safari):",
+  "installation_info_ios_text": "Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann \"Zum Home-Bildschirm\".",
+  "installation_info_note": "Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.",
+
+  
+  "bibleBookOrder": [
+    "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
+    "1. Samuel", "2. Samuel", "1. Könige", "2. Könige", "1. Chronika", "2. Chronika",
+    "Esra", "Nehemia", "Esther", "Hiob", "Psalm", "Sprüche", "Prediger", "Hoheslied",
+    "Jesaja", "Jeremia", "Klagelieder", "Hesekiel", "Daniel", "Hosea", "Joel", "Amos",
+    "Obadja", "Jona", "Micha", "Nahum", "Habakuk", "Zephanja", "Haggai", "Sacharja", "Maleachi",
+    "Matthäus", "Markus", "Lukas", "Johannes", "Apostelgeschichte", "Römer",
+    "1. Korinther", "2. Korinther", "Galater", "Epheser", "Philipper", "Kolosser",
+    "1. Thessalonicher", "2. Thessalonicher", "1. Timotheus", "2. Timotheus", "Titus", "Philemon",
+    "Hebräer", "Jakobus", "1. Petrus", "2. Petrus", "1. Johannes", "2. Johannes", "3. Johannes",
+    "Judas", "Offenbarung", "Allgemein"
+  ]
 }

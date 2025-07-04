@@ -1,8 +1,11 @@
 // js/script.js
 
 const STATS_STORAGE_KEY = 'bibleQuizDetailedStats_v3'; // Version erhöht für Strukturänderungen
-
-
+let currentTexts = {};
+let bibleBookOrderNWT = [];
+let OLD_TESTAMENT_NWT_BOOKS = [];
+let NEW_TESTAMENT_NWT_BOOKS = [];
+let currentLanguage = 'de';
 // --- Sprachsteuerung ---
 const DEFAULT_LANGUAGE = 'de';
 const supportedLanguages = ['de', 'eng', 'ron'];
@@ -22,9 +25,21 @@ function getInitialLanguage() {
 async function loadLanguage(lang) {
     const response = await fetch(`lang/lang_${lang}.json`);
     const texts = await response.json();
+	currentTexts = texts;
+	
+	 // Bible book order aus der JSON übernehmen:
+    if (texts.bibleBookOrder && Array.isArray(texts.bibleBookOrder)) {
+        bibleBookOrderNWT = texts.bibleBookOrder;
+    } else {
+        // Fallback, falls die Reihenfolge nicht vorhanden ist
+        bibleBookOrderNWT = [];
+    }
+	OLD_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(0, 39);
+	NEW_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(39, bibleBookOrderNWT.indexOf(texts.book_common));
     applyTexts(texts);
     localStorage.setItem('quizLang', lang);
     languageSelect.value = lang;
+	currentLanguage = lang;
 }
 
 function applyTexts(texts) {
@@ -56,7 +71,26 @@ function applyTexts(texts) {
         'info-progress-title': 'info_progress_title',
         'info-question-label': 'info_question',
         'info-score-label': 'info_score',
-        'info-accuracy-label': 'info_accuracy_quote'
+        'info-accuracy-label': 'info_accuracy_quote',
+		 'verse-label': 'verse_label',
+		 
+		 'select-all-available-btn':'select_all_books',
+		 'deselect-all-modal-btn':'delect_all_books',
+		 'select-all-nt-btn':'new_testamony',
+		 'select-all-ot-btn':'old_testamony',
+		 
+		 'confirm-book-selection-btn':'confirm_selection',
+		 
+		 
+		"installation-info-title": "installation_info_title",
+        "installation-info-p1": "installation_info_p1",
+        "installation-info-android-label": "installation_info_android_label",
+        "installation-info-android-text": "installation_info_android_text",
+        "installation-info-ios-label": "installation_info_ios_label",
+        "installation-info-ios-text": "installation_info_ios_text",
+        "installation-info-note": "installation_info_note"
+		
+		
     };
 
     // Zunächst übersetzen wie gehabt
@@ -93,24 +127,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+ /*
 // --- BIBELBUCHREIHENFOLGE (gemäß Neuer-Welt-Übersetzung) ---
-const bibleBookOrderNWT = [
-    "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
-    "1. Samuel", "2. Samuel", "1. Könige", "2. Könige", "1. Chronika", "2. Chronika",
+//const bibleBookOrderNWT = [
+////    "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",
+  ////  "1. Samuel", "2. Samuel", "1. Könige", "2. Könige", "1. Chronika", "2. Chronika",
     "Esra", "Nehemia", "Esther", "Hiob", "Psalm", "Sprüche", "Prediger", "Hoheslied",
-    "Jesaja", "Jeremia", "Klagelieder", "Hesekiel", "Daniel", "Hosea", "Joel", "Amos",
+//    "Jesaja", "Jeremia", "Klagelieder", "Hesekiel", "Daniel", "Hosea", "Joel", "Amos",
     "Obadja", "Jona", "Micha", "Nahum", "Habakuk", "Zephanja", "Haggai", "Sacharja", "Maleachi",
     "Matthäus", "Markus", "Lukas", "Johannes", "Apostelgeschichte", "Römer",
     "1. Korinther", "2. Korinther", "Galater", "Epheser", "Philipper", "Kolosser",
     "1. Thessalonicher", "2. Thessalonicher", "1. Timotheus", "2. Timotheus", "Titus", "Philemon",
     "Hebräer", "Jakobus", "1. Petrus", "2. Petrus", "1. Johannes", "2. Johannes", "3. Johannes",
     "Judas", "Offenbarung", "Allgemein" // "Allgemein" für Sortierung und spezielle Behandlung
-];
+]; */
 
 
-const OLD_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(0, 39);
-const NEW_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(39, bibleBookOrderNWT.indexOf("Allgemein"));
+//const OLD_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(0, 39);
+//const NEW_TESTAMENT_NWT_BOOKS = bibleBookOrderNWT.slice(39, bibleBookOrderNWT.indexOf("Allgemein"));
 
 
 // --- DOM-Elemente ---
@@ -175,6 +209,7 @@ const resetAllStatsBtn = document.getElementById('reset-all-stats-btn');
 
 // Globale Variablen
 let allQuestions = [];
+let currentQestions = [];
 let currentQuestionIndex = 0;
 let filteredQuestions = [];
 let correctAnswers = 0; // Für die aktuelle Runde
@@ -377,8 +412,16 @@ function closeBookSelectModal() {
 
 function populateModalBookButtons() {
     modalBookButtonsContainer.innerHTML = '';
-    const uniqueBooksFromQuestions = [...new Set(allQuestions.map(q => q.book))];
-    
+	
+    //const uniqueBooksFromQuestions = [...new Set(allQuestions.map(q => q.book))];
+    const filteredByLanguage = currentLanguage
+        ? allQuestions.filter(q => q.language === currentLanguage)
+        : allQuestions;
+
+    // Einzigartige Bücher aus den gefilterten Fragen extrahieren
+    const uniqueBooksFromQuestions = [...new Set(filteredByLanguage.map(q => q.book))];
+	
+	
     const createButton = (bookName) => {
         const button = document.createElement('button');
         button.type = 'button';
@@ -410,9 +453,9 @@ function populateModalBookButtons() {
         modalBookButtonsContainer.appendChild(title);
     };
 
-    if (uniqueBooksFromQuestions.includes("Allgemein")) {
-        createTitle("Allgemeine Fragen");
-        createButton("Allgemein");
+    if (uniqueBooksFromQuestions.includes(currentTexts['book_common'])) {
+        createTitle(currentTexts['section_common']);
+        createButton(currentTexts['book_common']);
         if (OLD_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b)) || NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))) {
             createSeparator();
         }
@@ -420,7 +463,7 @@ function populateModalBookButtons() {
 
     let otBooksExist = OLD_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
     if (otBooksExist.length > 0) {
-        createTitle("Hebräische Schriften (Altes Testament)");
+        createTitle(currentTexts["hebrew_text"]);
         otBooksExist.forEach(createButton);
         if (NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))) {
              createSeparator();
@@ -429,12 +472,12 @@ function populateModalBookButtons() {
     
     let ntBooksExist = NEW_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
     if (ntBooksExist.length > 0) {
-        createTitle("Christliche Griechische Schriften (Neues Testament)");
+        createTitle(currentTexts["greek_text"]);
         ntBooksExist.forEach(createButton);
     }
     
     let remainingBooks = uniqueBooksFromQuestions.filter(b => 
-        b !== "Allgemein" && 
+        b !== currentTexts['book_common'] && 
         !OLD_TESTAMENT_NWT_BOOKS.includes(b) && 
         !NEW_TESTAMENT_NWT_BOOKS.includes(b)
     );
@@ -519,7 +562,7 @@ function updateSelectionInfoPanel() {
     const totalAvailableBooksInQuestions = new Set(allQuestions.map(q => q.book)).size;
     if (selectedBooksArray && selectedBooksArray.length > 0) {
         if (selectedBooksArray.length === totalAvailableBooksInQuestions && totalAvailableBooksInQuestions > 0) {
-            infoSelectedBooks.textContent = "Alle verfügbaren Bücher";
+            infoSelectedBooks.textContent = currentTexts['all_books'];
         } else if (selectedBooksArray.length > 2) {
             infoSelectedBooks.textContent = `${selectedBooksArray.slice(0, 2).join(', ')} und ${selectedBooksArray.length - 2} weitere`;
         } else {
@@ -532,15 +575,23 @@ function updateSelectionInfoPanel() {
     if (difficultyValue) {
         const selectedDifficultyOption = Array.from(difficultySelect.options).find(opt => opt.value === difficultyValue);
         infoSelectedDifficulty.textContent = selectedDifficultyOption ? selectedDifficultyOption.text : "Fehler";
-    } else { infoSelectedDifficulty.textContent = "Alle Schwierigkeiten"; }
+    } else { infoSelectedDifficulty.textContent = currentTexts['difficulty_default']; }
 }
 
 function updateQuestionAndScoreInfoPanel(question, currentIndex, totalQuestions, score) {
     if (question) {
         infoCurrentBook.textContent = question.book;
-        infoCurrentDifficulty.textContent = question.difficulty;
         currentQBook.textContent = question.book;
-        currentQDifficulty.textContent = question.difficulty;
+		if (question.difficulty == 'einfach') {
+			currentQDifficulty.textContent = currentTexts['difficulty_easy'];
+			infoCurrentDifficulty.textContent = currentTexts['difficulty_easy'];
+		} else if (question.difficulty == 'mittel') {
+			currentQDifficulty.textContent = currentTexts['difficulty_medium'];
+			infoCurrentDifficulty.textContent = currentTexts['difficulty_medium'];
+		} else if (question.difficulty == 'schwer') {
+			currentQDifficulty.textContent = currentTexts['difficulty_hard'];
+			infoCurrentDifficulty.textContent = currentTexts['difficulty_hard'];
+		}
         currentQuestionMeta.classList.remove('hidden');
     } else {
         infoCurrentBook.textContent = "-"; infoCurrentDifficulty.textContent = "-";
@@ -670,7 +721,7 @@ function selectAnswer(e) {
     if (isCorrect) selectedButton.classList.add('correct');
     else selectedButton.classList.add('wrong');
 
-    explanationText.textContent = "Erklärung: " + currentQuestion.explanation;
+    explanationText.textContent = currentTexts["explanation_label"]+ ": " + currentQuestion.explanation;
     verseReference.textContent = currentQuestion.verse;
     verseContentDirect.textContent = currentQuestion.verseTextContent || "Kein Bibeltext verfügbar.";
     feedbackSection.classList.remove('hidden');
