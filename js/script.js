@@ -794,7 +794,7 @@ shareBtn.addEventListener('click', async () => {
   if (navigator.share) {
     try {
       await navigator.share({
-        title: currentTexts['app_title']',
+        title: currentTexts['app_title'],
         text: currentTexts['share_text'],
         url: window.location.href,
       });
