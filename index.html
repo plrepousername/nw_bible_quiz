@@ -110,7 +110,7 @@
                 <div id="feedback-section" class="hidden">
                     <p id="explanation-text"></p>
                     <div class="verse-display">
-                        <p id="verse-label"><strong>Bibelstelle: <span id="verse-reference"></span></strong></p>
+                        <p id="verse-label"><strong><span id="verse-label-text">Bibelstelle:</span> <span id="verse-reference"></span></strong></p>
                         <blockquote id="verse-content-direct"></blockquote>
                     </div>
                 </div>
@@ -121,35 +121,39 @@
             </div>
 
             <div id="stats-page" class="hidden">
-                <button id="back-to-start-from-stats-btn" class="button-secondary">← Zurück zum Start</button>
-                <h2>Deine Quiz-Statistiken</h2>
-                
-                <div class="stats-section">
-                    <h3>Gesamtübersicht</h3>
-                    <div class="stat-item">
-                        <strong>Insgesamt beantwortet:</strong>
-                        <span id="stats-page-total-answered">0</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong>Insgesamt richtig:</strong>
-                        <span id="stats-page-total-correct">0</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong>Gesamt-Trefferquote:</strong>
-                        <span id="stats-page-total-accuracy" class="stat-accuracy-bar">
-                            <span class="bar"><span class="fill"></span></span><span class="value">0 %</span>
-                        </span>
-                    </div>
-                </div>
+				<button id="back-to-start-from-stats-btn" class="button-secondary">← <span id="stats-back-btn-text">Zurück zum Start</span></button>
+				<h2 id="stats-title">Deine Quiz-Statistiken</h2>
+				
+				<div class="stats-section">
+					<h3 id="stats-overview-title">Gesamtübersicht</h3>
+					<div class="stat-item">
+						<strong id="stats-total-answered-label">Insgesamt beantwortet:</strong>
+						<span id="stats-page-total-answered">0</span>
+					</div>
+					<div class="stat-item">
+						<strong id="stats-total-correct-label">Insgesamt richtig:</strong>
+						<span id="stats-page-total-correct">0</span>
+					</div>
+					<div class="stat-item">
+						<strong id="stats-total-accuracy-label">Gesamt-Trefferquote:</strong>
+						<span id="stats-page-total-accuracy" class="stat-accuracy-bar">
+							<span class="bar"><span class="fill"></span></span><span class="value">0 %</span>
+						</span>
+					</div>
+				</div>
 
-                <div class="stats-section">
-                    <h3>Statistik pro Bibelbuch</h3>
-                    <div id="stats-by-book-container">
-                        <p>Noch keine Statistiken für einzelne Bücher vorhanden.</p>
-                    </div>
-                </div>
-                <button type="button" id="reset-all-stats-btn" class="utility-btn small-btn">Alle Statistiken zurücksetzen</button>
-            </div>
+				<div class="stats-section">
+					<h3 id="stats-per-book-title">Statistik pro Bibelbuch</h3>
+					<div id="stats-by-book-container">
+						<p id="stats-no-book-stats">Noch keine Statistiken für einzelne Bücher vorhanden.</p>
+					</div>
+				</div>
+				
+				<button type="button" id="reset-all-stats-btn" class="utility-btn small-btn">
+					<span id="stats-reset-btn-text">Alle Statistiken zurücksetzen</span>
+				</button>
+			</div>
+
 
         </div> <!-- Ende app-container -->
     </main>

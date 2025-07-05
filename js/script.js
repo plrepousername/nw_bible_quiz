@@ -72,7 +72,7 @@ function applyTexts(texts) {
         'info-question-label': 'info_question',
         'info-score-label': 'info_score',
         'info-accuracy-label': 'info_accuracy_quote',
-		 'verse-label': 'verse_label',
+		 'verse-label-text': 'verse_label',
 		 
 		 'select-all-available-btn':'select_all_books',
 		 'deselect-all-modal-btn':'delect_all_books',
@@ -90,7 +90,21 @@ function applyTexts(texts) {
         "installation-info-ios-text": "installation_info_ios_text",
         "installation-info-note": "installation_info_note",
 		
-		"share-btn":"share_app"
+		"share-btn":"share_app",
+		
+		 // 🔽 Neue Einträge für Statistikseite:
+		'stats-back-btn-text': 'stats_back_btn_text',
+		'stats-title': 'stats_title',
+		'stats-overview-title': 'stats_overview_title',
+		'stats-total-answered-label': 'stats_total_answered_label',
+		'stats-total-correct-label': 'stats_total_correct_label',
+		'stats-total-accuracy-label': 'stats_total_accuracy_label',
+		'stats-per-book-title': 'stats_per_book_title',
+		'stats-no-book-stats': 'stats_no_book_stats',
+		'stats-reset-btn-text': 'stats_reset_btn_text',
+		
+		'info-score-label':'info_score_label',
+		'info-question-label':'info_question_label'
 		
 		
     };

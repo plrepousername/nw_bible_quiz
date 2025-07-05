@@ -45,7 +45,17 @@
   "installation_info_note": "Pașii exacți pot varia ușor în funcție de browser și versiunea sistemului de operare.",
 	"share_app":"Împărtășește aplicația",
 	  "share_text":"Probează această aplicație de quiz Bible!",
-	
+	 "stats_back_btn_text": "← Înapoi la început",
+  "stats_title": "Statisticile tale de la quiz",
+  "stats_overview_title": "Prezentare generală",
+  "stats_total_answered_label": "Total răspunsuri:",
+  "stats_total_correct_label": "Total corecte:",
+  "stats_total_accuracy_label": "Precizie totală:",
+  "stats_per_book_title": "Statistici pe carte biblică",
+  "stats_no_book_stats": "Nu există încă statistici pentru cărți individuale.",
+  "stats_reset_btn_text": "Resetează toate statisticile",
+  "info_score_label":"Corect:",
+  "info_question_label":"Intrebare:",
   "bibleBookOrder": [
   "Geneza",
   "Exodul",

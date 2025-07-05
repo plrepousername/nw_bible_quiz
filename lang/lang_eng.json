@@ -46,6 +46,17 @@
   "installation_info_note": "Exact steps may vary slightly depending on browser and OS version.",
 "share_app":"Share App",
  "share_text":"Try out this Bible quiz app!",
+  "stats_back_btn_text": "Back to start",
+  "stats_title": "Your Quiz Statistics",
+  "stats_overview_title": "Overall Overview",
+  "stats_total_answered_label": "Total answered:",
+  "stats_total_correct_label": "Total correct:",
+  "stats_total_accuracy_label": "Overall accuracy:",
+  "stats_per_book_title": "Statistics per Bible book",
+  "stats_no_book_stats": "No statistics available for individual books yet.",
+  "stats_reset_btn_text": "Reset all statistics",
+  "info_score_label":"Correct:",
+  "info_question_label":"Question:",
 
   "bibleBookOrder": [
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",
