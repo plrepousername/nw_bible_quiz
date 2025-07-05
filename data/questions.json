@@ -33490,17 +33490,19 @@
         "isCorrect": false
       },
       {
-        "text": "I'm not going to lie.",
+        "text": "Demetrius",
         "isCorrect": true
       },
       {
-        "text": "I'm not going to lie.",
+        "text": "Gaius",
         "isCorrect": false
       },
       {
         "text": "An unknown brother.",
         "isCorrect": false
       }
+	  
+	  
     ],
     "explanation": "John recommends Demetrius as a brother who enjoys a good reputation, not only among men but also by the truth itself.",
     "verse": "3 John 12",
