@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-cache-v13';
+const CACHE_NAME = 'my-cache-v14';
 const URLS_TO_CACHE = [
   './',
   './index.html',
@@ -9,7 +9,9 @@ const URLS_TO_CACHE = [
   './icons/icon-512x512.png',
   './lang/lang_de.json',
   './lang/lang_eng.json',
-  './lang/lang_ron.json'
+  './lang/lang_ron.json',
+  './data/share_button.png',
+  './data/info_iconn.webp'
 ];
 
 // Sofort aktivieren
