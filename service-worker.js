@@ -11,7 +11,7 @@ const URLS_TO_CACHE = [
   './lang/lang_eng.json',
   './lang/lang_ron.json',
   './data/share_button.png',
-  './data/info_iconn.webp'
+  './data/info_icon.webp'
 ];
 
 // Sofort aktivieren
