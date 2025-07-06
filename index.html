@@ -93,9 +93,55 @@
 					</p>
 					<p><small id="installation-info-note">Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
 				</div>
-				<button id="share-btn">App teilen</button>
-            </div>
+				
+				<div class="icon-button-wrapper">
+				  <button id="share-btn" class="icon-btn" aria-label="App teilen">
+					<img src="data/share_button.png" alt="Teilen" class="icon" />
+				  </button>
 
+				  <button id="info-btn" class="icon-btn" aria-label="Info anzeigen">
+					  <img src="data/info_icon.webp" alt="" class="icon" />
+					</button>
+				</div>
+				
+				
+				
+				<div id="info-overlay" class="hidden">
+				  <div class="info-box-content">
+					<button id="close-info-btn" class="close-btn" aria-label="Schließen">×</button>
+					<h2 id="info-title"></h2>
+					
+					<section id="info-general">
+					  <h3 id="info-general-title"></h3>
+					  <p id="info-general-text"></p>
+					</section>
+					
+					<section id="info-technical">
+					  <h3 id="info-technical-title"></h3>
+					  <p id="info-technical-text"></p>
+					</section>
+					<!--
+					<section id="info-usage">
+					  <h3 id="info-usage-title"></h3>
+					  <p id="info-usage-text"></p>
+					</section>
+					--!>
+					<section id="info-disclaimer">
+					  <h3 id="info-disclaimer-title"></h3>
+					  <p id="info-disclaimer-text"></p>
+					</section>
+					
+					<section id="info-greeting">
+					  <h3 id="info-greeting-title"></h3>
+					  <p id="info-greeting-text"></p>
+					</section>
+				  </div>
+				</div>
+
+				
+            </div>
+			
+			
             <div id="quiz-screen" class="hidden" tabindex="-1">
                 <div id="current-question-meta" class="hidden">
                     <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>

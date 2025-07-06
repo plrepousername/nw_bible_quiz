@@ -57,6 +57,17 @@
   "stats_reset_btn_text": "Reset all statistics",
   "info_score_label":"Correct:",
   "info_question_label":"Question:",
+    "info_general_title": "General",
+  "info_general_text": "Welcome to my Bible quiz! Here you can playfully deepen your knowledge about the Bible and answer exciting questions from various books and difficulty levels.",
+
+  "info_technical_title": "Technical",
+  "info_technical_text": "The questions and texts are based on the New World Translation of the Holy Scriptures. All information was created using freely available content from JW.org. The app also works offline and can be easily added to your home screen.",
+
+  "info_disclaimer_title": "Creation Notes",
+  "info_disclaimer_text": "The questions and translations were created with the help of artificial intelligence. Therefore, errors may be present – I ask for your understanding. Furthermore, the app was created unofficially to support my and your personal Bible study.",
+
+  "info_greeting_title": "Greeting",
+  "info_greeting_text": "I wish you lots of fun and exciting insights while quizzing!",
 
   "bibleBookOrder": [
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",

@@ -90,7 +90,7 @@ function applyTexts(texts) {
         "installation-info-ios-text": "installation_info_ios_text",
         "installation-info-note": "installation_info_note",
 		
-		"share-btn":"share_app",
+		//"share-btn":"share_app",
 		
 		 // 🔽 Neue Einträge für Statistikseite:
 		'stats-back-btn-text': 'stats_back_btn_text',
@@ -104,7 +104,24 @@ function applyTexts(texts) {
 		'stats-reset-btn-text': 'stats_reset_btn_text',
 		
 		'info-score-label':'info_score_label',
-		'info-question-label':'info_question_label'
+		'info-question-label':'info_question_label',
+		
+		  'info-title': 'info_title',
+
+		  'info-general-title': 'info_general_title',
+		  'info-general-text': 'info_general_text',
+
+		  'info-technical-title': 'info_technical_title',
+		  'info-technical-text': 'info_technical_text',
+
+		  'info-usage-title': 'info_usage_title',
+		  'info-usage-text': 'info_usage_text',
+
+		  'info-disclaimer-title': 'info_disclaimer_title',
+		  'info-disclaimer-text': 'info_disclaimer_text',
+
+		  'info-greeting-title': 'info_greeting_title',
+		  'info-greeting-text': 'info_greeting_text'
 		
 		
     };
@@ -800,7 +817,13 @@ resetAllStatsBtn.addEventListener('click', resetOverallStats);
 difficultySelect.addEventListener('change', updateSelectionInfoPanel);
 languageSelect.addEventListener('change', updateSelectionInfoPanel);
 
+document.getElementById('info-btn').addEventListener('click', () => {
+  document.getElementById('info-overlay').classList.remove('hidden');
+});
 
+document.getElementById('close-info-btn').addEventListener('click', () => {
+  document.getElementById('info-overlay').classList.add('hidden');
+});
 
 const shareBtn = document.getElementById('share-btn');
 

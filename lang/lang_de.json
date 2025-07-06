@@ -56,6 +56,19 @@
   "stats_reset_btn_text": "Alle Statistiken zurücksetzen",
   "info_score_label":"Richtig:",
   "info_question_label":"Frage:",
+  "info-title": "Informationen zur App",
+  
+  "info_general_title": "Allgemein",
+  "info_general_text": "Willkommen bei meinem Bibel-Quiz! Hier kannst du spielerisch dein Wissen rund um die Bibel vertiefen und spannende Fragen aus verschiedenen Büchern und Schwierigkeitsgraden beantworten.",
+  
+  "info_technical_title": "Technisches",
+  "info_technical_text": "Die Fragen und Texte basieren auf der Neuen-Welt-Übersetzung der Heiligen Schrift. Sämtliche Informationen wurden unter Verwendung frei verfügbarer Inhalte von JW.org erstellt. Die App funktioniert auch offline und lässt sich problemlos zu deinem Startbildschirm hinzufügen. ",
+  
+  "info_disclaimer_title": "Hinweise zur Erstellung",
+  "info_disclaimer_text": "Die Fragen und Übersetzungen wurden mithilfe von Künstlicher Intelligenz erstellt. Daher können Fehler enthalten sein – ich bitte um dein Verständnis. Außerdem wurde die App inoffiziell erstellt, um mein und dein Eigenstudium der Bibel zu unterstützen.",
+  
+  "info_greeting_title": "Grußwort",
+  "info_greeting_text": "Ich wünsche dir viel Freude und spannende Erkenntnisse beim Quizzen!",
 
   "bibleBookOrder": [
     "1. Mose", "2. Mose", "3. Mose", "4. Mose", "5. Mose", "Josua", "Richter", "Ruth",

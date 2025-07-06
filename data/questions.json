@@ -8157,14 +8157,14 @@
     "book": "Hoheslied",
     "difficulty": "mittel",
     "language": "de",
-    "question": "Welche Eigenschaft der Liebe wird in Hoheslied 8:6-7 besonders hervorgehoben, indem sie mit dem Tod und dem Scheol (Grab) verglichen wird?",
+    "question": "Welche Eigenschaft der Liebe wird in Hoheslied 8:6-7 besonders hervorgehoben, indem sie mit dem Tod und Grab verglichen wird?",
     "options": [
       {
         "text": "Ihre Flüchtigkeit und Vergänglichkeit.",
         "isCorrect": false
       },
       {
-        "text": "Ihre Stärke und Unnachgiebigkeit ('stark wie der Tod ist die Liebe'), ihre Eifersucht ('hartnäckig wie der Scheol ist das Beharren auf ausschließlicher Ergebenheit') und dass sie nicht durch Reichtum gekauft werden kann.",
+        "text": "Ihre Stärke und Unnachgiebigkeit.",
         "isCorrect": true
       },
       {
@@ -8176,7 +8176,7 @@
         "isCorrect": false
       }
     ],
-    "explanation": "Das Hohelied beschreibt die wahre Liebe als eine unbezwingbare Kraft, so stark und unnachgiebig wie der Tod und das Grab. Große Wassermengen können sie nicht auslöschen, und kein Reichtum kann sie kaufen. Sie fordert ausschließliche Ergebenheit.",
+    "explanation": "Es beschreibt die wahre Liebe als eine unbezwingbare Kraft, so stark und unnachgiebig wie der Tod und das Grab. Große Wassermengen können sie nicht auslöschen, und kein Reichtum kann sie kaufen. Sie fordert ausschließliche Ergebenheit.",
     "verse": "Hoheslied 8:6-7 (NWÜ)",
     "verseTextContent": "Leg mich wie ein Siegel auf dein Herz,wie ein Siegel auf deinen Arm,denn die Liebe ist so stark wie der Tod,ausschließliche Ergebenheit so unnachgiebig wie das Grab. Ihre Flammen sind ein loderndes Feuer, die Flamme Jahs. Wasserfluten können die Liebe nicht auslöschennoch können Flüsse sie wegschwemmen. Würde ein Mann für Liebe allen Reichtum seines Hauses geben,man würde ihn zutiefst verachten.“"
   },
@@ -22663,7 +22663,7 @@
         "isCorrect": false
       },
       {
-        "text": "Puterea şi neconformitatea lor (\"așa de puternică ca moartea este iubirea\"), gelozia lor (\"așa de perseverentă ca iadul este perseverarea în exclusivitate\") şi faptul că nu se poate cumpăra cu bogăţia.",
+        "text": "Puterea şi neconformitatea lor.",
         "isCorrect": true
       },
       {
@@ -22675,7 +22675,7 @@
         "isCorrect": false
       }
     ],
-    "explanation": "Cuvântul Cuvântului descrie dragostea adevărată ca fiind o forţă imputernică, puternică şi neîncetată ca moartea şi mormântul. Mari cantităţi de apă nu o pot stinge, nici bogăţia nu o poate cumpăra.",
+    "explanation": "Cântarea cântărilor descrie dragostea adevărată ca fiind o forţă imputernică, puternică şi neîncetată ca moartea şi mormântul. Mari cantităţi de apă nu o pot stinge, nici bogăţia nu o poate cumpăra.",
     "verse": "Cântarea cântărilor 8:6-7",
     "verseTextContent": "Pune-mă ca o pecete pe inima ta,ca o pecete pe brațul tău!Căci iubirea este tare ca moarteași devoțiunea exclusivă este neînduplecată ca Mormântul. Flăcările ei sunt flăcările unui foc învăpăiat, flacăra lui Iah. Apele cele mari nu pot stinge iubirea,nici râurile n-o pot duce cu ele. Dacă omul ar da toate bogățiile din casa lui pentru iubire,ele ar fi complet disprețuite.”"
   },
@@ -33054,7 +33054,7 @@
     "question": "What was the name of Samuel's long-term childless mother, who prayed to Jehovah for a son and then dedicated him to service in the sanctuary?",
     "options": [
       {
-        "text": "The first is the following:",
+        "text": "Elisa",
         "isCorrect": false
       },
       {
@@ -33066,7 +33066,7 @@
         "isCorrect": false
       },
       {
-        "text": "Abigail is",
+        "text": "Abigail",
         "isCorrect": false
       }
     ],
@@ -33081,7 +33081,7 @@
     "question": "Who was the first king of Israel anointed by Samuel?",
     "options": [
       {
-        "text": "David is",
+        "text": "David",
         "isCorrect": false
       },
       {
@@ -37164,7 +37164,7 @@
         "isCorrect": false
       },
       {
-        "text": "Their strength and resilience ('Love is as strong as death'), their jealousy ('Hell is as stubborn as the pursuit of exclusive devotion') and their inability to be bought by wealth.",
+        "text": "Their strength and resilience.",
         "isCorrect": true
       },
       {
@@ -37176,7 +37176,7 @@
         "isCorrect": false
       }
     ],
-    "explanation": "The Holy Quran describes true love as an unconquerable force, as strong and unyielding as death and the grave. Large amounts of water cannot erase it, and no wealth can buy it. It demands exclusive devotion.",
+    "explanation": "True love is an unconquerable force, as strong and unyielding as death and the grave. Large amounts of water cannot erase it, and no wealth can buy it. It demands exclusive devotion.",
     "verse": "Song of Solomon 8:6-7",
     "verseTextContent": "Place me as a seal upon your heart,As a seal upon your arm,For love is as strong as death is,And exclusive devotion is as unyielding as the Grave. Its flames are a blazing fire, the flame of Jah. Surging waters cannot extinguish love,Nor can rivers wash it away. If a man would offer all the wealth of his house for love,It would be utterly despised.”"
   },
@@ -41558,7 +41558,7 @@
     "book": "Leviticus",
     "difficulty": "einfach",
     "language": "eng",
-    "question": "According to Exodus chapter 16, what animal (the \"goat for asshole\") was loaded with the sins of the people of Israel on Atonement Day and sent into the wilderness?",
+    "question": "According to Exodus chapter 16, what animal was loaded with the sins of the people of Israel on Atonement Day and sent into the wilderness?",
     "options": [
       {
         "text": "A lamb",

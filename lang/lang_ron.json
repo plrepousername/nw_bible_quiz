@@ -56,6 +56,19 @@
   "stats_reset_btn_text": "Resetează toate statisticile",
   "info_score_label":"Corect:",
   "info_question_label":"Intrebare:",
+    "info_general_title": "General",
+  "info_general_title": "General",
+  "info_general_text": "Bine ai venit la quiz-ul meu biblic! Aici poți aprofunda într-un mod jucăuș cunoștințele tale despre Biblie și poți răspunde la întrebări interesante din diverse cărți și niveluri de dificultate.",
+
+  "info_technical_title": "Tehnic",
+  "info_technical_text": "Întrebările și textele se bazează pe Traducerea Lumii Noi a Sfintei Scripturi. Toate informațiile au fost create folosind conținut disponibil gratuit de pe JW.org. Aplicația funcționează și offline și poate fi adăugată cu ușurință pe ecranul tău principal.",
+
+  "info_disclaimer_title": "Note privind crearea",
+  "info_disclaimer_text": "Întrebările și traducerile au fost create cu ajutorul inteligenței artificiale. Prin urmare, pot apărea erori – îți cer înțelegere. În plus, aplicația a fost creată neoficial pentru a sprijini studiul personal al Bibliei, atât al meu, cât și al tău.",
+
+  "info_greeting_title": "Salut",
+  "info_greeting_text": "Îți doresc multă bucurie și descoperiri interesante în timpul quiz-ului!",
+
   "bibleBookOrder": [
   "Geneza",
   "Exodul",
