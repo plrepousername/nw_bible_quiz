@@ -486,43 +486,48 @@ function populateModalBookButtons() {
         modalBookButtonsContainer.appendChild(title);
     };
 
-    if (uniqueBooksFromQuestions.includes(currentTexts['book_common'])) {
-        createTitle(currentTexts['section_common']);
-        createButton(currentTexts['book_common']);
-        if (OLD_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b)) || NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))) {
-            createSeparator();
-        }
-    }
+if (uniqueBooksFromQuestions.includes(currentTexts['book_common'])) {
+    createTitle(currentTexts['section_common']);
+    createButton(currentTexts['book_common']);
 
-    let otBooksExist = OLD_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
-    if (otBooksExist.length > 0) {
-        createTitle(currentTexts["hebrew_text"]);
-        otBooksExist.forEach(createButton);
-        if (NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))) {
-             createSeparator();
-        }
-    }
-    
-    let ntBooksExist = NEW_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
-    if (ntBooksExist.length > 0) {
-        createTitle(currentTexts["greek_text"]);
-        ntBooksExist.forEach(createButton);
-    }
-    
+    // Add remaining books to the common section
     let remainingBooks = uniqueBooksFromQuestions.filter(b => 
         b !== currentTexts['book_common'] && 
         !OLD_TESTAMENT_NWT_BOOKS.includes(b) && 
         !NEW_TESTAMENT_NWT_BOOKS.includes(b)
     );
-    if (remainingBooks.length > 0) {
-        if (modalBookButtonsContainer.children.length > 0 && modalBookButtonsContainer.lastChild.className !== 'book-group-separator') createSeparator();
-        createTitle("Weitere Bücher");
-        remainingBooks.forEach(createButton);
-    }
+    remainingBooks.forEach(createButton);
 
-    if (modalBookButtonsContainer.children.length === 0) {
-        modalBookButtonsContainer.innerHTML = '<p>Keine Bibelbücher in den Fragen gefunden.</p>';
+    // Separator if OT or NT books follow
+    if (
+        OLD_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b)) || 
+        NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))
+    ) {
+        createSeparator();
     }
+}
+
+let otBooksExist = OLD_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
+if (otBooksExist.length > 0) {
+    createTitle(currentTexts["hebrew_text"]);
+    otBooksExist.forEach(createButton);
+
+    if (NEW_TESTAMENT_NWT_BOOKS.some(b => uniqueBooksFromQuestions.includes(b))) {
+        createSeparator();
+    }
+}
+
+let ntBooksExist = NEW_TESTAMENT_NWT_BOOKS.filter(b => uniqueBooksFromQuestions.includes(b));
+if (ntBooksExist.length > 0) {
+    createTitle(currentTexts["greek_text"]);
+    ntBooksExist.forEach(createButton);
+}
+
+// If still nothing was created
+if (modalBookButtonsContainer.children.length === 0) {
+    modalBookButtonsContainer.innerHTML = '<p>Keine Bibelbücher in den Fragen gefunden.</p>';
+}
+
 }
 
 function handleConfirmBookSelection() {
@@ -663,7 +668,7 @@ function startQuiz() {
     filteredQuestions = tempFilteredQuestions;
 
     if (filteredQuestions.length === 0) {
-        showError("Keine Fragen für diese Auswahl gefunden...");
+        showError(currentTexts["no_q_error"]);
         return;
     }
     

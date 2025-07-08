@@ -68,6 +68,7 @@
 
   "info_greeting_title": "Salut",
   "info_greeting_text": "Îți doresc multă bucurie și descoperiri interesante în timpul quiz-ului!",
+  "no_q_error":"Nu s-au găsit întrebări pentru această selecție...",
 
   "bibleBookOrder": [
   "Geneza",
@@ -136,7 +137,8 @@
   "3 Ioan",
   "Iuda",
   "Revelația",
-  "General"
+  "General",
+  "Vers"
 ]
 
 }
