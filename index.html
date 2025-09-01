@@ -1,23 +1,224 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibel Quiz (NWÜ)</title>
-<!-- Einmaliger Passwortschutz für PWA, mobil-optimiert -->
-<script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Optional: Für PWA - <link rel="manifest" href="manifest.json"> -->
+</head>
+<body>
+<main id="quiz-layout">
+    <div id="info-panel" class="hidden">
+        <h2 id="info-panel-title">Quiz Informationen</h2>
+        <div class="info-item">
+            <strong id="info-selected-language-label">Sprache:</strong>
+            <span id="info-selected-language">Deutsch</span>
+        </div>
+        <div class="info-item">
+            <strong id="info-selected-books-label">Ausgewählte Bücher:</strong>
+            <span id="info-selected-books">Alle verfügbaren Bücher</span>
+        </div>
+        <div class="info-item">
+            <strong id="info-selected-difficulty-label">Ausgew. Schwierigkeit:</strong>
+            <span id="info-selected-difficulty">Nicht festgelegt</span>
+        </div>
+        <hr>
+        <h3 id="info-current-question-title">Aktuelle Frage:</h3>
+        <div class="info-item">
+            <strong id="info-current-book-label">Buch:</strong>
+            <span id="info-current-book">-</span>
+        </div>
+        <div class="info-item">
+            <strong id="info-current-difficulty-label">Schwierigkeit:</strong>
+            <span id="info-current-difficulty">-</span>
+        </div>
+        <hr>
+        <h3 id="info-progress-title">Fortschritt (Runde):</h3>
+        <div class="info-item">
+            <strong id="info-question-label">Frage:</strong>
+            <span id="info-question-counter">- / -</span>
+        </div>
+        <div class="info-item">
+            <strong id="info-score-label">Richtig:</strong>
+            <span id="info-score-counter">0</span>
+        </div>
+        <div class="info-item">
+            <strong id="info-accuracy-label">Quote (Runde):</strong>
+            <span id="info-accuracy-quote">0 %</span>
+        </div>
+    </div>
 
-document.addEventListener("DOMContentLoaded", function() {
+    <div id="app-container">
+        <div id="start-screen">
+            <h1 id="app-title">Bibel Quiz (NWÜ)</h1>
+            <div id="loading-message" class="hidden">Lade Fragen...</div>
+            <div id="error-message" class="hidden"></div>
+
+            <label id="language-select-label" for="language-select">Sprache wählen:</label>
+            <select id="language-select">
+                <option value="de">Deutsch</option>
+                <option value="eng">English</option>
+                <option value="ron">Romana</option>
+            </select>
+            <br><br>
+
+            <label id="book-select-label">Bibelbücher auswählen:</label>
+            <button type="button" id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
+            <br><br>
+
+            <label id="difficulty-select-label" for="difficulty-select">Schwierigkeitsgrad:</label>
+            <select id="difficulty-select" disabled>
+                <option value="">Alle Schwierigkeiten</option>
+                <option value="einfach">Einfach</option>
+                <option value="mittel">Mittel</option>
+                <option value="schwer">Schwer</option>
+            </select>
+            <br><br>
+            <button id="start-quiz-btn" disabled>Quiz starten</button>
+
+            <button type="button" id="show-stats-page-btn" class="utility-btn full-width-btn" style="margin-top: 10px; background-color: #4caf50;" disabled>Statistiken anzeigen</button>
+
+            <div id="installation-info" class="info-box">
+                <h4 id="installation-info-title">App installieren?</h4>
+                <p id="installation-info-p1">
+                    Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!
+                </p>
+                <p id="installation-info-p2">
+                    <strong id="installation-info-android-label">Android (Chrome/Edge):</strong>
+                    <span id="installation-info-android-text">Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".</span><br>
+                    <strong id="installation-info-ios-label">iOS (Safari):</strong>
+                    <span id="installation-info-ios-text">Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann "Zum Home-Bildschirm".</span>
+                </p>
+                <p><small id="installation-info-note">Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
+            </div>
+
+            <div class="icon-button-wrapper">
+              <button id="share-btn" class="icon-btn" aria-label="App teilen">
+                <img src="data/share_button.png" alt="Teilen" class="icon" />
+              </button>
+
+              <button id="info-btn" class="icon-btn" aria-label="Info anzeigen">
+                  <img src="data/info_icon.webp" alt="" class="icon" />
+              </button>
+            </div>
+
+            <div id="info-overlay" class="hidden">
+              <div class="info-box-content">
+                <button id="close-info-btn" class="close-btn" aria-label="Schließen">×</button>
+                <h2 id="info-title"></h2>
+
+                <section id="info-general">
+                  <h3 id="info-general-title"></h3>
+                  <p id="info-general-text"></p>
+                </section>
+
+                <section id="info-technical">
+                  <h3 id="info-technical-title"></h3>
+                  <p id="info-technical-text"></p>
+                </section>
+
+                <section id="info-disclaimer">
+                  <h3 id="info-disclaimer-title"></h3>
+                  <p id="info-disclaimer-text"></p>
+                </section>
+
+                <section id="info-greeting">
+                  <h3 id="info-greeting-title"></h3>
+                  <p id="info-greeting-text"></p>
+                </section>
+              </div>
+            </div>
+        </div>
+
+        <div id="quiz-screen" class="hidden" tabindex="-1">
+            <div id="current-question-meta" class="hidden">
+                <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>
+            </div>
+            <h2 id="question-text" tabindex="-1">Fragetext hier</h2>
+            <div id="answer-buttons">
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+            </div>
+            <div id="feedback-section" class="hidden">
+                <p id="explanation-text"></p>
+                <div class="verse-display">
+                    <p id="verse-label"><strong><span id="verse-label-text">Bibelstelle:</span> <span id="verse-reference"></span></strong></p>
+                    <blockquote id="verse-content-direct"></blockquote>
+                </div>
+            </div>
+            <div id="quiz-navigation-buttons">
+                <button id="next-question-btn" class="hidden">Nächste Frage</button>
+                <button id="back-to-start-btn" class="button-secondary">Zurück zum Menü</button>
+            </div>
+        </div>
+
+        <div id="stats-page" class="hidden">
+            <button id="back-to-start-from-stats-btn" class="button-secondary">← <span id="stats-back-btn-text">Zurück zum Start</span></button>
+            <h2 id="stats-title">Deine Quiz-Statistiken</h2>
+
+            <div class="stats-section">
+                <h3 id="stats-overview-title">Gesamtübersicht</h3>
+                <div class="stat-item">
+                    <strong id="stats-total-answered-label">Insgesamt beantwortet:</strong>
+                    <span id="stats-page-total-answered">0</span>
+                </div>
+                <div class="stat-item">
+                    <strong id="stats-total-correct-label">Insgesamt richtig:</strong>
+                    <span id="stats-page-total-correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <strong id="stats-total-accuracy-label">Gesamt-Trefferquote:</strong>
+                    <span id="stats-page-total-accuracy" class="stat-accuracy-bar">
+                        <span class="bar"><span class="fill"></span></span><span class="value">0 %</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <h3 id="stats-per-book-title">Statistik pro Bibelbuch</h3>
+                <div id="stats-by-book-container">
+                    <p id="stats-no-book-stats">Noch keine Statistiken für einzelne Bücher vorhanden.</p>
+                </div>
+            </div>
+
+            <button type="button" id="reset-all-stats-btn" class="utility-btn small-btn">
+                <span id="stats-reset-btn-text">Alle Statistiken zurücksetzen</span>
+            </button>
+        </div>
+    </div>
+</main>
+
+<div id="book-select-modal" class="modal hidden">
+    <div class="modal-content">
+        <button class="close-modal-btn" aria-label="Schließen">×</button>
+        <h2>Bibelbücher auswählen</h2>
+        <div class="modal-controls">
+            <button type="button" id="select-all-ot-btn" class="utility-btn">Altes Testament</button>
+            <button type="button" id="select-all-nt-btn" class="utility-btn">Neues Testament</button>
+            <button type="button" id="select-all-available-btn" class="utility-btn">Alle Bücher</button>
+            <button type="button" id="deselect-all-modal-btn" class="utility-btn">Alle abwählen</button>
+        </div>
+        <div id="modal-book-buttons-container" class="book-buttons-grid">
+            <p>Lade Bücher...</p>
+        </div>
+        <button type="button" id="confirm-book-selection-btn" class="modal-confirm-btn">Auswahl bestätigen</button>
+    </div>
+</div>
+
+<!-- Passwortschutz Script: direkt vor </body> -->
+<script>
+(function () {
   const PASS = "1914";
   const STORAGE_KEY = "pw_gate_unlocked";
 
-  // Prüfen, ob Passwort schon eingegeben wurde
   try {
     const ok = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-    if (ok && ok.unlocked) return; // Passwort schon eingegeben → App normal laden
+    if (ok && ok.unlocked) return;
   } catch (_) {}
 
-  // Overlay erstellen
   const style = document.createElement("style");
   style.textContent = `
     #pw-gate-backdrop {
@@ -41,51 +242,14 @@ document.addEventListener("DOMContentLoaded", function() {
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial;
       box-sizing: border-box;
     }
-    #pw-gate h1 {
-      font-size: 20px;
-      margin: 0 0 12px;
-      text-align: center;
-    }
-    #pw-gate p {
-      margin: 0 0 16px;
-      color: #444;
-      text-align: center;
-      font-size: 16px;
-    }
-    #pw-gate form {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    #pw-gate input[type=password] {
-      padding: 12px 14px;
-      border: 1px solid #ccc;
-      border-radius: 12px;
-      font-size: 16px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-    #pw-gate button {
-      padding: 12px;
-      border: none;
-      border-radius: 12px;
-      background: #111;
-      color: #fff;
-      font-size: 16px;
-      cursor: pointer;
-      width: 100%;
-    }
-    #pw-gate .msg {
-      margin-top: 10px;
-      color: #c00;
-      font-size: 14px;
-      min-height: 1.2em;
-      text-align: center;
-    }
-    body { visibility: hidden; } /* App erst sichtbar nach Passwort */
-    @media (max-height: 480px) {
-      #pw-gate-backdrop { align-items: flex-start; padding-top: 40px; }
-    }
+    #pw-gate h1 { font-size:20px; margin:0 0 12px; text-align:center; }
+    #pw-gate p { margin:0 0 16px; color:#444; text-align:center; font-size:16px; }
+    #pw-gate form { display:flex; flex-direction:column; gap:12px; }
+    #pw-gate input[type=password] { padding:12px 14px; border:1px solid #ccc; border-radius:12px; font-size:16px; width:100%; box-sizing:border-box; }
+    #pw-gate button { padding:12px; border:none; border-radius:12px; background:#111; color:#fff; font-size:16px; cursor:pointer; width:100%; }
+    #pw-gate .msg { margin-top:10px; color:#c00; font-size:14px; min-height:1.2em; text-align:center; }
+    body { visibility:hidden; }
+    @media (max-height:480px){ #pw-gate-backdrop { align-items:flex-start; padding-top:40px; } }
   `;
   document.head.appendChild(style);
 
@@ -109,13 +273,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const input = backdrop.querySelector("input[type=password]");
   const msg = backdrop.querySelector(".msg");
 
-  form.addEventListener("submit", function (e) {
+  form.addEventListener("submit", function(e) {
     e.preventDefault();
     const val = input.value.trim();
     if (val === PASS) {
-      // Passwort merken
-      try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ unlocked: true })); } catch (_) {}
-      // Overlay entfernen, App sichtbar
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ unlocked: true }));
       backdrop.remove();
       document.body.style.visibility = "visible";
     } else {
@@ -125,228 +287,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  setTimeout(() => input.focus(), 100);
+  setTimeout(()=>input.focus(),100);
 })();
 </script>
 
-
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Optional: Für PWA - <link rel="manifest" href="manifest.json"> -->
-</head>
-<body>
-    <main id="quiz-layout">
-        <div id="info-panel" class="hidden"> <!-- Initial versteckt, wird von JS gesteuert -->
-    <h2 id="info-panel-title">Quiz Informationen</h2>
-
-    <div class="info-item">
-        <strong id="info-selected-language-label">Sprache:</strong>
-        <span id="info-selected-language">Deutsch</span>
-    </div>
-    <div class="info-item">
-        <strong id="info-selected-books-label">Ausgewählte Bücher:</strong>
-        <span id="info-selected-books">Alle verfügbaren Bücher</span>
-    </div>
-    <div class="info-item">
-        <strong id="info-selected-difficulty-label">Ausgew. Schwierigkeit:</strong>
-        <span id="info-selected-difficulty">Nicht festgelegt</span>
-    </div>
-    <hr>
-    <h3 id="info-current-question-title">Aktuelle Frage:</h3>
-    <div class="info-item">
-        <strong id="info-current-book-label">Buch:</strong>
-        <span id="info-current-book">-</span>
-    </div>
-    <div class="info-item">
-        <strong id="info-current-difficulty-label">Schwierigkeit:</strong>
-        <span id="info-current-difficulty">-</span>
-    </div>
-    <hr>
-    <h3 id="info-progress-title">Fortschritt (Runde):</h3>
-    <div class="info-item">
-        <strong id="info-question-label">Frage:</strong>
-        <span id="info-question-counter">- / -</span>
-    </div>
-    <div class="info-item">
-        <strong id="info-score-label">Richtig:</strong>
-        <span id="info-score-counter">0</span>
-    </div>
-    <div class="info-item">
-        <strong id="info-accuracy-label">Quote (Runde):</strong>
-        <span id="info-accuracy-quote">0 %</span>
-    </div>
-</div>
-
-        <div id="app-container">
-            <div id="start-screen">
-                <h1 id="app-title">Bibel Quiz (NWÜ)</h1>
-                <div id="loading-message" class="hidden">Lade Fragen...</div>
-                <div id="error-message" class="hidden"></div>
-
-                <label id="language-select-label" for="language-select">Sprache wählen:</label>
-                <select id="language-select">
-                    <option value="de">Deutsch</option>
-					<option value="eng">English</option>
-					<option value="ron">Romana</option>
-                </select>
-                <br><br>
-
-                <label id="book-select-label">Bibelbücher auswählen:</label>
-                <button type="button" id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
-                <br><br>
-
-                <label id="difficulty-select-label" for="difficulty-select">Schwierigkeitsgrad:</label>
-                <select id="difficulty-select" disabled>
-                    <option value="">Alle Schwierigkeiten</option>
-                    <option value="einfach">Einfach</option>
-                    <option value="mittel">Mittel</option>
-                    <option value="schwer">Schwer</option>
-                </select>
-                <br><br>
-                <button id="start-quiz-btn" disabled>Quiz starten</button>
-
-                <button type="button" id="show-stats-page-btn" class="utility-btn full-width-btn" style="margin-top: 10px; background-color: #4caf50;" disabled>Statistiken anzeigen</button>
-
-                <div id="installation-info" class="info-box">
-					<h4 id="installation-info-title">App installieren?</h4>
-					<p id="installation-info-p1">
-						Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!
-					</p>
-					<p id="installation-info-p2">
-						<strong id="installation-info-android-label">Android (Chrome/Edge):</strong>
-						<span id="installation-info-android-text">Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".</span><br>
-						<strong id="installation-info-ios-label">iOS (Safari):</strong>
-						<span id="installation-info-ios-text">Tippe auf das Teilen-Symbol (Quadrat mit Pfeil nach oben) und wähle dann "Zum Home-Bildschirm".</span>
-					</p>
-					<p><small id="installation-info-note">Die genauen Schritte können je nach Browser und Betriebssystemversion leicht variieren.</small></p>
-				</div>
-				
-				<div class="icon-button-wrapper">
-				  <button id="share-btn" class="icon-btn" aria-label="App teilen">
-					<img src="data/share_button.png" alt="Teilen" class="icon" />
-				  </button>
-
-				  <button id="info-btn" class="icon-btn" aria-label="Info anzeigen">
-					  <img src="data/info_icon.webp" alt="" class="icon" />
-					</button>
-				</div>
-				
-				
-				
-				<div id="info-overlay" class="hidden">
-				  <div class="info-box-content">
-					<button id="close-info-btn" class="close-btn" aria-label="Schließen">×</button>
-					<h2 id="info-title"></h2>
-					
-					<section id="info-general">
-					  <h3 id="info-general-title"></h3>
-					  <p id="info-general-text"></p>
-					</section>
-					
-					<section id="info-technical">
-					  <h3 id="info-technical-title"></h3>
-					  <p id="info-technical-text"></p>
-					</section>
-					<!--
-					<section id="info-usage">
-					  <h3 id="info-usage-title"></h3>
-					  <p id="info-usage-text"></p>
-					</section>
-					--!>
-					<section id="info-disclaimer">
-					  <h3 id="info-disclaimer-title"></h3>
-					  <p id="info-disclaimer-text"></p>
-					</section>
-					
-					<section id="info-greeting">
-					  <h3 id="info-greeting-title"></h3>
-					  <p id="info-greeting-text"></p>
-					</section>
-				  </div>
-				</div>
-
-				
-            </div>
-			
-			
-            <div id="quiz-screen" class="hidden" tabindex="-1">
-                <div id="current-question-meta" class="hidden">
-                    <span id="current-q-book"></span> | <span id="current-q-difficulty"></span>
-                </div>
-                <h2 id="question-text" tabindex="-1">Fragetext hier</h2>
-                <div id="answer-buttons">
-                    <button class="answer-btn"></button>
-                    <button class="answer-btn"></button>
-                    <button class="answer-btn"></button>
-                    <button class="answer-btn"></button>
-                </div>
-                <div id="feedback-section" class="hidden">
-                    <p id="explanation-text"></p>
-                    <div class="verse-display">
-                        <p id="verse-label"><strong><span id="verse-label-text">Bibelstelle:</span> <span id="verse-reference"></span></strong></p>
-                        <blockquote id="verse-content-direct"></blockquote>
-                    </div>
-                </div>
-                <div id="quiz-navigation-buttons">
-                    <button id="next-question-btn" class="hidden">Nächste Frage</button>
-                    <button id="back-to-start-btn" class="button-secondary">Zurück zum Menü</button>
-                </div>
-            </div>
-
-            <div id="stats-page" class="hidden">
-				<button id="back-to-start-from-stats-btn" class="button-secondary">← <span id="stats-back-btn-text">Zurück zum Start</span></button>
-				<h2 id="stats-title">Deine Quiz-Statistiken</h2>
-				
-				<div class="stats-section">
-					<h3 id="stats-overview-title">Gesamtübersicht</h3>
-					<div class="stat-item">
-						<strong id="stats-total-answered-label">Insgesamt beantwortet:</strong>
-						<span id="stats-page-total-answered">0</span>
-					</div>
-					<div class="stat-item">
-						<strong id="stats-total-correct-label">Insgesamt richtig:</strong>
-						<span id="stats-page-total-correct">0</span>
-					</div>
-					<div class="stat-item">
-						<strong id="stats-total-accuracy-label">Gesamt-Trefferquote:</strong>
-						<span id="stats-page-total-accuracy" class="stat-accuracy-bar">
-							<span class="bar"><span class="fill"></span></span><span class="value">0 %</span>
-						</span>
-					</div>
-				</div>
-
-				<div class="stats-section">
-					<h3 id="stats-per-book-title">Statistik pro Bibelbuch</h3>
-					<div id="stats-by-book-container">
-						<p id="stats-no-book-stats">Noch keine Statistiken für einzelne Bücher vorhanden.</p>
-					</div>
-				</div>
-				
-				<button type="button" id="reset-all-stats-btn" class="utility-btn small-btn">
-					<span id="stats-reset-btn-text">Alle Statistiken zurücksetzen</span>
-				</button>
-			</div>
-
-
-        </div> <!-- Ende app-container -->
-    </main>
-
-    <div id="book-select-modal" class="modal hidden">
-        <div class="modal-content">
-            <button class="close-modal-btn" aria-label="Schließen">×</button>
-            <h2>Bibelbücher auswählen</h2>
-            <div class="modal-controls">
-                <button type="button" id="select-all-ot-btn" class="utility-btn">Altes Testament</button>
-                <button type="button" id="select-all-nt-btn" class="utility-btn">Neues Testament</button>
-                <button type="button" id="select-all-available-btn" class="utility-btn">Alle Bücher</button>
-                <button type="button" id="deselect-all-modal-btn" class="utility-btn">Alle abwählen</button>
-            </div>
-            <div id="modal-book-buttons-container" class="book-buttons-grid">
-                <p>Lade Bücher...</p>
-            </div>
-            <button type="button" id="confirm-book-selection-btn" class="modal-confirm-btn">Auswahl bestätigen</button>
-        </div>
-    </div>
-
-    <script defer src="js/script.js"></script>
+<script defer src="js/script.js"></script>
 </body>
 </html>
