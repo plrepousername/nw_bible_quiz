@@ -5,11 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bibel Quiz (NWÜ)</title>
 <link rel="stylesheet" href="css/style.css">
-<style>
-  body { visibility: hidden; } /* Body standardmäßig versteckt */
-</style>
 </head>
 <body>
+<!-- Passwortschutz Overlay -->
+<div id="pw-gate-backdrop" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.7);z-index:2147483647;padding:16px;box-sizing:border-box;">
+  <div id="pw-gate" role="dialog" aria-modal="true" aria-labelledby="pw-title" style="width:100%;max-width:420px;background:#fff;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.2);font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Arial;box-sizing:border-box;">
+    <h1 id="pw-title">Testzugang</h1>
+    <p>Bitte Passwort eingeben, um fortzufahren.</p>
+    <form>
+      <input type="password" placeholder="Passwort" autocomplete="current-password" required />
+      <button type="submit">OK</button>
+    </form>
+    <div class="msg" aria-live="polite"></div>
+  </div>
+</div>
 <main id="quiz-layout">
 <!-- Info Panel -->
 <div id="info-panel" class="hidden">
@@ -27,7 +36,6 @@
   <div class="info-item"><strong>Richtig:</strong> <span id="info-score-counter">0</span></div>
   <div class="info-item"><strong>Quote (Runde):</strong> <span id="info-accuracy-quote">0 %</span></div>
 </div>
-
 <!-- App Container -->
 <div id="app-container">
   <!-- Start Screen -->
@@ -35,7 +43,6 @@
     <h1 id="app-title">Bibel Quiz (NWÜ)</h1>
     <div id="loading-message" class="hidden">Lade Fragen...</div>
     <div id="error-message" class="hidden"></div>
-
     <label for="language-select">Sprache wählen:</label>
     <select id="language-select">
       <option value="de">Deutsch</option>
@@ -43,11 +50,9 @@
       <option value="ron">Romana</option>
     </select>
     <br><br>
-
     <label>Bibelbücher auswählen:</label>
     <button id="open-book-select-modal-btn" class="utility-btn full-width-btn" disabled>Bücher wählen...</button>
     <br><br>
-
     <label for="difficulty-select">Schwierigkeitsgrad:</label>
     <select id="difficulty-select" disabled>
       <option value="">Alle Schwierigkeiten</option>
@@ -56,17 +61,14 @@
       <option value="schwer">Schwer</option>
     </select>
     <br><br>
-
     <button id="start-quiz-btn" disabled>Quiz starten</button>
     <button id="show-stats-page-btn" class="utility-btn full-width-btn" style="margin-top:10px;background-color:#4caf50;" disabled>Statistiken anzeigen</button>
-
     <div id="installation-info" class="info-box">
       <h4>App installieren?</h4>
       <p>Du kannst diese Quiz-App auch zu deinem Startbildschirm hinzufügen, um sie wie eine normale App zu nutzen!</p>
       <p><strong>Android (Chrome/Edge):</strong> Tippe auf die drei Punkte (Menü) oben rechts und wähle dann "Zum Startbildschirm hinzufügen" oder "App installieren".<br>
       <strong>iOS (Safari):</strong> Tippe auf das Teilen-Symbol und wähle dann "Zum Home-Bildschirm".</p>
     </div>
-
     <div class="icon-button-wrapper">
       <button id="share-btn" class="icon-btn" aria-label="App teilen">
         <img src="data/share_button.png" alt="Teilen" class="icon" />
@@ -75,27 +77,22 @@
         <img src="data/info_icon.webp" alt="" class="icon" />
       </button>
     </div>
-
     <div id="info-overlay" class="hidden">
       <div class="info-box-content">
         <button id="close-info-btn" class="close-btn" aria-label="Schließen">×</button>
         <h2 id="info-title"></h2>
-
         <section id="info-general">
           <h3 id="info-general-title"></h3>
           <p id="info-general-text"></p>
         </section>
-
         <section id="info-technical">
           <h3 id="info-technical-title"></h3>
           <p id="info-technical-text"></p>
         </section>
-
         <section id="info-disclaimer">
           <h3 id="info-disclaimer-title"></h3>
           <p id="info-disclaimer-text"></p>
         </section>
-
         <section id="info-greeting">
           <h3 id="info-greeting-title"></h3>
           <p id="info-greeting-text"></p>
@@ -103,7 +100,6 @@
       </div>
     </div>
   </div>
-
   <!-- Quiz Screen -->
   <div id="quiz-screen" class="hidden" tabindex="-1">
     <div id="current-question-meta" class="hidden">
@@ -128,32 +124,26 @@
       <button id="back-to-start-btn" class="button-secondary">Zurück zum Menü</button>
     </div>
   </div>
-
   <!-- Stats Page -->
   <div id="stats-page" class="hidden">
     <button id="back-to-start-from-stats-btn" class="button-secondary">← <span>Zurück zum Start</span></button>
     <h2>Deine Quiz-Statistiken</h2>
-
     <div class="stats-section">
       <h3>Gesamtübersicht</h3>
       <div class="stat-item"><strong>Insgesamt beantwortet:</strong> <span>0</span></div>
       <div class="stat-item"><strong>Insgesamt richtig:</strong> <span>0</span></div>
       <div class="stat-item"><strong>Gesamt-Trefferquote:</strong> <span>0 %</span></div>
     </div>
-
     <div class="stats-section">
       <h3>Statistik pro Bibelbuch</h3>
       <div id="stats-by-book-container">
         <p>Noch keine Statistiken für einzelne Bücher vorhanden.</p>
       </div>
     </div>
-
     <button id="reset-all-stats-btn" class="utility-btn small-btn">Alle Statistiken zurücksetzen</button>
   </div>
 </div>
-
 </main>
-
 <!-- Book Select Modal -->
 <div id="book-select-modal" class="modal hidden">
   <div class="modal-content">
@@ -163,71 +153,32 @@
     <button id="confirm-book-selection-btn">Auswahl bestätigen</button>
   </div>
 </div>
-
-<!-- Passwortschutz Script -->
 <script>
-(function(){
   const PASS="1914";
   const STORAGE_KEY="pw_gate_unlocked";
-
+  const backdrop=document.getElementById("pw-gate-backdrop");
+  const input=backdrop.querySelector("input[type=password]");
+  const form=backdrop.querySelector("form");
+  const msg=backdrop.querySelector(".msg");
   try{
     const ok=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");
     if(ok && ok.unlocked){
-      document.body.style.visibility="visible";
-      return;
+      backdrop.remove();
     }
   }catch(_){}
-
-  const style=document.createElement("style");
-  style.textContent=`
-    #pw-gate-backdrop{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.7);z-index:2147483647;padding:16px;box-sizing:border-box;}
-    #pw-gate{width:100%;max-width:420px;background:#fff;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.2);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial;box-sizing:border-box;}
-    #pw-gate h1{font-size:20px;margin:0 0 12px;text-align:center;}
-    #pw-gate p{margin:0 0 16px;color:#444;text-align:center;font-size:16px;}
-    #pw-gate form{display:flex;flex-direction:column;gap:12px;}
-    #pw-gate input[type=password]{padding:12px 14px;border:1px solid #ccc;border-radius:12px;font-size:16px;width:100%;box-sizing:border-box;}
-    #pw-gate button{padding:12px;border:none;border-radius:12px;background:#111;color:#fff;font-size:16px;cursor:pointer;width:100%;}
-    #pw-gate .msg{margin-top:10px;color:#c00;font-size:14px;min-height:1.2em;text-align:center;}
-    @media(max-height:480px){#pw-gate-backdrop{align-items:flex-start;padding-top:40px;}}
-  `;
-  document.head.appendChild(style);
-
-  const backdrop=document.createElement("div");
-  backdrop.id="pw-gate-backdrop";
-  backdrop.innerHTML=`
-    <div id="pw-gate" role="dialog" aria-modal="true" aria-labelledby="pw-title">
-      <h1 id="pw-title">Testzugang</h1>
-      <p>Bitte Passwort eingeben, um fortzufahren.</p>
-      <form>
-        <input type="password" placeholder="Passwort" autocomplete="current-password" required/>
-        <button type="submit">OK</button>
-      </form>
-      <div class="msg" aria-live="polite"></div>
-    </div>
-  `;
-  document.body.appendChild(backdrop);
-
-  const form=backdrop.querySelector("form");
-  const input=backdrop.querySelector("input[type=password]");
-  const msg=backdrop.querySelector(".msg");
-
   form.addEventListener("submit",function(e){
     e.preventDefault();
     if(input.value.trim()===PASS){
       localStorage.setItem(STORAGE_KEY,JSON.stringify({unlocked:true}));
       backdrop.remove();
-      document.body.style.visibility="visible";
     }else{
       msg.textContent="Falsches Passwort.";
       input.value="";
       input.focus();
     }
   });
-
   setTimeout(()=>input.focus(),100);
-})();
 </script>
-
 <script defer src="js/script.js"></script>
 </body>
 </html>
